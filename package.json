@@ -6,6 +6,9 @@
   "repository": "https://github.com/GitHug/rosz2json.git",
   "author": "Fredrik Makila",
   "license": "MIT",
+  "scripts": {
+    "build": "npx tsc"
+  },
   "devDependencies": {
     "typescript": "^3.9.7"
   }
