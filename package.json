@@ -1,0 +1,9 @@
+{
+  "name": "rosz2json",
+  "version": "1.0.0",
+  "description": "Convert Battlescribe roster files (.rosz) to JSON",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/GitHug/rosz2json.git",
+  "author": "Fredrik Makila",
+  "license": "MIT"
+}
