@@ -1,7 +1,7 @@
-import empty from './index'
+import empty from './index';
 
 describe('Entry point', () => {
   it('should be empty', () => {
-    expect(empty).toEqual({})
+    expect(empty).toEqual({});
   });
 });
