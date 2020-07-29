@@ -1,0 +1,121 @@
+{
+  "roster": {
+    "$": {
+      "gameSystemName": "Bazooka Joe",
+      "name": "My awesome list"
+    },
+
+    "forces": [
+      {
+        "force": [
+          {
+            "$": {
+              "catalogueName": "Sears",
+              "name": "Detachment"
+            },
+
+            "selections": [
+              {
+                "selection": [
+                  {
+                    "$": {
+                      "number": "1",
+                      "name": "Super Strong Space Knight",
+                      "customName": "Sir Killalot",
+                      "customNote": "Very dangerous"
+                    },
+
+                    "costs": [
+                      {
+                        "cost": []
+                      }
+                    ],
+
+                    "selections": [
+                      {
+                        "selection": [
+                          {
+                            "$": {
+                              "name": "Titanic Hammer"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+
+                    "categories": [
+                      {
+                        "category": [
+                          {
+                            "$": {
+                              "primary": "false",
+                              "name": "Some property"
+                            }
+                          },
+                          {
+                            "$": {
+                              "primary": "true",
+                              "name": "Giga Support"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "$": {
+                      "number": "5",
+                      "name": "Peasant Squadron"
+                    },
+
+                    "costs": [
+                      {
+                        "cost": []
+                      }
+                    ],
+
+                    "categories": [
+                      {
+                        "category": [
+                          {
+                            "$": {
+                              "primary": "true",
+                              "name": "Point Sink"
+                            }
+                          }
+                        ]
+                      }
+                    ],
+
+                    "selections": [
+                      {
+                        "selection": [
+                          {
+                            "$": {
+                              "name": "Five foot pole"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+
+    "costs": [
+      {
+        "cost": []
+      }
+    ],
+    "costLimits": [
+      {
+        "costLimit": []
+      }
+    ]
+  }
+}

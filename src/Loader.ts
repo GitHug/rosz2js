@@ -2,6 +2,88 @@ import unzipper from 'unzipper';
 import parser from 'xml2js';
 import fs from 'fs';
 
+export interface Cost {
+  $: {
+    value: string;
+    name: string;
+  };
+}
+
+export interface Force {
+  $: {
+    name: string;
+    catalogueName: string;
+  };
+
+  selections: [
+    {
+      selection: Selection[];
+    }
+  ];
+}
+
+export interface Category {
+  $: {
+    primary: string;
+    name: string;
+  };
+}
+
+export interface Selection {
+  $: {
+    name: string;
+    number?: string;
+    type?: string;
+    customName?: string;
+    customNote?: string;
+  };
+
+  costs?: [
+    {
+      cost: Cost[];
+    }
+  ];
+
+  selections?: [
+    {
+      selection: Selection[];
+    }
+  ];
+
+  categories?: [
+    {
+      category: Category[];
+    }
+  ];
+}
+
+export interface RosterFile {
+  roster: {
+    $: {
+      gameSystemName: string;
+      name: string;
+    };
+
+    costs: [
+      {
+        cost: Cost[];
+      }
+    ];
+
+    costLimits: [
+      {
+        costLimit: Cost[];
+      }
+    ];
+
+    forces: [
+      {
+        force: Force[];
+      }
+    ];
+  };
+}
+
 class Loader {
   path: string;
 
@@ -9,7 +91,7 @@ class Loader {
     this.path = path;
   }
 
-  load(): Promise<Record<string, unknown>> {
+  load(): Promise<RosterFile> {
     return new Promise((resolve, reject) => {
       fs.createReadStream(this.path)
         .pipe(unzipper.Parse())
