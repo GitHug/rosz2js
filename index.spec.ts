@@ -1,7 +1,7 @@
-import empty from './index';
+import parser from './index';
 
 describe('Entry point', () => {
-  it('should be empty', () => {
-    expect(empty).toEqual({});
+  it('should be export the parser', () => {
+    expect(parser.parse).toBeDefined();
   });
 });
