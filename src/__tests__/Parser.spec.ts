@@ -9,7 +9,7 @@ jest.mock('../Loader', () => {
 
 describe('Parser', () => {
   it('should be able to parse a Battlescribe roster', async () => {
-    const roster = await new Parser('some absolute path').parse();
+    const roster = await Parser.parse('some absolute path');
     expect(Object.assign({}, roster)).toEqual({
       name: 'My awesome list',
       system: 'Bazooka Joe',

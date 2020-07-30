@@ -5,14 +5,8 @@ import Unit from './Unit';
 import Option from './Option';
 
 class Parser {
-  loader: Loader;
-
-  constructor(path: string) {
-    this.loader = new Loader(path);
-  }
-
-  async parse(): Promise<Roster> {
-    const rosterFile = await this.loader.load();
+  async parse(path: string): Promise<Roster> {
+    const rosterFile = await new Loader(path).load();
 
     const roster = new Roster(rosterFile.roster.$.gameSystemName, rosterFile.roster.$.name);
 
@@ -76,4 +70,4 @@ class Parser {
   }
 }
 
-export default Parser;
+export default new Parser();
