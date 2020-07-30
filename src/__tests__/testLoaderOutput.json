@@ -4,7 +4,6 @@
       "gameSystemName": "Bazooka Joe",
       "name": "My awesome list"
     },
-
     "forces": [
       {
         "force": [
@@ -13,7 +12,6 @@
               "catalogueName": "Sears",
               "name": "Detachment"
             },
-
             "selections": [
               {
                 "selection": [
@@ -24,13 +22,11 @@
                       "customName": "Sir Killalot",
                       "customNote": "Very dangerous"
                     },
-
                     "costs": [
                       {
                         "cost": []
                       }
                     ],
-
                     "selections": [
                       {
                         "selection": [
@@ -42,7 +38,6 @@
                         ]
                       }
                     ],
-
                     "categories": [
                       {
                         "category": [
@@ -67,13 +62,11 @@
                       "number": "5",
                       "name": "Peasant Squadron"
                     },
-
                     "costs": [
                       {
                         "cost": []
                       }
                     ],
-
                     "categories": [
                       {
                         "category": [
@@ -86,7 +79,6 @@
                         ]
                       }
                     ],
-
                     "selections": [
                       {
                         "selection": [
@@ -106,15 +98,34 @@
         ]
       }
     ],
-
     "costs": [
       {
-        "cost": []
+        "cost": [
+          {
+            "$": {
+              "value": "5",
+              "name": "PL"
+            }
+          },
+          {
+            "$": {
+              "value": "42",
+              "name": "pts"
+            }
+          }
+        ]
       }
     ],
     "costLimits": [
       {
-        "costLimit": []
+        "costLimit": [
+          {
+            "$": {
+              "value": "1337",
+              "name": "pts"
+            }
+          }
+        ]
       }
     ]
   }

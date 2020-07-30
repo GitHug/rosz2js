@@ -13,11 +13,26 @@ describe('Parser', () => {
     expect(Object.assign({}, roster)).toEqual({
       name: 'My awesome list',
       system: 'Bazooka Joe',
+      sizes: [
+        {
+          value: 5,
+          name: 'PL'
+        },
+        {
+          value: 42,
+          name: 'pts'
+        }
+      ],
+      maxSizes: [
+        {
+          value: 1337,
+          name: 'pts'
+        }
+      ],
       detachments: [
         {
           catalogue: 'Sears',
           name: 'Detachment',
-
           units: [
             {
               name: 'Super Strong Space Knight',

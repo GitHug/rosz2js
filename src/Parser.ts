@@ -1,4 +1,4 @@
-import Loader, { Force, Selection, Category } from './Loader';
+import Loader, { Force, Selection, Category, Cost } from './Loader';
 import Roster from './Roster';
 import Detachment from './Detachment';
 import Unit from './Unit';
@@ -10,10 +10,26 @@ class Parser {
 
     const roster = new Roster(rosterFile.roster.$.gameSystemName, rosterFile.roster.$.name);
 
-    rosterFile.roster.forces.forEach(({ force }: { force: Force[] }) => {
+    const {
+      roster: { forces, costs, costLimits }
+    } = rosterFile;
+
+    forces.forEach(({ force }: { force: Force[] }) => {
       force.forEach((force: Force) => {
         const detachment = this.createDetachment(force);
         roster.addDetachment(detachment);
+      });
+    });
+
+    costs.forEach(({ cost }: { cost: Cost[] }) => {
+      cost.forEach((cost: Cost) => {
+        roster.addSize({ name: cost.$.name, value: +cost.$.value });
+      });
+    });
+
+    costLimits.forEach(({ costLimit }: { costLimit: Cost[] }) => {
+      costLimit.forEach((cost: Cost) => {
+        roster.addMaxSize({ name: cost.$.name, value: +cost.$.value });
       });
     });
 
