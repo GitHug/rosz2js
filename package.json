@@ -10,6 +10,7 @@
   "scripts": {
     "build": "npx tsc",
     "test": "jest",
+    "coverage": "jest --collectCoverage",
     "lint": "eslint '*.{js,ts}' '*/**/*.{js,ts}' --ignore-pattern '/dist/*'"
   },
   "devDependencies": {
