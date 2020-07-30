@@ -23,13 +23,13 @@ class Parser {
 
     costs.forEach(({ cost }: { cost: Cost[] }) => {
       cost.forEach((cost: Cost) => {
-        roster.addSize({ name: cost.$.name, value: +cost.$.value });
+        roster.addBattleSize({ name: cost.$.name, value: +cost.$.value });
       });
     });
 
     costLimits.forEach(({ costLimit }: { costLimit: Cost[] }) => {
       costLimit.forEach((cost: Cost) => {
-        roster.addMaxSize({ name: cost.$.name, value: +cost.$.value });
+        roster.addMaxBattleSize({ name: cost.$.name, value: +cost.$.value });
       });
     });
 

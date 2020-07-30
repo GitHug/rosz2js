@@ -13,7 +13,7 @@ describe('Parser', () => {
     expect(Object.assign({}, roster)).toEqual({
       name: 'My awesome list',
       system: 'Bazooka Joe',
-      sizes: [
+      battleSizes: [
         {
           value: 5,
           name: 'PL'
@@ -23,7 +23,7 @@ describe('Parser', () => {
           name: 'pts'
         }
       ],
-      maxSizes: [
+      maxBattleSizes: [
         {
           value: 1337,
           name: 'pts'

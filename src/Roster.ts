@@ -1,12 +1,12 @@
 import Detachment from './Detachment';
-import { Size } from './Size';
+import { Size } from './BattleSize';
 
 class Roster {
   system: string;
   name: string;
   detachments: Detachment[] = [];
-  sizes: Size[] = [];
-  maxSizes: Size[] = [];
+  battleSizes: Size[] = [];
+  maxBattleSizes: Size[] = [];
 
   constructor(system: string, name: string) {
     this.system = system;
@@ -17,12 +17,12 @@ class Roster {
     this.detachments.push(detachment);
   }
 
-  addSize(size: Size): void {
-    this.sizes.push(size);
+  addBattleSize(size: Size): void {
+    this.battleSizes.push(size);
   }
 
-  addMaxSize(size: Size): void {
-    this.maxSizes.push(size);
+  addMaxBattleSize(size: Size): void {
+    this.maxBattleSizes.push(size);
   }
 }
 
