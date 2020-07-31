@@ -17,9 +17,9 @@ yarn add rosz2js
 ```
 ## Usage
 ```
-import { parse } from 'rosz2js';
+import parser from 'rosz2js';
 
-parse('/absolute/path/to/battlescribe/rosterfile.rosz').then((output) => {
+parser.parse('/absolute/path/to/battlescribe/rosterfile.rosz').then((output) => {
   console.log(output); // Javascript representation of above roster file
 });
 ```
