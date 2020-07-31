@@ -1,6 +1,6 @@
 {
   "name": "rosz2js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert Battlescribe roster files (.rosz) to Javascript",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
