@@ -11,7 +11,8 @@
     "build": "npx tsc",
     "test": "jest",
     "coverage": "jest --collectCoverage",
-    "lint": "eslint '*.{js,ts}' '*/**/*.{js,ts}' --ignore-pattern '/dist/*'"
+    "lint": "eslint '*.{js,ts}' '*/**/*.{js,ts}' --ignore-pattern '/dist/*'",
+    "release": "standard-version"
   },
   "devDependencies": {
     "@types/jest": "^26.0.7",
