@@ -12,7 +12,8 @@
     "test": "jest",
     "coverage": "jest --collectCoverage",
     "lint": "eslint '*.{js,ts}' '*/**/*.{js,ts}' --ignore-pattern '/dist/*'",
-    "release": "standard-version"
+    "release": "standard-version",
+    "prepublish": "yarn build"
   },
   "devDependencies": {
     "@types/jest": "^26.0.7",
