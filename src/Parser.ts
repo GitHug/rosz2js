@@ -1,4 +1,4 @@
-import Loader, { Force, Selection, Category, Cost } from './Loader';
+import Loader, { IForce, Selection, Category, Cost } from './Loader';
 import Roster from './Roster';
 import Detachment from './Detachment';
 import Unit from './Unit';
@@ -14,8 +14,8 @@ class Parser {
       roster: { forces, costs, costLimits }
     } = rosterFile;
 
-    forces.forEach(({ force }: { force: Force[] }) => {
-      force.forEach((force: Force) => {
+    forces.forEach(({ force }: { force: IForce[] }) => {
+      force.forEach((force: IForce) => {
         const detachment = this.createDetachment(force);
         roster.addDetachment(detachment);
       });
@@ -36,7 +36,7 @@ class Parser {
     return roster;
   }
 
-  private createDetachment(force: Force): Detachment {
+  private createDetachment(force: IForce): Detachment {
     const { catalogueName: catalogue, name } = force.$;
 
     const detachment = new Detachment(name, catalogue);

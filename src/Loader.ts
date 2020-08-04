@@ -9,7 +9,7 @@ export interface Cost {
   };
 }
 
-export interface Force {
+export interface IForce {
   $: {
     name: string;
     catalogueName: string;
@@ -78,7 +78,7 @@ export interface RosterFile {
 
     forces: [
       {
-        force: Force[];
+        force: IForce[];
       }
     ];
   };
