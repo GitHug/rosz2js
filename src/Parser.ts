@@ -1,4 +1,4 @@
-import Loader, { IForce, Selection, ICategory, Cost } from './Loader';
+import Loader, { IForce, Selection, ICategory, ICost } from './Loader';
 import Roster from './Roster';
 import Detachment from './Detachment';
 import Unit from './Unit';
@@ -21,14 +21,14 @@ class Parser {
       });
     });
 
-    costs.forEach(({ cost }: { cost: Cost[] }) => {
-      cost.forEach((cost: Cost) => {
+    costs.forEach(({ cost }: { cost: ICost[] }) => {
+      cost.forEach((cost: ICost) => {
         roster.addBattleSize({ name: cost.$.name, value: +cost.$.value });
       });
     });
 
-    costLimits.forEach(({ costLimit }: { costLimit: Cost[] }) => {
-      costLimit.forEach((cost: Cost) => {
+    costLimits.forEach(({ costLimit }: { costLimit: ICost[] }) => {
+      costLimit.forEach((cost: ICost) => {
         roster.addMaxBattleSize({ name: cost.$.name, value: +cost.$.value });
       });
     });

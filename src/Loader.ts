@@ -2,7 +2,7 @@ import unzipper from 'unzipper';
 import parser from 'xml2js';
 import fs from 'fs';
 
-export interface Cost {
+export interface ICost {
   $: {
     value: string;
     name: string;
@@ -40,7 +40,7 @@ export interface Selection {
 
   costs?: [
     {
-      cost: Cost[];
+      cost: ICost[];
     }
   ];
 
@@ -66,13 +66,13 @@ export interface RosterFile {
 
     costs: [
       {
-        cost: Cost[];
+        cost: ICost[];
       }
     ];
 
     costLimits: [
       {
-        costLimit: Cost[];
+        costLimit: ICost[];
       }
     ];
 
