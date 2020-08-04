@@ -17,7 +17,7 @@ export interface IForce {
 
   selections: [
     {
-      selection: Selection[];
+      selection: ISelection[];
     }
   ];
 }
@@ -29,7 +29,7 @@ export interface ICategory {
   };
 }
 
-export interface Selection {
+export interface ISelection {
   $: {
     name: string;
     number?: string;
@@ -46,7 +46,7 @@ export interface Selection {
 
   selections?: [
     {
-      selection: Selection[];
+      selection: ISelection[];
     }
   ];
 

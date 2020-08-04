@@ -1,4 +1,4 @@
-import Loader, { IForce, Selection, ICategory, ICost } from './Loader';
+import Loader, { IForce, ISelection, ICategory, ICost } from './Loader';
 import Roster from './Roster';
 import Detachment from './Detachment';
 import Unit from './Unit';
@@ -41,8 +41,8 @@ class Parser {
 
     const detachment = new Detachment(name, catalogue);
 
-    force.selections.forEach(({ selection }: { selection: Selection[] }) => {
-      selection.forEach((selection: Selection) => {
+    force.selections.forEach(({ selection }: { selection: ISelection[] }) => {
+      selection.forEach((selection: ISelection) => {
         detachment.addUnit(this.createUnit(selection));
       });
     });
@@ -50,7 +50,7 @@ class Parser {
     return detachment;
   }
 
-  private createUnit(selection: Selection): Unit {
+  private createUnit(selection: ISelection): Unit {
     const { name, customName, customNote: note } = selection.$;
 
     const category = selection.categories
@@ -64,8 +64,8 @@ class Parser {
 
     const unit = new Unit(name, category?.name, customName, note);
 
-    selection.selections?.forEach(({ selection }: { selection: Selection[] }) => {
-      selection.forEach((selection: Selection) => {
+    selection.selections?.forEach(({ selection }: { selection: ISelection[] }) => {
+      selection.forEach((selection: ISelection) => {
         unit.addOption(this.createOption(selection));
       });
     });
@@ -73,11 +73,11 @@ class Parser {
     return unit;
   }
 
-  private createOption(selection: Selection): Option {
+  private createOption(selection: ISelection): Option {
     const option = new Option(selection.$.name);
 
-    selection.selections?.forEach(({ selection }: { selection?: Selection[] }) => {
-      selection?.forEach((selection: Selection) => {
+    selection.selections?.forEach(({ selection }: { selection?: ISelection[] }) => {
+      selection?.forEach((selection: ISelection) => {
         option.addOption(this.createOption(selection));
       });
     });
