@@ -57,7 +57,7 @@ export interface ISelection {
   ];
 }
 
-export interface RosterFile {
+export interface IBscribe {
   roster: {
     $: {
       gameSystemName: string;
@@ -91,7 +91,7 @@ class Loader {
     this.path = path;
   }
 
-  load(): Promise<RosterFile> {
+  load(): Promise<IBscribe> {
     return new Promise((resolve, reject) => {
       fs.createReadStream(this.path)
         .pipe(unzipper.Parse())
