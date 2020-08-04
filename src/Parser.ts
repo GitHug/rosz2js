@@ -1,4 +1,4 @@
-import Loader, { IForce, Selection, Category, Cost } from './Loader';
+import Loader, { IForce, Selection, ICategory, Cost } from './Loader';
 import Roster from './Roster';
 import Detachment from './Detachment';
 import Unit from './Unit';
@@ -54,7 +54,7 @@ class Parser {
     const { name, customName, customNote: note } = selection.$;
 
     const category = selection.categories
-      ?.reduce((acc: Array<{ primary: boolean; name: string }>, { category }: { category: Category[] }) => {
+      ?.reduce((acc: Array<{ primary: boolean; name: string }>, { category }: { category: ICategory[] }) => {
         category.forEach(({ $: { primary, name } }: { $: { primary: string; name: string } }) => {
           acc.push({ primary: primary === 'true', name });
         });

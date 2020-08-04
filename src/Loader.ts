@@ -22,7 +22,7 @@ export interface IForce {
   ];
 }
 
-export interface Category {
+export interface ICategory {
   $: {
     primary: string;
     name: string;
@@ -52,7 +52,7 @@ export interface Selection {
 
   categories?: [
     {
-      category: Category[];
+      category: ICategory[];
     }
   ];
 }
