@@ -9,8 +9,51 @@ import {
   BSPsychicPowerCharacteristic,
   BSExplosionCharacteristic,
   BSPsykerCharacteristic,
-  BSProfile
+  BSProfile,
+  BSCost,
+  BSForce,
+  BSRule,
+  BSSelection,
+  BSCategory
 } from './types';
+
+export function isBSForce(bsForces: { force: BSForce[] } | string): bsForces is { force: BSForce[] } {
+  return bsForces.hasOwnProperty('force');
+}
+
+export function isBSPublication(
+  bsPublications: { publication: Array<{ $: { name: string } }> } | string
+): bsPublications is { publication: Array<{ $: { name: string } }> } {
+  return bsPublications.hasOwnProperty('publication');
+}
+
+export function isBSRule(bsRules: { rule: BSRule[] } | string): bsRules is { rule: BSRule[] } {
+  return bsRules.hasOwnProperty('rule');
+}
+
+export function isBSCategory(
+  bsCategories: { category: BSCategory[] } | string
+): bsCategories is { category: BSCategory[] } {
+  return bsCategories.hasOwnProperty('category');
+}
+
+export function isBSSelection(
+  bsSelections: { selection: BSSelection[] } | string
+): bsSelections is { selection: BSSelection[] } {
+  return bsSelections.hasOwnProperty('selection');
+}
+
+export function isBSCost(
+  bsCosts: { cost: BSCost[] } | { costLimit: BSCost[] } | string
+): bsCosts is { cost: BSCost[] } {
+  return bsCosts.hasOwnProperty('cost');
+}
+
+export function isBSCostLimit(
+  bsCostLimits: { cost: BSCost[] } | { costLimit: BSCost[] } | string
+): bsCostLimits is { costLimit: BSCost[] } {
+  return bsCostLimits.hasOwnProperty('costLimit');
+}
 
 export function isBSProfile(
   bsProfiles: { profile: BSProfile<BSCharacteristic>[] } | string
