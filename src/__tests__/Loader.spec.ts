@@ -1,4 +1,4 @@
-import Loader from '../Loader';
+import { RosterLoader } from '../Loader';
 import fs from 'fs';
 import unzipper, { ParseStream } from 'unzipper';
 import { mock } from 'jest-mock-extended';
@@ -14,7 +14,14 @@ describe('Loader', () => {
     const mockParseStream = mock<ParseStream>();
     mockedUnzipper.Parse.mockReturnValueOnce(mockParseStream);
     mockParseStream.on.mockImplementationOnce((event: string | symbol, cb: (...args: unknown[]) => void) => {
-      const xml = '<breakfast-menu><food><name>Belgian Waffles</name><price>£19.95</price></food></breakfast-menu>';
+      const xml = `
+      <?xml version="1.0" encoding="utf-8"?>
+      <roster gameSystemName="Chess" name="4D">
+        <costs />
+        <costLimits />
+        <forces />
+      </roster>
+      `;
       const buffer = Buffer.from(xml, 'utf8');
 
       const entry = {
@@ -31,16 +38,15 @@ describe('Loader', () => {
     mockReadstream.pipe.mockReturnValueOnce(mockParseStream);
     mockedFs.createReadStream.mockReturnValueOnce(mockReadstream);
 
-    const content = await new Loader('any/roster/file.rosz').load();
+    const content = await new RosterLoader('any/roster/file.rosz').load();
     expect(content).toEqual({
-      'breakfast-menu': {
-        food: [
-          {
-            name: ['Belgian Waffles'],
-            price: ['£19.95']
-          }
-        ]
-      }
+      $: {
+        gameSystemName: 'Chess',
+        name: '4D'
+      },
+      costs: [''],
+      costLimits: [''],
+      forces: ['']
     });
   });
 
@@ -58,7 +64,7 @@ describe('Loader', () => {
     mockReadstream.pipe.mockReturnValueOnce(mockParseStream);
     mockedFs.createReadStream.mockReturnValueOnce(mockReadstream);
 
-    return expect(new Loader('any/roster/file.rosz').load()).rejects.toBe('failed to unzip');
+    return expect(new RosterLoader('any/roster/file.rosz').load()).rejects.toBe('failed to unzip');
   });
 
   it('should throw an error if parsing of the zip content fails', async () => {
@@ -83,6 +89,6 @@ describe('Loader', () => {
     mockReadstream.pipe.mockReturnValueOnce(mockParseStream);
     mockedFs.createReadStream.mockReturnValueOnce(mockReadstream);
 
-    return expect(new Loader('any/roster/file.rosz').load()).rejects.toThrowError();
+    return expect(new RosterLoader('any/roster/file.rosz').load()).rejects.toThrowError();
   });
 });

@@ -1,97 +1,20 @@
 import unzipper from 'unzipper';
 import parser from 'xml2js';
 import fs from 'fs';
+import { BSRoster } from './types';
 
-export interface ICost {
-  $: {
-    value: string;
-    name: string;
-  };
+export interface Loader {
+  load(): Promise<BSRoster>;
 }
 
-export interface IForce {
-  $: {
-    name: string;
-    catalogueName: string;
-  };
-
-  selections: [
-    {
-      selection: ISelection[];
-    }
-  ];
-}
-
-export interface ICategory {
-  $: {
-    primary: string;
-    name: string;
-  };
-}
-
-export interface ISelection {
-  $: {
-    name: string;
-    number?: string;
-    type?: string;
-    customName?: string;
-    customNote?: string;
-  };
-
-  costs?: [
-    {
-      cost: ICost[];
-    }
-  ];
-
-  selections?: [
-    {
-      selection: ISelection[];
-    }
-  ];
-
-  categories?: [
-    {
-      category: ICategory[];
-    }
-  ];
-}
-
-export interface IBscribe {
-  roster: {
-    $: {
-      gameSystemName: string;
-      name: string;
-    };
-
-    costs: [
-      {
-        cost: ICost[];
-      }
-    ];
-
-    costLimits: [
-      {
-        costLimit: ICost[];
-      }
-    ];
-
-    forces: [
-      {
-        force: IForce[];
-      }
-    ];
-  };
-}
-
-class Loader {
+export class RosterLoader implements Loader {
   path: string;
 
   constructor(path: string) {
     this.path = path;
   }
 
-  load(): Promise<IBscribe> {
+  load(): Promise<BSRoster> {
     return new Promise((resolve, reject) => {
       fs.createReadStream(this.path)
         .pipe(unzipper.Parse())
@@ -99,8 +22,9 @@ class Loader {
           const data: Buffer = await entry.buffer();
 
           return parser.parseString(data, (err: Error, result) => {
-            if (err) reject(err);
-            resolve(result);
+            if (err) return reject(err);
+            if (!result) return reject('Failed to parse entry');
+            resolve(result.roster);
           });
         })
         .on('error', (err: Error) => {
@@ -109,5 +33,3 @@ class Loader {
     });
   }
 }
-
-export default Loader;
