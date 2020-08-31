@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PsychicPowerProfileConverter should convert psychic power abilities 1`] = `
+Object {
+  "details": "Forbidden lore",
+  "name": "Kablam!",
+  "range": "25mi",
+  "typeName": "Psychic Power",
+  "warpCharge": "99",
+}
+`;
+
+exports[`PsychicPowerProfileConverter should have default values 1`] = `
+Object {
+  "details": "-",
+  "name": "Kablam!",
+  "range": "-",
+  "typeName": "Psychic Power",
+  "warpCharge": "-",
+}
+`;

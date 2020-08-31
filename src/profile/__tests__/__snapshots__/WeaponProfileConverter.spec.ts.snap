@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WeaponProfileConverter should convert weapon characteristics 1`] = `
+Object {
+  "abilities": "It melts absolutely everything",
+  "armourPenetration": "99",
+  "damage": "100",
+  "name": "Super powerful laser beam",
+  "range": "120km",
+  "strength": "9999",
+  "type": "Extreme Power",
+  "typeName": "Weapon",
+}
+`;
+
+exports[`WeaponProfileConverter should have default values 1`] = `
+Object {
+  "abilities": "-",
+  "armourPenetration": "-",
+  "damage": "-",
+  "name": "Super powerful laser beam",
+  "range": "-",
+  "strength": "-",
+  "type": "-",
+  "typeName": "Weapon",
+}
+`;
