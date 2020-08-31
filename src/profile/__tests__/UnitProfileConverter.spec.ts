@@ -1,5 +1,5 @@
 import UnitProfileConverter from '../UnitProfileConverter';
-import { BSTypeName, TypeName } from '../../Types';
+import { BSTypeName, TypeName } from '../../types';
 
 describe('UnitProfileConverter', () => {
   it('should convert unit characteristics', () => {

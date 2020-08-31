@@ -1,5 +1,5 @@
 import WoundTrackProfileConverter from '../WoundTrackProfileConverter';
-import { BSTypeName, TypeName } from '../../Types';
+import { BSTypeName, TypeName } from '../../types';
 
 describe('WoundTrackProfileConverter', () => {
   it('should convert wound track characteristics', () => {

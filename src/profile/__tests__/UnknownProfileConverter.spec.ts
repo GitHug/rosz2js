@@ -1,5 +1,5 @@
 import UnknownProfileConverter from '../UnknownProfileConverter';
-import { BSCharacteristic, BSProfile, TypeName } from '../../Types';
+import { BSCharacteristic, BSProfile, TypeName } from '../../types';
 
 describe('UnknownProfileConverter', () => {
   it('should be able to handle characteristics that does not have a converter', () => {

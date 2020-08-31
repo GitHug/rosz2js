@@ -1,5 +1,5 @@
 import ProfileFactory from '../ProfileFactory';
-import { BSTypeName, TypeName, BSCharacteristic, BSProfile } from '../../Types';
+import { BSTypeName, TypeName, BSCharacteristic, BSProfile } from '../../types';
 
 describe('ProfileFactory', () => {
   it('should create AbilityProfile', () => {

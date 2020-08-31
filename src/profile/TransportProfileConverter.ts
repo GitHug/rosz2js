@@ -1,5 +1,5 @@
 import ProfileConverter from './AbstractProfileConverter';
-import { TransportProfile, BSTransportCharacteristic, TypeName } from '../Types';
+import { TransportProfile, BSTransportCharacteristic, TypeName } from '../types';
 
 class TransportProfileConverter extends ProfileConverter<TransportProfile, BSTransportCharacteristic> {
   constructor() {

@@ -1,4 +1,4 @@
-import { BSProfile, BSCharacteristic, TypeName, Profile } from '../Types';
+import { BSProfile, BSCharacteristic, TypeName, Profile } from '../types';
 import {
   isBSWeaponProfile,
   isBSUnitProfile,
@@ -32,7 +32,7 @@ class ProfileFactory {
     else if (isBSPsychicPowerProfile(bsProfile)) converter = new PsychicPowerProfileConverter();
     else if (isBSPsykerProfile(bsProfile)) converter = new PsykerProfileConverter();
     else if (isBSExplosionProfile(bsProfile)) converter = new ExplosionProfileConverter();
-    else converter = new UnknownProfileConverter(bsProfile.$.typeName);
+    else converter = new UnknownProfileConverter((bsProfile as { $: { name: string } }).$.name);
 
     return converter.convert(bsProfile);
   }

@@ -10,7 +10,7 @@ import {
   BSExplosionCharacteristic,
   BSPsykerCharacteristic,
   BSProfile
-} from './Types';
+} from './types';
 
 export function isBSProfile(
   bsProfiles: { profile: BSProfile<BSCharacteristic>[] } | string

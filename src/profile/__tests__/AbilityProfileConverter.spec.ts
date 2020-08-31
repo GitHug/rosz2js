@@ -1,5 +1,5 @@
 import AbilityProfileConverter from '../AbilityProfileConverter';
-import { BSTypeName, TypeName } from '../../Types';
+import { BSTypeName, TypeName } from '../../types';
 
 describe('AbilityProfileConverter', () => {
   it('should convert ability characteristics', () => {

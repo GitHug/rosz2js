@@ -1,5 +1,5 @@
 import TransportProfileConverter from '../TransportProfileConverter';
-import { BSTypeName, TypeName } from '../../Types';
+import { BSTypeName, TypeName } from '../../types';
 
 describe('TransportProfileConverter', () => {
   it('should convert transport characteristics', () => {

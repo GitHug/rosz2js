@@ -1,5 +1,5 @@
 import AbstractProfileConverter from './AbstractProfileConverter';
-import { AbilityProfile, BSAbilitiesCharacteristic, TypeName } from '../Types';
+import { AbilityProfile, BSAbilitiesCharacteristic, TypeName } from '../types';
 
 class AbilityProfileConverter extends AbstractProfileConverter<AbilityProfile, BSAbilitiesCharacteristic> {
   constructor() {

@@ -1,5 +1,5 @@
 import AbstractProfileConverter from './AbstractProfileConverter';
-import { UnknownProfile, BSCharacteristic, TypeName } from '../Types';
+import { UnknownProfile, BSCharacteristic, TypeName } from '../types';
 
 class UnknownProfileConverter extends AbstractProfileConverter<UnknownProfile, BSCharacteristic> {
   constructor(unexpectedTypeName: string) {

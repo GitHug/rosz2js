@@ -1,5 +1,5 @@
 import AbstractProfileConverter from './AbstractProfileConverter';
-import { PsykerProfile, BSPsykerCharacteristic, TypeName } from '../Types';
+import { PsykerProfile, BSPsykerCharacteristic, TypeName } from '../types';
 
 class PsykerProfileConverter extends AbstractProfileConverter<PsykerProfile, BSPsykerCharacteristic> {
   constructor() {

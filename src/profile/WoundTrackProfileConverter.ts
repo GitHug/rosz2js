@@ -1,5 +1,5 @@
 import AbstractProfileConverter from './AbstractProfileConverter';
-import { WoundTrackProfile, BSWoundTrackCharacteristic, TypeName } from '../Types';
+import { WoundTrackProfile, BSWoundTrackCharacteristic, TypeName } from '../types';
 
 class WoundTrackProfileConverter extends AbstractProfileConverter<WoundTrackProfile, BSWoundTrackCharacteristic> {
   constructor() {

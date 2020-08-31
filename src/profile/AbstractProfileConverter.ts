@@ -1,4 +1,4 @@
-import { Profile, TypeName, BSCharacteristic, BSProfile } from '../Types';
+import { Profile, TypeName, BSCharacteristic, BSProfile } from '../types';
 import { isBSCharacteristic } from '../guards';
 
 abstract class ProfileConverter<S extends Profile<TypeName>, T extends BSCharacteristic> {

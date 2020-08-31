@@ -1,5 +1,5 @@
 import AbstractProfileConverter from './AbstractProfileConverter';
-import { PsychicPowerProfile, BSPsychicPowerCharacteristic, TypeName } from '../Types';
+import { PsychicPowerProfile, BSPsychicPowerCharacteristic, TypeName } from '../types';
 
 class PsychicPowerProfileConverter extends AbstractProfileConverter<PsychicPowerProfile, BSPsychicPowerCharacteristic> {
   constructor() {

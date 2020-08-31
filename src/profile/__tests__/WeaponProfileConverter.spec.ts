@@ -1,5 +1,5 @@
 import WeaponProfileConverter from '../WeaponProfileConverter';
-import { BSTypeName, TypeName } from '../../Types';
+import { BSTypeName, TypeName } from '../../types';
 
 describe('WeaponProfileConverter', () => {
   it('should convert weapon characteristics', () => {

@@ -1,5 +1,5 @@
 import AbstractProfileConverter from './AbstractProfileConverter';
-import { UnitProfile, BSUnitCharacteristic, TypeName } from '../Types';
+import { UnitProfile, BSUnitCharacteristic, TypeName } from '../types';
 
 class UnitProfileConverter extends AbstractProfileConverter<UnitProfile, BSUnitCharacteristic> {
   constructor() {

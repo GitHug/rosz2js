@@ -1,4 +1,4 @@
-import { BSWeaponCharacteristic, WeaponProfile, TypeName } from '../Types';
+import { BSWeaponCharacteristic, WeaponProfile, TypeName } from '../types';
 import AbstractProfileConverter from './AbstractProfileConverter';
 
 class WeaponProfileConverter extends AbstractProfileConverter<WeaponProfile, BSWeaponCharacteristic> {

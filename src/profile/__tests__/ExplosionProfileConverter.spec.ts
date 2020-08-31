@@ -1,5 +1,5 @@
 import ExplosionProfileConverter from '../ExplosionProfileConverter';
-import { BSTypeName, TypeName } from '../../Types';
+import { BSTypeName, TypeName } from '../../types';
 
 describe('ExplosionProfileConverter', () => {
   it('should convert explosion characteristics', () => {

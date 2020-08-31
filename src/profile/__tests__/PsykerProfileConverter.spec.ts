@@ -1,5 +1,5 @@
 import PsykerProfileConverter from '../PsykerProfileConverter';
-import { BSTypeName, TypeName } from '../../Types';
+import { BSTypeName, TypeName } from '../../types';
 
 describe('PsykerProfileConverter', () => {
   it('should convert psyker characteristics', () => {

@@ -1,4 +1,4 @@
-import { ExplosionProfile, BSExplosionCharacteristic, TypeName } from '../Types';
+import { ExplosionProfile, BSExplosionCharacteristic, TypeName } from '../types';
 import AbstractProfileConverter from './AbstractProfileConverter';
 
 class ExplosionProfileConverter extends AbstractProfileConverter<ExplosionProfile, BSExplosionCharacteristic> {

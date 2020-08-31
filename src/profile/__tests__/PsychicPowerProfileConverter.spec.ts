@@ -1,5 +1,5 @@
 import PsychicPowerProfileConverter from '../PsychicPowerProfileConverter';
-import { BSTypeName, TypeName } from '../../Types';
+import { BSTypeName, TypeName } from '../../types';
 
 describe('PsychicPowerProfileConverter', () => {
   it('should convert psychic power abilities', () => {
