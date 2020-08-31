@@ -13,7 +13,8 @@
     "coverage": "jest --collectCoverage",
     "lint": "eslint '*.{js,ts}' '*/**/*.{js,ts}' --ignore-pattern '/dist/*'",
     "release": "standard-version",
-    "prepublish": "yarn build"
+    "clean": "rimraf dist",
+    "prepublish": "yarn clean && yarn build"
   },
   "devDependencies": {
     "@types/jest": "^26.0.7",
