@@ -1,4 +1,3 @@
-import { Loader, RosterLoader } from './Loader';
 import {
   BSRoster,
   Roster,
@@ -20,6 +19,7 @@ import {
   TypeName,
   CalculatedCosts
 } from './types';
+import RosterLoaderFactory from './loader/RosterLoaderFactory';
 import ProfileFactory from './profile/ProfileFactory';
 import {
   isBSProfile,
@@ -33,8 +33,8 @@ import {
 } from './guards';
 
 class Parser {
-  async parse(path: string): Promise<Roster> {
-    const rosterLoader: Loader = new RosterLoader(path);
+  async parse(path: string | Buffer): Promise<Roster> {
+    const rosterLoader = RosterLoaderFactory.getLoader(path);
 
     let bsRoster: BSRoster;
     try {

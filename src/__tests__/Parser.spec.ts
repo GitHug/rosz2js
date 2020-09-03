@@ -1,16 +1,18 @@
 import Parser from '../Parser';
 import rosterFile from './testData.json';
+import RosterLoaderFactory from '../loader/RosterLoaderFactory';
+import { BSRoster } from '../types';
 
-jest.mock('../Loader', () => {
-  return {
-    RosterLoader: function () {
-      return { load: () => Promise.resolve(rosterFile) };
-    }
-  };
-});
+jest.mock('../loader/RosterLoaderFactory');
+
+const mockedFactory = RosterLoaderFactory as jest.Mocked<typeof RosterLoaderFactory>;
 
 describe('Parser', () => {
   it('should be able to parse a Battlescribe roster', async () => {
+    mockedFactory.getLoader.mockImplementationOnce(() => ({
+      load: () => Promise.resolve((rosterFile as unknown) as BSRoster)
+    }));
+
     const roster = await Parser.parse('some absolute path');
     expect(Object.assign({}, roster)).toEqual({
       name: 'Super Soldier Strike Force',
