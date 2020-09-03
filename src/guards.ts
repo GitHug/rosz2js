@@ -14,7 +14,8 @@ import {
   BSForce,
   BSRule,
   BSSelection,
-  BSCategory
+  BSCategory,
+  LoaderInput
 } from './types';
 
 export function isBSForce(bsForces: { force: BSForce[] } | string): bsForces is { force: BSForce[] } {
@@ -111,4 +112,12 @@ export function isBSCharacteristic(
   bsCharacteristics: { characteristic: BSCharacteristic[] } | string
 ): bsCharacteristics is { characteristic: BSCharacteristic[] } {
   return bsCharacteristics.hasOwnProperty('characteristic');
+}
+
+export function isString(candidate: LoaderInput): candidate is string {
+  return typeof candidate === 'string';
+}
+
+export function isBuffer(candidate: LoaderInput): candidate is Buffer {
+  return Buffer.isBuffer(candidate);
 }
