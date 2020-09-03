@@ -291,3 +291,5 @@ export interface BSExplosionCharacteristic extends BSCharacteristic {
 }
 
 export type CalculatedCosts = { [CostType.PTS]: number; [CostType.PL]: number; [CostType.CP]: number };
+
+export type LoaderInput = string | Buffer | unknown;
