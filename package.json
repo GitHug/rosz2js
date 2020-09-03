@@ -8,13 +8,13 @@
   "author": "Fredrik Makila",
   "license": "MIT",
   "scripts": {
-    "build": "npx tsc",
+    "build": "yarn clean && npx tsc",
     "test": "jest",
     "coverage": "jest --collectCoverage",
     "lint": "eslint '*.{js,ts}' '*/**/*.{js,ts}' --ignore-pattern '/dist/*'",
     "release": "standard-version",
     "clean": "rimraf dist",
-    "prepublish": "yarn clean && yarn build"
+    "prepublish": "yarn build"
   },
   "devDependencies": {
     "@types/jest": "^26.0.7",
