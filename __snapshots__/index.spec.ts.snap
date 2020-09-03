@@ -1,0 +1,2211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Entry point should parse a roster file buffer 1`] = `
+Object {
+  "costLimits": Array [
+    Object {
+      "name": "pts",
+      "value": 2000,
+    },
+  ],
+  "costs": Array [
+    Object {
+      "name": "PL",
+      "value": 87,
+    },
+    Object {
+      "name": "pts",
+      "value": 1837,
+    },
+    Object {
+      "name": "CP",
+      "value": 10,
+    },
+  ],
+  "forces": Array [
+    Object {
+      "catalogueName": "The Empire - Super Soldier Edition",
+      "categories": Array [
+        Object {
+          "name": "Category A",
+          "primary": false,
+        },
+        Object {
+          "name": "Category B",
+          "primary": false,
+        },
+      ],
+      "forces": Array [],
+      "name": "Goon Department",
+      "publications": Array [
+        "Sears Catalogue",
+        "New York Times",
+      ],
+      "rules": Array [],
+      "selections": Array [
+        Object {
+          "categories": Array [
+            Object {
+              "name": "Configuration",
+              "primary": false,
+            },
+            Object {
+              "name": "Configuration",
+              "primary": true,
+            },
+          ],
+          "costs": Array [
+            Object {
+              "name": "PL",
+              "value": 0,
+            },
+            Object {
+              "name": "CP",
+              "value": 0,
+            },
+            Object {
+              "name": "pts",
+              "value": 0,
+            },
+          ],
+          "customName": undefined,
+          "customNotes": undefined,
+          "name": "**DEPARTMENT**",
+          "number": 1,
+          "profiles": Array [],
+          "rules": Array [],
+          "selections": Array [
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+                Object {
+                  "name": "pts",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Accounting",
+              "number": 1,
+              "profiles": Array [],
+              "rules": Array [
+                Object {
+                  "description": "Gossip and holiday plans.",
+                  "name": "Water Cooler Talk",
+                },
+              ],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+          ],
+          "type": "upgrade",
+        },
+        Object {
+          "categories": Array [
+            Object {
+              "name": "Super Soldiers",
+              "primary": false,
+            },
+            Object {
+              "name": "Super Strong",
+              "primary": true,
+            },
+          ],
+          "costs": Array [
+            Object {
+              "name": "PL",
+              "value": 9,
+            },
+            Object {
+              "name": "pts",
+              "value": 187,
+            },
+            Object {
+              "name": "CP",
+              "value": 0,
+            },
+          ],
+          "customName": "",
+          "customNotes": "",
+          "name": "Super Strong Super Soldier Squad",
+          "number": 1,
+          "profiles": Array [
+            Object {
+              "description": "Can make really good pasta.",
+              "name": "Cooking",
+              "typeName": "Ability",
+            },
+            Object {
+              "attacks": "2",
+              "ballisticSkill": "3+",
+              "leadership": "8",
+              "movement": "5\\"",
+              "name": "Super Soldier",
+              "save": "2+",
+              "strength": "4",
+              "toughness": "4",
+              "typeName": "Unit",
+              "weaponSkill": "3+",
+              "wounds": "2",
+            },
+            Object {
+              "attacks": "3",
+              "ballisticSkill": "3+",
+              "leadership": "9",
+              "movement": "5\\"",
+              "name": "Super Soldier Leader",
+              "save": "2+",
+              "strength": "4",
+              "toughness": "4",
+              "typeName": "Unit",
+              "weaponSkill": "3+",
+              "wounds": "2",
+            },
+          ],
+          "rules": Array [
+            Object {
+              "description": "This unit is downright scary.",
+              "name": "Scary",
+            },
+          ],
+          "selections": Array [
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "pts",
+                  "value": 31,
+                },
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Super Soldier Leader",
+              "number": 1,
+              "profiles": Array [],
+              "rules": Array [],
+              "selections": Array [
+                Object {
+                  "categories": Array [],
+                  "costs": Array [
+                    Object {
+                      "name": "pts",
+                      "value": 5,
+                    },
+                    Object {
+                      "name": "PL",
+                      "value": 0,
+                    },
+                    Object {
+                      "name": "CP",
+                      "value": 0,
+                    },
+                  ],
+                  "customName": undefined,
+                  "customNotes": undefined,
+                  "name": "Steel ruler",
+                  "number": 1,
+                  "profiles": Array [
+                    Object {
+                      "abilities": "-",
+                      "armourPenetration": "-3",
+                      "damage": "1",
+                      "name": "Steel ruler",
+                      "range": "Melee",
+                      "strength": "User",
+                      "type": "Melee",
+                      "typeName": "Weapon",
+                    },
+                  ],
+                  "rules": Array [],
+                  "selections": Array [],
+                  "type": "upgrade",
+                },
+                Object {
+                  "categories": Array [],
+                  "costs": Array [
+                    Object {
+                      "name": "pts",
+                      "value": 3,
+                    },
+                    Object {
+                      "name": "PL",
+                      "value": 0,
+                    },
+                    Object {
+                      "name": "CP",
+                      "value": 0,
+                    },
+                  ],
+                  "customName": undefined,
+                  "customNotes": undefined,
+                  "name": "Blunderbuss",
+                  "number": 1,
+                  "profiles": Array [
+                    Object {
+                      "abilities": "-",
+                      "armourPenetration": "0",
+                      "damage": "1",
+                      "name": "Blunderbuss",
+                      "range": "24\\"",
+                      "strength": "4",
+                      "type": "Rapid Fire 2",
+                      "typeName": "Weapon",
+                    },
+                  ],
+                  "rules": Array [],
+                  "selections": Array [],
+                  "type": "upgrade",
+                },
+              ],
+              "type": "upgrade",
+            },
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "pts",
+                  "value": 72,
+                },
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Super Solider w/Oven mitts",
+              "number": 2,
+              "profiles": Array [],
+              "rules": Array [],
+              "selections": Array [
+                Object {
+                  "categories": Array [],
+                  "costs": Array [
+                    Object {
+                      "name": "pts",
+                      "value": 6,
+                    },
+                    Object {
+                      "name": "PL",
+                      "value": 0,
+                    },
+                    Object {
+                      "name": "CP",
+                      "value": 0,
+                    },
+                  ],
+                  "customName": undefined,
+                  "customNotes": undefined,
+                  "name": "Blunderbuss",
+                  "number": 2,
+                  "profiles": Array [
+                    Object {
+                      "abilities": "-",
+                      "armourPenetration": "0",
+                      "damage": "1",
+                      "name": "Blunderbuss",
+                      "range": "24\\"",
+                      "strength": "4",
+                      "type": "Rapid Fire 2",
+                      "typeName": "Weapon",
+                    },
+                  ],
+                  "rules": Array [],
+                  "selections": Array [],
+                  "type": "upgrade",
+                },
+                Object {
+                  "categories": Array [],
+                  "costs": Array [
+                    Object {
+                      "name": "pts",
+                      "value": 20,
+                    },
+                    Object {
+                      "name": "PL",
+                      "value": 0,
+                    },
+                    Object {
+                      "name": "CP",
+                      "value": 0,
+                    },
+                  ],
+                  "customName": undefined,
+                  "customNotes": undefined,
+                  "name": "Oven mitt",
+                  "number": 2,
+                  "profiles": Array [
+                    Object {
+                      "abilities": "Can handle hot stuff.",
+                      "armourPenetration": "-3",
+                      "damage": "D3",
+                      "name": "Oven mitt",
+                      "range": "Melee",
+                      "strength": "x2",
+                      "type": "Melee",
+                      "typeName": "Weapon",
+                    },
+                  ],
+                  "rules": Array [],
+                  "selections": Array [],
+                  "type": "upgrade",
+                },
+              ],
+              "type": "upgrade",
+            },
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "pts",
+                  "value": 36,
+                },
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Super Soldier w/Sharp oven mitt",
+              "number": 1,
+              "profiles": Array [],
+              "rules": Array [],
+              "selections": Array [
+                Object {
+                  "categories": Array [],
+                  "costs": Array [
+                    Object {
+                      "name": "pts",
+                      "value": 3,
+                    },
+                    Object {
+                      "name": "PL",
+                      "value": 0,
+                    },
+                    Object {
+                      "name": "CP",
+                      "value": 0,
+                    },
+                  ],
+                  "customName": undefined,
+                  "customNotes": undefined,
+                  "name": "Blunderbuss",
+                  "number": 1,
+                  "profiles": Array [
+                    Object {
+                      "abilities": "-",
+                      "armourPenetration": "0",
+                      "damage": "1",
+                      "name": "Blunderbuss",
+                      "range": "24\\"",
+                      "strength": "4",
+                      "type": "Rapid Fire 2",
+                      "typeName": "Weapon",
+                    },
+                  ],
+                  "rules": Array [],
+                  "selections": Array [],
+                  "type": "upgrade",
+                },
+                Object {
+                  "categories": Array [],
+                  "costs": Array [
+                    Object {
+                      "name": "pts",
+                      "value": 10,
+                    },
+                    Object {
+                      "name": "PL",
+                      "value": 0,
+                    },
+                    Object {
+                      "name": "CP",
+                      "value": 0,
+                    },
+                  ],
+                  "customName": undefined,
+                  "customNotes": undefined,
+                  "name": "Sharp oven mitt",
+                  "number": 1,
+                  "profiles": Array [
+                    Object {
+                      "abilities": "Can cut through hot stuff.",
+                      "armourPenetration": "-4",
+                      "damage": "2",
+                      "name": "Sharp oven mitt",
+                      "range": "Melee",
+                      "strength": "x2",
+                      "type": "Melee",
+                      "typeName": "Weapon",
+                    },
+                  ],
+                  "rules": Array [],
+                  "selections": Array [],
+                  "type": "upgrade",
+                },
+              ],
+              "type": "upgrade",
+            },
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "pts",
+                  "value": 48,
+                },
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Super Soldier w/Ironing board",
+              "number": 1,
+              "profiles": Array [],
+              "rules": Array [],
+              "selections": Array [
+                Object {
+                  "categories": Array [],
+                  "costs": Array [
+                    Object {
+                      "name": "pts",
+                      "value": 10,
+                    },
+                    Object {
+                      "name": "PL",
+                      "value": 0,
+                    },
+                    Object {
+                      "name": "CP",
+                      "value": 0,
+                    },
+                  ],
+                  "customName": undefined,
+                  "customNotes": undefined,
+                  "name": "Oven mitt",
+                  "number": 1,
+                  "profiles": Array [
+                    Object {
+                      "abilities": "Can handle hot stuff.",
+                      "armourPenetration": "-3",
+                      "damage": "D3",
+                      "name": "Oven mitt",
+                      "range": "Melee",
+                      "strength": "x2",
+                      "type": "Melee",
+                      "typeName": "Weapon",
+                    },
+                  ],
+                  "rules": Array [],
+                  "selections": Array [],
+                  "type": "upgrade",
+                },
+                Object {
+                  "categories": Array [],
+                  "costs": Array [
+                    Object {
+                      "name": "pts",
+                      "value": 15,
+                    },
+                    Object {
+                      "name": "PL",
+                      "value": 0,
+                    },
+                    Object {
+                      "name": "CP",
+                      "value": 0,
+                    },
+                  ],
+                  "customName": undefined,
+                  "customNotes": undefined,
+                  "name": "Ironing board",
+                  "number": 1,
+                  "profiles": Array [
+                    Object {
+                      "abilities": "-",
+                      "armourPenetration": "-1",
+                      "damage": "1",
+                      "name": "Ironing board",
+                      "range": "24\\"",
+                      "strength": "6",
+                      "type": "Heavy 6",
+                      "typeName": "Weapon",
+                    },
+                  ],
+                  "rules": Array [],
+                  "selections": Array [],
+                  "type": "upgrade",
+                },
+              ],
+              "type": "upgrade",
+            },
+          ],
+          "type": "upgrade",
+        },
+        Object {
+          "categories": Array [
+            Object {
+              "name": "A dude",
+              "primary": false,
+            },
+            Object {
+              "name": "Natural leader",
+              "primary": true,
+            },
+          ],
+          "costs": Array [
+            Object {
+              "name": "PL",
+              "value": 9,
+            },
+            Object {
+              "name": "pts",
+              "value": 143,
+            },
+            Object {
+              "name": "CP",
+              "value": -1,
+            },
+          ],
+          "customName": undefined,
+          "customNotes": undefined,
+          "name": "Nerd",
+          "number": 1,
+          "profiles": Array [
+            Object {
+              "cast": "2",
+              "deny": "1",
+              "name": "Hidden knowledge",
+              "other": undefined,
+              "powersKnown": "No one knows",
+              "typeName": "Psyker",
+            },
+            Object {
+              "diceRoll": "6",
+              "distance": "3\\"",
+              "mortalWounds": "D3",
+              "name": "Quick to anger",
+              "typeName": "Explosion",
+            },
+            Object {
+              "attacks": "3",
+              "ballisticSkill": "3+",
+              "leadership": "9",
+              "movement": "6\\"",
+              "name": "Nerd",
+              "save": "3+",
+              "strength": "6",
+              "toughness": "7",
+              "typeName": "Unit",
+              "weaponSkill": "2+",
+              "wounds": "8",
+            },
+          ],
+          "rules": Array [],
+          "selections": Array [
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "pts",
+                  "value": 20,
+                },
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Notebook",
+              "number": 1,
+              "profiles": Array [
+                Object {
+                  "abilities": "Contains knowledge about niche stuff.",
+                  "armourPenetration": "-3",
+                  "damage": "3",
+                  "name": "Notebook",
+                  "range": "Melee",
+                  "strength": "x2",
+                  "type": "Melee",
+                  "typeName": "Weapon",
+                },
+              ],
+              "rules": Array [],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "pts",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Ballpoint pen",
+              "number": 1,
+              "profiles": Array [
+                Object {
+                  "abilities": "-",
+                  "armourPenetration": "-4",
+                  "damage": "3",
+                  "name": "Ballpoint pen",
+                  "range": "Melee",
+                  "strength": "+4",
+                  "type": "Melee",
+                  "typeName": "Weapon",
+                },
+              ],
+              "rules": Array [],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "pts",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Show off knowledge",
+              "number": 1,
+              "profiles": Array [
+                Object {
+                  "details": "Can impress other nerds. Has no effect on non-nerds.",
+                  "name": "Show off knowledge",
+                  "range": "18\\"",
+                  "typeName": "Psychic Power",
+                  "warpCharge": "5",
+                },
+              ],
+              "rules": Array [],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "pts",
+                  "value": 3,
+                },
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Blunderbuss",
+              "number": 1,
+              "profiles": Array [
+                Object {
+                  "abilities": "-",
+                  "armourPenetration": "0",
+                  "damage": "1",
+                  "name": "Blunderbuss",
+                  "range": "24\\"",
+                  "strength": "4",
+                  "type": "Rapid Fire 2",
+                  "typeName": "Weapon",
+                },
+              ],
+              "rules": Array [],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "pts",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "1. Fast typing",
+              "number": 1,
+              "profiles": Array [
+                Object {
+                  "details": "Use the Dvorak keyboard layout.",
+                  "name": "Fast typing",
+                  "range": "Self",
+                  "typeName": "Psychic Power",
+                  "warpCharge": "7",
+                },
+              ],
+              "rules": Array [],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "CP",
+                  "value": -1,
+                },
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "pts",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Leader of the pack",
+              "number": 1,
+              "profiles": Array [],
+              "rules": Array [],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "pts",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "2. Leader of the pack",
+              "number": 1,
+              "profiles": Array [],
+              "rules": Array [
+                Object {
+                  "description": "Plus 1 to charisma for nerds if number of nerds equal five or more.",
+                  "name": "2. Artisan of War",
+                },
+              ],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+          ],
+          "type": "model",
+        },
+        Object {
+          "categories": Array [
+            Object {
+              "name": "Vehicle",
+              "primary": false,
+            },
+            Object {
+              "name": "Car",
+              "primary": true,
+            },
+          ],
+          "costs": Array [
+            Object {
+              "name": "pts",
+              "value": 131,
+            },
+            Object {
+              "name": "PL",
+              "value": 4,
+            },
+            Object {
+              "name": "CP",
+              "value": 0,
+            },
+          ],
+          "customName": undefined,
+          "customNotes": undefined,
+          "name": "Jeep Cherokee",
+          "number": 1,
+          "profiles": Array [
+            Object {
+              "attacks": "*",
+              "ballisticSkill": "*",
+              "leadership": "8",
+              "movement": "*",
+              "name": "Jeep Cherokee",
+              "save": "3+",
+              "strength": "7",
+              "toughness": "7",
+              "typeName": "Unit",
+              "weaponSkill": "6+",
+              "wounds": "11",
+            },
+            Object {
+              "Characteristic 1": "14\\"",
+              "Characteristic 2": "3+",
+              "Characteristic 3": "3",
+              "name": "Jeep Cherokee Wound Track 1",
+              "remainingWounds": "6-11+",
+              "typeName": "Wound Track",
+            },
+            Object {
+              "Characteristic 1": "7\\"",
+              "Characteristic 2": "4+",
+              "Characteristic 3": "D3",
+              "name": "Jeep Cherokee Wound Track 2",
+              "remainingWounds": "3-5",
+              "typeName": "Wound Track",
+            },
+            Object {
+              "capacity": "Can transport a lot of groceries.",
+              "name": "Jeep Cherokee",
+              "typeName": "Transport",
+            },
+          ],
+          "rules": Array [
+            Object {
+              "description": "Needs gas to run.",
+              "name": "Out of gas",
+            },
+          ],
+          "selections": Array [
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "pts",
+                  "value": 6,
+                },
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "2x Blunderbuss",
+              "number": 1,
+              "profiles": Array [
+                Object {
+                  "abilities": "-",
+                  "armourPenetration": "0",
+                  "damage": "1",
+                  "name": "Blunderbuss",
+                  "range": "24\\"",
+                  "strength": "4",
+                  "type": "Rapid Fire 2",
+                  "typeName": "Weapon",
+                },
+              ],
+              "rules": Array [],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "pts",
+                  "value": 25,
+                },
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Windshield",
+              "number": 1,
+              "profiles": Array [
+                Object {
+                  "description": "Protects against rain.",
+                  "name": "Windshield",
+                  "typeName": "Ability",
+                },
+              ],
+              "rules": Array [],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+          ],
+          "type": "model",
+        },
+        Object {
+          "categories": Array [
+            Object {
+              "name": "Configuration",
+              "primary": true,
+            },
+          ],
+          "costs": Array [
+            Object {
+              "name": "CP",
+              "value": 12,
+            },
+            Object {
+              "name": "PL",
+              "value": 0,
+            },
+            Object {
+              "name": "pts",
+              "value": 0,
+            },
+          ],
+          "customName": undefined,
+          "customNotes": undefined,
+          "name": "Power up",
+          "number": 1,
+          "profiles": Array [],
+          "rules": Array [],
+          "selections": Array [],
+          "type": "upgrade",
+        },
+        Object {
+          "categories": Array [
+            Object {
+              "name": "Wood",
+              "primary": false,
+            },
+            Object {
+              "name": "Steel",
+              "primary": true,
+            },
+          ],
+          "costs": Array [
+            Object {
+              "name": "PL",
+              "value": 0,
+            },
+            Object {
+              "name": "pts",
+              "value": 0,
+            },
+            Object {
+              "name": "CP",
+              "value": -1,
+            },
+          ],
+          "customName": undefined,
+          "customNotes": undefined,
+          "name": "Extra armour plates",
+          "number": 1,
+          "profiles": Array [],
+          "rules": Array [],
+          "selections": Array [
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "CP",
+                  "value": -1,
+                },
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "pts",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "1 Extra armour plate",
+              "number": 1,
+              "profiles": Array [],
+              "rules": Array [],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+          ],
+          "type": "upgrade",
+        },
+      ],
+    },
+  ],
+  "gameSystemName": "Warrior Axe 9000",
+  "name": "Super Soldier Strike Force",
+}
+`;
+
+exports[`Entry point should parse a roster file with an absolute path 1`] = `
+Object {
+  "costLimits": Array [
+    Object {
+      "name": "pts",
+      "value": 2000,
+    },
+  ],
+  "costs": Array [
+    Object {
+      "name": "PL",
+      "value": 87,
+    },
+    Object {
+      "name": "pts",
+      "value": 1837,
+    },
+    Object {
+      "name": "CP",
+      "value": 10,
+    },
+  ],
+  "forces": Array [
+    Object {
+      "catalogueName": "The Empire - Super Soldier Edition",
+      "categories": Array [
+        Object {
+          "name": "Category A",
+          "primary": false,
+        },
+        Object {
+          "name": "Category B",
+          "primary": false,
+        },
+      ],
+      "forces": Array [],
+      "name": "Goon Department",
+      "publications": Array [
+        "Sears Catalogue",
+        "New York Times",
+      ],
+      "rules": Array [],
+      "selections": Array [
+        Object {
+          "categories": Array [
+            Object {
+              "name": "Configuration",
+              "primary": false,
+            },
+            Object {
+              "name": "Configuration",
+              "primary": true,
+            },
+          ],
+          "costs": Array [
+            Object {
+              "name": "PL",
+              "value": 0,
+            },
+            Object {
+              "name": "CP",
+              "value": 0,
+            },
+            Object {
+              "name": "pts",
+              "value": 0,
+            },
+          ],
+          "customName": undefined,
+          "customNotes": undefined,
+          "name": "**DEPARTMENT**",
+          "number": 1,
+          "profiles": Array [],
+          "rules": Array [],
+          "selections": Array [
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+                Object {
+                  "name": "pts",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Accounting",
+              "number": 1,
+              "profiles": Array [],
+              "rules": Array [
+                Object {
+                  "description": "Gossip and holiday plans.",
+                  "name": "Water Cooler Talk",
+                },
+              ],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+          ],
+          "type": "upgrade",
+        },
+        Object {
+          "categories": Array [
+            Object {
+              "name": "Super Soldiers",
+              "primary": false,
+            },
+            Object {
+              "name": "Super Strong",
+              "primary": true,
+            },
+          ],
+          "costs": Array [
+            Object {
+              "name": "PL",
+              "value": 9,
+            },
+            Object {
+              "name": "pts",
+              "value": 187,
+            },
+            Object {
+              "name": "CP",
+              "value": 0,
+            },
+          ],
+          "customName": "",
+          "customNotes": "",
+          "name": "Super Strong Super Soldier Squad",
+          "number": 1,
+          "profiles": Array [
+            Object {
+              "description": "Can make really good pasta.",
+              "name": "Cooking",
+              "typeName": "Ability",
+            },
+            Object {
+              "attacks": "2",
+              "ballisticSkill": "3+",
+              "leadership": "8",
+              "movement": "5\\"",
+              "name": "Super Soldier",
+              "save": "2+",
+              "strength": "4",
+              "toughness": "4",
+              "typeName": "Unit",
+              "weaponSkill": "3+",
+              "wounds": "2",
+            },
+            Object {
+              "attacks": "3",
+              "ballisticSkill": "3+",
+              "leadership": "9",
+              "movement": "5\\"",
+              "name": "Super Soldier Leader",
+              "save": "2+",
+              "strength": "4",
+              "toughness": "4",
+              "typeName": "Unit",
+              "weaponSkill": "3+",
+              "wounds": "2",
+            },
+          ],
+          "rules": Array [
+            Object {
+              "description": "This unit is downright scary.",
+              "name": "Scary",
+            },
+          ],
+          "selections": Array [
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "pts",
+                  "value": 31,
+                },
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Super Soldier Leader",
+              "number": 1,
+              "profiles": Array [],
+              "rules": Array [],
+              "selections": Array [
+                Object {
+                  "categories": Array [],
+                  "costs": Array [
+                    Object {
+                      "name": "pts",
+                      "value": 5,
+                    },
+                    Object {
+                      "name": "PL",
+                      "value": 0,
+                    },
+                    Object {
+                      "name": "CP",
+                      "value": 0,
+                    },
+                  ],
+                  "customName": undefined,
+                  "customNotes": undefined,
+                  "name": "Steel ruler",
+                  "number": 1,
+                  "profiles": Array [
+                    Object {
+                      "abilities": "-",
+                      "armourPenetration": "-3",
+                      "damage": "1",
+                      "name": "Steel ruler",
+                      "range": "Melee",
+                      "strength": "User",
+                      "type": "Melee",
+                      "typeName": "Weapon",
+                    },
+                  ],
+                  "rules": Array [],
+                  "selections": Array [],
+                  "type": "upgrade",
+                },
+                Object {
+                  "categories": Array [],
+                  "costs": Array [
+                    Object {
+                      "name": "pts",
+                      "value": 3,
+                    },
+                    Object {
+                      "name": "PL",
+                      "value": 0,
+                    },
+                    Object {
+                      "name": "CP",
+                      "value": 0,
+                    },
+                  ],
+                  "customName": undefined,
+                  "customNotes": undefined,
+                  "name": "Blunderbuss",
+                  "number": 1,
+                  "profiles": Array [
+                    Object {
+                      "abilities": "-",
+                      "armourPenetration": "0",
+                      "damage": "1",
+                      "name": "Blunderbuss",
+                      "range": "24\\"",
+                      "strength": "4",
+                      "type": "Rapid Fire 2",
+                      "typeName": "Weapon",
+                    },
+                  ],
+                  "rules": Array [],
+                  "selections": Array [],
+                  "type": "upgrade",
+                },
+              ],
+              "type": "upgrade",
+            },
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "pts",
+                  "value": 72,
+                },
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Super Solider w/Oven mitts",
+              "number": 2,
+              "profiles": Array [],
+              "rules": Array [],
+              "selections": Array [
+                Object {
+                  "categories": Array [],
+                  "costs": Array [
+                    Object {
+                      "name": "pts",
+                      "value": 6,
+                    },
+                    Object {
+                      "name": "PL",
+                      "value": 0,
+                    },
+                    Object {
+                      "name": "CP",
+                      "value": 0,
+                    },
+                  ],
+                  "customName": undefined,
+                  "customNotes": undefined,
+                  "name": "Blunderbuss",
+                  "number": 2,
+                  "profiles": Array [
+                    Object {
+                      "abilities": "-",
+                      "armourPenetration": "0",
+                      "damage": "1",
+                      "name": "Blunderbuss",
+                      "range": "24\\"",
+                      "strength": "4",
+                      "type": "Rapid Fire 2",
+                      "typeName": "Weapon",
+                    },
+                  ],
+                  "rules": Array [],
+                  "selections": Array [],
+                  "type": "upgrade",
+                },
+                Object {
+                  "categories": Array [],
+                  "costs": Array [
+                    Object {
+                      "name": "pts",
+                      "value": 20,
+                    },
+                    Object {
+                      "name": "PL",
+                      "value": 0,
+                    },
+                    Object {
+                      "name": "CP",
+                      "value": 0,
+                    },
+                  ],
+                  "customName": undefined,
+                  "customNotes": undefined,
+                  "name": "Oven mitt",
+                  "number": 2,
+                  "profiles": Array [
+                    Object {
+                      "abilities": "Can handle hot stuff.",
+                      "armourPenetration": "-3",
+                      "damage": "D3",
+                      "name": "Oven mitt",
+                      "range": "Melee",
+                      "strength": "x2",
+                      "type": "Melee",
+                      "typeName": "Weapon",
+                    },
+                  ],
+                  "rules": Array [],
+                  "selections": Array [],
+                  "type": "upgrade",
+                },
+              ],
+              "type": "upgrade",
+            },
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "pts",
+                  "value": 36,
+                },
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Super Soldier w/Sharp oven mitt",
+              "number": 1,
+              "profiles": Array [],
+              "rules": Array [],
+              "selections": Array [
+                Object {
+                  "categories": Array [],
+                  "costs": Array [
+                    Object {
+                      "name": "pts",
+                      "value": 3,
+                    },
+                    Object {
+                      "name": "PL",
+                      "value": 0,
+                    },
+                    Object {
+                      "name": "CP",
+                      "value": 0,
+                    },
+                  ],
+                  "customName": undefined,
+                  "customNotes": undefined,
+                  "name": "Blunderbuss",
+                  "number": 1,
+                  "profiles": Array [
+                    Object {
+                      "abilities": "-",
+                      "armourPenetration": "0",
+                      "damage": "1",
+                      "name": "Blunderbuss",
+                      "range": "24\\"",
+                      "strength": "4",
+                      "type": "Rapid Fire 2",
+                      "typeName": "Weapon",
+                    },
+                  ],
+                  "rules": Array [],
+                  "selections": Array [],
+                  "type": "upgrade",
+                },
+                Object {
+                  "categories": Array [],
+                  "costs": Array [
+                    Object {
+                      "name": "pts",
+                      "value": 10,
+                    },
+                    Object {
+                      "name": "PL",
+                      "value": 0,
+                    },
+                    Object {
+                      "name": "CP",
+                      "value": 0,
+                    },
+                  ],
+                  "customName": undefined,
+                  "customNotes": undefined,
+                  "name": "Sharp oven mitt",
+                  "number": 1,
+                  "profiles": Array [
+                    Object {
+                      "abilities": "Can cut through hot stuff.",
+                      "armourPenetration": "-4",
+                      "damage": "2",
+                      "name": "Sharp oven mitt",
+                      "range": "Melee",
+                      "strength": "x2",
+                      "type": "Melee",
+                      "typeName": "Weapon",
+                    },
+                  ],
+                  "rules": Array [],
+                  "selections": Array [],
+                  "type": "upgrade",
+                },
+              ],
+              "type": "upgrade",
+            },
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "pts",
+                  "value": 48,
+                },
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Super Soldier w/Ironing board",
+              "number": 1,
+              "profiles": Array [],
+              "rules": Array [],
+              "selections": Array [
+                Object {
+                  "categories": Array [],
+                  "costs": Array [
+                    Object {
+                      "name": "pts",
+                      "value": 10,
+                    },
+                    Object {
+                      "name": "PL",
+                      "value": 0,
+                    },
+                    Object {
+                      "name": "CP",
+                      "value": 0,
+                    },
+                  ],
+                  "customName": undefined,
+                  "customNotes": undefined,
+                  "name": "Oven mitt",
+                  "number": 1,
+                  "profiles": Array [
+                    Object {
+                      "abilities": "Can handle hot stuff.",
+                      "armourPenetration": "-3",
+                      "damage": "D3",
+                      "name": "Oven mitt",
+                      "range": "Melee",
+                      "strength": "x2",
+                      "type": "Melee",
+                      "typeName": "Weapon",
+                    },
+                  ],
+                  "rules": Array [],
+                  "selections": Array [],
+                  "type": "upgrade",
+                },
+                Object {
+                  "categories": Array [],
+                  "costs": Array [
+                    Object {
+                      "name": "pts",
+                      "value": 15,
+                    },
+                    Object {
+                      "name": "PL",
+                      "value": 0,
+                    },
+                    Object {
+                      "name": "CP",
+                      "value": 0,
+                    },
+                  ],
+                  "customName": undefined,
+                  "customNotes": undefined,
+                  "name": "Ironing board",
+                  "number": 1,
+                  "profiles": Array [
+                    Object {
+                      "abilities": "-",
+                      "armourPenetration": "-1",
+                      "damage": "1",
+                      "name": "Ironing board",
+                      "range": "24\\"",
+                      "strength": "6",
+                      "type": "Heavy 6",
+                      "typeName": "Weapon",
+                    },
+                  ],
+                  "rules": Array [],
+                  "selections": Array [],
+                  "type": "upgrade",
+                },
+              ],
+              "type": "upgrade",
+            },
+          ],
+          "type": "upgrade",
+        },
+        Object {
+          "categories": Array [
+            Object {
+              "name": "A dude",
+              "primary": false,
+            },
+            Object {
+              "name": "Natural leader",
+              "primary": true,
+            },
+          ],
+          "costs": Array [
+            Object {
+              "name": "PL",
+              "value": 9,
+            },
+            Object {
+              "name": "pts",
+              "value": 143,
+            },
+            Object {
+              "name": "CP",
+              "value": -1,
+            },
+          ],
+          "customName": undefined,
+          "customNotes": undefined,
+          "name": "Nerd",
+          "number": 1,
+          "profiles": Array [
+            Object {
+              "cast": "2",
+              "deny": "1",
+              "name": "Hidden knowledge",
+              "other": undefined,
+              "powersKnown": "No one knows",
+              "typeName": "Psyker",
+            },
+            Object {
+              "diceRoll": "6",
+              "distance": "3\\"",
+              "mortalWounds": "D3",
+              "name": "Quick to anger",
+              "typeName": "Explosion",
+            },
+            Object {
+              "attacks": "3",
+              "ballisticSkill": "3+",
+              "leadership": "9",
+              "movement": "6\\"",
+              "name": "Nerd",
+              "save": "3+",
+              "strength": "6",
+              "toughness": "7",
+              "typeName": "Unit",
+              "weaponSkill": "2+",
+              "wounds": "8",
+            },
+          ],
+          "rules": Array [],
+          "selections": Array [
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "pts",
+                  "value": 20,
+                },
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Notebook",
+              "number": 1,
+              "profiles": Array [
+                Object {
+                  "abilities": "Contains knowledge about niche stuff.",
+                  "armourPenetration": "-3",
+                  "damage": "3",
+                  "name": "Notebook",
+                  "range": "Melee",
+                  "strength": "x2",
+                  "type": "Melee",
+                  "typeName": "Weapon",
+                },
+              ],
+              "rules": Array [],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "pts",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Ballpoint pen",
+              "number": 1,
+              "profiles": Array [
+                Object {
+                  "abilities": "-",
+                  "armourPenetration": "-4",
+                  "damage": "3",
+                  "name": "Ballpoint pen",
+                  "range": "Melee",
+                  "strength": "+4",
+                  "type": "Melee",
+                  "typeName": "Weapon",
+                },
+              ],
+              "rules": Array [],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "pts",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Show off knowledge",
+              "number": 1,
+              "profiles": Array [
+                Object {
+                  "details": "Can impress other nerds. Has no effect on non-nerds.",
+                  "name": "Show off knowledge",
+                  "range": "18\\"",
+                  "typeName": "Psychic Power",
+                  "warpCharge": "5",
+                },
+              ],
+              "rules": Array [],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "pts",
+                  "value": 3,
+                },
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Blunderbuss",
+              "number": 1,
+              "profiles": Array [
+                Object {
+                  "abilities": "-",
+                  "armourPenetration": "0",
+                  "damage": "1",
+                  "name": "Blunderbuss",
+                  "range": "24\\"",
+                  "strength": "4",
+                  "type": "Rapid Fire 2",
+                  "typeName": "Weapon",
+                },
+              ],
+              "rules": Array [],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "pts",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "1. Fast typing",
+              "number": 1,
+              "profiles": Array [
+                Object {
+                  "details": "Use the Dvorak keyboard layout.",
+                  "name": "Fast typing",
+                  "range": "Self",
+                  "typeName": "Psychic Power",
+                  "warpCharge": "7",
+                },
+              ],
+              "rules": Array [],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "CP",
+                  "value": -1,
+                },
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "pts",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Leader of the pack",
+              "number": 1,
+              "profiles": Array [],
+              "rules": Array [],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "pts",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "2. Leader of the pack",
+              "number": 1,
+              "profiles": Array [],
+              "rules": Array [
+                Object {
+                  "description": "Plus 1 to charisma for nerds if number of nerds equal five or more.",
+                  "name": "2. Artisan of War",
+                },
+              ],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+          ],
+          "type": "model",
+        },
+        Object {
+          "categories": Array [
+            Object {
+              "name": "Vehicle",
+              "primary": false,
+            },
+            Object {
+              "name": "Car",
+              "primary": true,
+            },
+          ],
+          "costs": Array [
+            Object {
+              "name": "pts",
+              "value": 131,
+            },
+            Object {
+              "name": "PL",
+              "value": 4,
+            },
+            Object {
+              "name": "CP",
+              "value": 0,
+            },
+          ],
+          "customName": undefined,
+          "customNotes": undefined,
+          "name": "Jeep Cherokee",
+          "number": 1,
+          "profiles": Array [
+            Object {
+              "attacks": "*",
+              "ballisticSkill": "*",
+              "leadership": "8",
+              "movement": "*",
+              "name": "Jeep Cherokee",
+              "save": "3+",
+              "strength": "7",
+              "toughness": "7",
+              "typeName": "Unit",
+              "weaponSkill": "6+",
+              "wounds": "11",
+            },
+            Object {
+              "Characteristic 1": "14\\"",
+              "Characteristic 2": "3+",
+              "Characteristic 3": "3",
+              "name": "Jeep Cherokee Wound Track 1",
+              "remainingWounds": "6-11+",
+              "typeName": "Wound Track",
+            },
+            Object {
+              "Characteristic 1": "7\\"",
+              "Characteristic 2": "4+",
+              "Characteristic 3": "D3",
+              "name": "Jeep Cherokee Wound Track 2",
+              "remainingWounds": "3-5",
+              "typeName": "Wound Track",
+            },
+            Object {
+              "capacity": "Can transport a lot of groceries.",
+              "name": "Jeep Cherokee",
+              "typeName": "Transport",
+            },
+          ],
+          "rules": Array [
+            Object {
+              "description": "Needs gas to run.",
+              "name": "Out of gas",
+            },
+          ],
+          "selections": Array [
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "pts",
+                  "value": 6,
+                },
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "2x Blunderbuss",
+              "number": 1,
+              "profiles": Array [
+                Object {
+                  "abilities": "-",
+                  "armourPenetration": "0",
+                  "damage": "1",
+                  "name": "Blunderbuss",
+                  "range": "24\\"",
+                  "strength": "4",
+                  "type": "Rapid Fire 2",
+                  "typeName": "Weapon",
+                },
+              ],
+              "rules": Array [],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "pts",
+                  "value": 25,
+                },
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "CP",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "Windshield",
+              "number": 1,
+              "profiles": Array [
+                Object {
+                  "description": "Protects against rain.",
+                  "name": "Windshield",
+                  "typeName": "Ability",
+                },
+              ],
+              "rules": Array [],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+          ],
+          "type": "model",
+        },
+        Object {
+          "categories": Array [
+            Object {
+              "name": "Configuration",
+              "primary": true,
+            },
+          ],
+          "costs": Array [
+            Object {
+              "name": "CP",
+              "value": 12,
+            },
+            Object {
+              "name": "PL",
+              "value": 0,
+            },
+            Object {
+              "name": "pts",
+              "value": 0,
+            },
+          ],
+          "customName": undefined,
+          "customNotes": undefined,
+          "name": "Power up",
+          "number": 1,
+          "profiles": Array [],
+          "rules": Array [],
+          "selections": Array [],
+          "type": "upgrade",
+        },
+        Object {
+          "categories": Array [
+            Object {
+              "name": "Wood",
+              "primary": false,
+            },
+            Object {
+              "name": "Steel",
+              "primary": true,
+            },
+          ],
+          "costs": Array [
+            Object {
+              "name": "PL",
+              "value": 0,
+            },
+            Object {
+              "name": "pts",
+              "value": 0,
+            },
+            Object {
+              "name": "CP",
+              "value": -1,
+            },
+          ],
+          "customName": undefined,
+          "customNotes": undefined,
+          "name": "Extra armour plates",
+          "number": 1,
+          "profiles": Array [],
+          "rules": Array [],
+          "selections": Array [
+            Object {
+              "categories": Array [],
+              "costs": Array [
+                Object {
+                  "name": "CP",
+                  "value": -1,
+                },
+                Object {
+                  "name": "PL",
+                  "value": 0,
+                },
+                Object {
+                  "name": "pts",
+                  "value": 0,
+                },
+              ],
+              "customName": undefined,
+              "customNotes": undefined,
+              "name": "1 Extra armour plate",
+              "number": 1,
+              "profiles": Array [],
+              "rules": Array [],
+              "selections": Array [],
+              "type": "upgrade",
+            },
+          ],
+          "type": "upgrade",
+        },
+      ],
+    },
+  ],
+  "gameSystemName": "Warrior Axe 9000",
+  "name": "Super Soldier Strike Force",
+}
+`;
