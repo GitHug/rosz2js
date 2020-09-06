@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.4](https://github.com/GitHug/rosz2js/compare/v2.0.3...v2.0.4) (2020-09-06)
+
+
+### Others
+
+* **package.json:** use tsc from node_modules for building ([0cc679c](https://github.com/GitHug/rosz2js/commit/0cc679cc48838fe7f8af576de78465ff6db91d38))
+
 ### [2.0.3](https://github.com/GitHug/rosz2js/compare/v2.0.2...v2.0.3) (2020-09-06)
 
 
