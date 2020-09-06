@@ -14,7 +14,7 @@
   "exclude": [
     "node_modules",
     "dist",
-    "src/**/*.spec.ts",
+    "**/__tests__/*",
     "index.spec.ts"
   ]
 }
