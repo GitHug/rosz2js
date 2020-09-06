@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UnitProfileConverter should convert unit characteristics 1`] = `
+Object {
+  "attacks": "1",
+  "ballisticSkill": "6+",
+  "leadership": "4",
+  "movement": "3",
+  "name": "Cannon Fodder",
+  "save": "6+",
+  "strength": "2",
+  "toughness": "2",
+  "typeName": "Unit",
+  "weaponSkill": "6+",
+  "wounds": "1",
+}
+`;
+
+exports[`UnitProfileConverter should have default values 1`] = `
+Object {
+  "attacks": "-",
+  "ballisticSkill": "-",
+  "leadership": "-",
+  "movement": "-",
+  "name": "Cannon Fodder",
+  "save": "-",
+  "strength": "-",
+  "toughness": "-",
+  "typeName": "Unit",
+  "weaponSkill": "-",
+  "wounds": "-",
+}
+`;

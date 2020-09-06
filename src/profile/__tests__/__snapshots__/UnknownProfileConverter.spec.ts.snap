@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UnknownProfileConverter should be able to handle characteristics that does not have a converter 1`] = `
+Object {
+  "Some other stuff": "Stuff",
+  "Super Strange": "Off the charts",
+  "name": "Weird things",
+  "typeName": "Unknown",
+  "unexpectedTypeName": "Weird Stuff",
+}
+`;
+
+exports[`UnknownProfileConverter should be able to handle profiles without characteristics 1`] = `
+Object {
+  "name": "Weird things",
+  "typeName": "Unknown",
+  "unexpectedTypeName": "Weird Stuff",
+}
+`;

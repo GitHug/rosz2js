@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExplosionProfileConverter should convert explosion characteristics 1`] = `
+Object {
+  "diceRoll": "42",
+  "distance": "200cm",
+  "mortalWounds": "A lot",
+  "name": "Megablast",
+  "typeName": "Explosion",
+}
+`;
+
+exports[`ExplosionProfileConverter should have default values 1`] = `
+Object {
+  "diceRoll": "-",
+  "distance": "-",
+  "mortalWounds": "-",
+  "name": "Megablast",
+  "typeName": "Explosion",
+}
+`;

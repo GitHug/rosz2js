@@ -1,20 +1,31 @@
-import Loader from '../Loader';
+import PathRosterLoader from '../PathRosterLoader';
+import RosterLoader from '../RosterLoader';
+import { mock } from 'jest-mock-extended';
 import fs from 'fs';
 import unzipper, { ParseStream } from 'unzipper';
-import { mock } from 'jest-mock-extended';
+import parser, { convertableToString } from 'xml2js';
 
 jest.mock('fs');
 jest.mock('unzipper');
+jest.mock('xml2js');
 
 const mockedFs = fs as jest.Mocked<typeof fs>;
 const mockedUnzipper = unzipper as jest.Mocked<typeof unzipper>;
+const mockedParser = parser as jest.Mocked<typeof parser>;
 
-describe('Loader', () => {
-  it('should parse the content of a zipped file', async () => {
+describe('PathRosterLoader', () => {
+  it('loads a roster from a file path', async () => {
     const mockParseStream = mock<ParseStream>();
     mockedUnzipper.Parse.mockReturnValueOnce(mockParseStream);
     mockParseStream.on.mockImplementationOnce((event: string | symbol, cb: (...args: unknown[]) => void) => {
-      const xml = '<breakfast-menu><food><name>Belgian Waffles</name><price>£19.95</price></food></breakfast-menu>';
+      const xml = `
+      <?xml version="1.0" encoding="utf-8"?>
+      <roster gameSystemName="Chess" name="4D">
+        <costs />
+        <costLimits />
+        <forces />
+      </roster>
+      `;
       const buffer = Buffer.from(xml, 'utf8');
 
       const entry = {
@@ -31,20 +42,19 @@ describe('Loader', () => {
     mockReadstream.pipe.mockReturnValueOnce(mockParseStream);
     mockedFs.createReadStream.mockReturnValueOnce(mockReadstream);
 
-    const content = await new Loader('any/roster/file.rosz').load();
-    expect(content).toEqual({
-      'breakfast-menu': {
-        food: [
-          {
-            name: ['Belgian Waffles'],
-            price: ['£19.95']
-          }
-        ]
-      }
+    const loader: RosterLoader = new PathRosterLoader('/file/path.rosz');
+    expect(loader.load()).resolves.toEqual({
+      $: {
+        gameSystemName: 'Chess',
+        name: '4D'
+      },
+      costs: [''],
+      costLimits: [''],
+      forces: ['']
     });
   });
 
-  it('should throw an error if unzipping fails', async () => {
+  it('throws an error if unzipping fails', async () => {
     const mockParseStream = mock<ParseStream>();
     mockedUnzipper.Parse.mockReturnValueOnce(mockParseStream);
 
@@ -58,12 +68,14 @@ describe('Loader', () => {
     mockReadstream.pipe.mockReturnValueOnce(mockParseStream);
     mockedFs.createReadStream.mockReturnValueOnce(mockReadstream);
 
-    return expect(new Loader('any/roster/file.rosz').load()).rejects.toBe('failed to unzip');
+    const loader: RosterLoader = new PathRosterLoader('/file/path.rosz');
+    return expect(loader.load()).rejects.toBe('failed to unzip');
   });
 
   it('should throw an error if parsing of the zip content fails', async () => {
     const mockParseStream = mock<ParseStream>();
     mockedUnzipper.Parse.mockReturnValueOnce(mockParseStream);
+    mockedParser;
 
     mockParseStream.on.mockImplementationOnce((event: string | symbol, cb: (...args: unknown[]) => void) => {
       const xml = 'qasdwe---invalid xml<wqe></sd>';
@@ -83,6 +95,13 @@ describe('Loader', () => {
     mockReadstream.pipe.mockReturnValueOnce(mockParseStream);
     mockedFs.createReadStream.mockReturnValueOnce(mockReadstream);
 
-    return expect(new Loader('any/roster/file.rosz').load()).rejects.toThrowError();
+    function parseString(data: convertableToString, cb: (err: Error, result: unknown) => void): void {
+      cb(new Error('Failed to parse input'), undefined);
+    }
+
+    mockedParser.parseString = parseString as jest.Mocked<typeof mockedParser.parseString>;
+
+    const loader: RosterLoader = new PathRosterLoader('/file/path.rosz');
+    return expect(loader.load()).rejects.toThrowError();
   });
 });

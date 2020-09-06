@@ -1,0 +1,3286 @@
+{
+  "$": {
+    "xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "battleScribeVersion": "2.03",
+    "gameSystemId": "28ec-711c-d87f-3aeb",
+    "gameSystemName": "Warrior Axe 9000",
+    "gameSystemRevision": "134",
+    "id": "5224-117c-3e73-36a1",
+    "name": "Super Soldier Strike Force",
+    "xmlns": "http://www.battlescribe.net/schema/rosterSchema"
+  },
+  "costs": [
+    {
+      "cost": [
+        {
+          "$": {
+            "typeId": "e356-c769-5920-6e14",
+            "value": "87",
+            "name": " PL"
+          }
+        },
+        {
+          "$": {
+            "typeId": "points",
+            "value": "1837",
+            "name": "pts"
+          }
+        },
+        {
+          "$": {
+            "typeId": "2d3b-b544-ad49-fb75",
+            "value": "10",
+            "name": "CP"
+          }
+        }
+      ]
+    }
+  ],
+  "costLimits": [
+    {
+      "costLimit": [
+        {
+          "$": {
+            "typeId": "points",
+            "value": "2000",
+            "name": "pts"
+          }
+        }
+      ]
+    }
+  ],
+  "forces": [
+    {
+      "force": [
+        {
+          "$": {
+            "catalogueId": "eb0f-c144-a282-8bdc",
+            "catalogueName": "The Empire - Super Soldier Edition",
+            "catalogueRevision": "159",
+            "entryId": "564e-55d5-79bc-a4d7",
+            "id": "a80e-0e21-4aae-88e3",
+            "name": "Goon Department"
+          },
+          "publications": [
+            {
+              "publication": [
+                {
+                  "$": {
+                    "id": "28ec-711c-pubN73170",
+                    "name": "Sears Catalogue"
+                  }
+                },
+                {
+                  "$": {
+                    "id": "2ec0-6d53-e36b-9895",
+                    "name": "New York Times"
+                  }
+                }
+              ]
+            }
+          ],
+          "categories": [
+            {
+              "category": [
+                {
+                  "$": {
+                    "primary": "false",
+                    "entryId": "(No Category)",
+                    "id": "48a8-128f-c495-9c3f",
+                    "name": "Category A"
+                  },
+                  "rules": [
+                    ""
+                  ],
+                  "profiles": [
+                    ""
+                  ]
+                },
+                {
+                  "$": {
+                    "primary": "false",
+                    "entryId": "655f-e142-dfa9-11a4",
+                    "id": "987a-a067-e27f-6931",
+                    "name": "Category B"
+                  },
+                  "rules": [
+                    ""
+                  ],
+                  "profiles": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "forces": [
+            ""
+          ],
+          "selections": [
+            {
+              "selection": [
+                {
+                  "$": {
+                    "number": "1",
+                    "type": "upgrade",
+                    "entryId": "441e-cb40-3373-0972::ab90-ca27-511e-e0e1",
+                    "id": "a1f5-a8c0-6d5d-3d5e",
+                    "name": "**DEPARTMENT**"
+                  },
+                  "costs": [
+                    {
+                      "cost": [
+                        {
+                          "$": {
+                            "typeId": "e356-c769-5920-6e14",
+                            "value": "0",
+                            "name": " PL"
+                          }
+                        },
+                        {
+                          "$": {
+                            "typeId": "2d3b-b544-ad49-fb75",
+                            "value": "0",
+                            "name": "CP"
+                          }
+                        },
+                        {
+                          "$": {
+                            "typeId": "points",
+                            "value": "0",
+                            "name": "pts"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "categories": [
+                    {
+                      "category": [
+                        {
+                          "$": {
+                            "primary": "false",
+                            "entryId": "fcff-0f21-93e6-1ddc",
+                            "id": "5a90-5c61-28e2-4178",
+                            "name": "Configuration"
+                          },
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            ""
+                          ]
+                        },
+                        {
+                          "$": {
+                            "primary": "true",
+                            "entryId": "fcff-0f21-93e6-1ddc",
+                            "id": "7574-c136-dd27-a856",
+                            "name": "Configuration"
+                          },
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "selections": [
+                    {
+                      "selection": [
+                        {
+                          "$": {
+                            "number": "1",
+                            "type": "upgrade",
+                            "entryId": "441e-cb40-3373-0972::fa7d-f6f8-d10f-30ee::d9c6-9d76-681f-8c28",
+                            "entryGroupId": "441e-cb40-3373-0972::fa7d-f6f8-d10f-30ee::c1ea-fb91-e9c6-e6f4",
+                            "id": "bebe-fe42-5d60-e8f9",
+                            "name": "Accounting"
+                          },
+                          "costs": [
+                            {
+                              "cost": [
+                                {
+                                  "$": {
+                                    "typeId": "e356-c769-5920-6e14",
+                                    "value": "0",
+                                    "name": " PL"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "2d3b-b544-ad49-fb75",
+                                    "value": "0",
+                                    "name": "CP"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "points",
+                                    "value": "0",
+                                    "name": "pts"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "categories": [
+                            ""
+                          ],
+                          "selections": [
+                            ""
+                          ],
+                          "rules": [
+                            {
+                              "rule": [
+                                {
+                                  "$": {
+                                    "hidden": "false",
+                                    "page": "",
+                                    "id": "441e-cb40-3373-0972::fa7d-f6f8-d10f-30ee::610c-c233-4d96-b7bc::2deb-254e-c616-78b9",
+                                    "name": "Water Cooler Talk"
+                                  },
+                                  "description": [
+                                    "Gossip and holiday plans."
+                                  ],
+                                  "modifiers": [
+                                    ""
+                                  ],
+                                  "modifierGroups": [
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "profiles": [
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "rules": [
+                    ""
+                  ],
+                  "profiles": [
+                    ""
+                  ]
+                },
+                {
+                  "$": {
+                    "number": "1",
+                    "type": "upgrade",
+                    "entryId": "6915-c8f4-8ae0-fcc0::7b2e-47fe-ee40-8b35",
+                    "customName": "",
+                    "customNotes": "",
+                    "id": "af5a-972f-fe2c-d25d",
+                    "name": "Super Strong Super Soldier Squad"
+                  },
+                  "costs": [
+                    {
+                      "cost": [
+                        {
+                          "$": {
+                            "typeId": "e356-c769-5920-6e14",
+                            "value": "9",
+                            "name": " PL"
+                          }
+                        },
+                        {
+                          "$": {
+                            "typeId": "points",
+                            "value": "0",
+                            "name": "pts"
+                          }
+                        },
+                        {
+                          "$": {
+                            "typeId": "2d3b-b544-ad49-fb75",
+                            "value": "0",
+                            "name": "CP"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "categories": [
+                    {
+                      "category": [
+                        {
+                          "$": {
+                            "primary": "false",
+                            "entryId": "c7b7-edbc-bc14-6238",
+                            "id": "4c71-e04d-fad5-cdd2",
+                            "name": "Super Soldiers"
+                          },
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            ""
+                          ]
+                        },
+                        {
+                          "$": {
+                            "primary": "true",
+                            "entryId": "638d74c6-bd97-4de5-b65a-6aaa24e9f4b2",
+                            "id": "aa4f-5cf2-d4a1-b01e",
+                            "name": "Super Strong"
+                          },
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "selections": [
+                    {
+                      "selection": [
+                        {
+                          "$": {
+                            "number": "1",
+                            "type": "upgrade",
+                            "entryId": "6915-c8f4-8ae0-fcc0::79a7-4ccf-2317-63f4",
+                            "entryGroupId": "6915-c8f4-8ae0-fcc0::2714-e64c-1ccf-b0b3",
+                            "id": "88da-4832-803b-430e",
+                            "name": "Super Soldier Leader"
+                          },
+                          "costs": [
+                            {
+                              "cost": [
+                                {
+                                  "$": {
+                                    "typeId": "points",
+                                    "value": "23",
+                                    "name": "pts"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "e356-c769-5920-6e14",
+                                    "value": "0",
+                                    "name": " PL"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "2d3b-b544-ad49-fb75",
+                                    "value": "0",
+                                    "name": "CP"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "categories": [
+                            ""
+                          ],
+                          "selections": [
+                            {
+                              "selection": [
+                                {
+                                  "$": {
+                                    "number": "1",
+                                    "type": "upgrade",
+                                    "entryId": "6915-c8f4-8ae0-fcc0::05dc-73b9-9d0f-1352::bc9e-551d-9afb-78d5",
+                                    "id": "ec7f-69d8-b9e4-520c",
+                                    "name": "Steel ruler"
+                                  },
+                                  "costs": [
+                                    {
+                                      "cost": [
+                                        {
+                                          "$": {
+                                            "typeId": "points",
+                                            "value": "5",
+                                            "name": "pts"
+                                          }
+                                        },
+                                        {
+                                          "$": {
+                                            "typeId": "e356-c769-5920-6e14",
+                                            "value": "0",
+                                            "name": " PL"
+                                          }
+                                        },
+                                        {
+                                          "$": {
+                                            "typeId": "2d3b-b544-ad49-fb75",
+                                            "value": "0",
+                                            "name": "CP"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "categories": [
+                                    ""
+                                  ],
+                                  "selections": [
+                                    ""
+                                  ],
+                                  "rules": [
+                                    ""
+                                  ],
+                                  "profiles": [
+                                    {
+                                      "profile": [
+                                        {
+                                          "$": {
+                                            "typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+                                            "typeName": "Weapon",
+                                            "hidden": "false",
+                                            "page": "",
+                                            "id": "6915-c8f4-8ae0-fcc0::05dc-73b9-9d0f-1352::1fb6-6551-cc76-96f6::47df-8e01-d0cf-58e8",
+                                            "name": "Steel ruler"
+                                          },
+                                          "characteristics": [
+                                            {
+                                              "characteristic": [
+                                                {
+                                                  "_": "Melee",
+                                                  "$": {
+                                                    "typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+                                                    "name": "Range"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "Melee",
+                                                  "$": {
+                                                    "typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+                                                    "name": "Type"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "User",
+                                                  "$": {
+                                                    "typeId": "59b1-319e-ec13-d466",
+                                                    "name": "S"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "-3",
+                                                  "$": {
+                                                    "typeId": "75aa-a838-b675-6484",
+                                                    "name": "AP"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "1",
+                                                  "$": {
+                                                    "typeId": "ae8a-3137-d65b-4ca7",
+                                                    "name": "D"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "-",
+                                                  "$": {
+                                                    "typeId": "837d-5e63-aeb7-1410",
+                                                    "name": "Abilities"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ],
+                                          "modifiers": [
+                                            ""
+                                          ],
+                                          "modifierGroups": [
+                                            ""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "$": {
+                                    "number": "1",
+                                    "type": "upgrade",
+                                    "entryId": "6915-c8f4-8ae0-fcc0::a06f-a062-dd38-8cc6::2b03-8d64-3711-f300",
+                                    "id": "6809-e1bb-fb18-13e7",
+                                    "name": "Blunderbuss"
+                                  },
+                                  "costs": [
+                                    {
+                                      "cost": [
+                                        {
+                                          "$": {
+                                            "typeId": "points",
+                                            "value": "3",
+                                            "name": "pts"
+                                          }
+                                        },
+                                        {
+                                          "$": {
+                                            "typeId": "e356-c769-5920-6e14",
+                                            "value": "0",
+                                            "name": " PL"
+                                          }
+                                        },
+                                        {
+                                          "$": {
+                                            "typeId": "2d3b-b544-ad49-fb75",
+                                            "value": "0",
+                                            "name": "CP"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "categories": [
+                                    ""
+                                  ],
+                                  "selections": [
+                                    ""
+                                  ],
+                                  "rules": [
+                                    ""
+                                  ],
+                                  "profiles": [
+                                    {
+                                      "profile": [
+                                        {
+                                          "$": {
+                                            "typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+                                            "typeName": "Weapon",
+                                            "hidden": "false",
+                                            "page": "",
+                                            "id": "6915-c8f4-8ae0-fcc0::a06f-a062-dd38-8cc6::df42-5dc2-4e53-ec49::505e-a5aa-edab-6d5b",
+                                            "name": "Blunderbuss"
+                                          },
+                                          "characteristics": [
+                                            {
+                                              "characteristic": [
+                                                {
+                                                  "_": "24\"",
+                                                  "$": {
+                                                    "typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+                                                    "name": "Range"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "Rapid Fire 2",
+                                                  "$": {
+                                                    "typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+                                                    "name": "Type"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "4",
+                                                  "$": {
+                                                    "typeId": "59b1-319e-ec13-d466",
+                                                    "name": "S"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "0",
+                                                  "$": {
+                                                    "typeId": "75aa-a838-b675-6484",
+                                                    "name": "AP"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "1",
+                                                  "$": {
+                                                    "typeId": "ae8a-3137-d65b-4ca7",
+                                                    "name": "D"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "-",
+                                                  "$": {
+                                                    "typeId": "837d-5e63-aeb7-1410",
+                                                    "name": "Abilities"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ],
+                                          "modifiers": [
+                                            ""
+                                          ],
+                                          "modifierGroups": [
+                                            ""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            ""
+                          ]
+                        },
+                        {
+                          "$": {
+                            "number": "2",
+                            "type": "upgrade",
+                            "entryId": "6915-c8f4-8ae0-fcc0::7ac3-3048-44ad-f2db",
+                            "entryGroupId": "6915-c8f4-8ae0-fcc0::2714-e64c-1ccf-b0b3",
+                            "id": "1986-e0dd-f1de-e02c",
+                            "name": "Super Soldier w/Oven mitts"
+                          },
+                          "costs": [
+                            {
+                              "cost": [
+                                {
+                                  "$": {
+                                    "typeId": "points",
+                                    "value": "46",
+                                    "name": "pts"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "e356-c769-5920-6e14",
+                                    "value": "0",
+                                    "name": " PL"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "2d3b-b544-ad49-fb75",
+                                    "value": "0",
+                                    "name": "CP"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "categories": [
+                            ""
+                          ],
+                          "selections": [
+                            {
+                              "selection": [
+                                {
+                                  "$": {
+                                    "number": "2",
+                                    "type": "upgrade",
+                                    "entryId": "6915-c8f4-8ae0-fcc0::b901-4f82-86e0-361c::8d51-2073-1990-b915",
+                                    "id": "f5bd-3e8d-a5a0-3da4",
+                                    "name": "Blunderbuss"
+                                  },
+                                  "costs": [
+                                    {
+                                      "cost": [
+                                        {
+                                          "$": {
+                                            "typeId": "points",
+                                            "value": "6",
+                                            "name": "pts"
+                                          }
+                                        },
+                                        {
+                                          "$": {
+                                            "typeId": "e356-c769-5920-6e14",
+                                            "value": "0",
+                                            "name": " PL"
+                                          }
+                                        },
+                                        {
+                                          "$": {
+                                            "typeId": "2d3b-b544-ad49-fb75",
+                                            "value": "0",
+                                            "name": "CP"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "categories": [
+                                    ""
+                                  ],
+                                  "selections": [
+                                    ""
+                                  ],
+                                  "rules": [
+                                    ""
+                                  ],
+                                  "profiles": [
+                                    {
+                                      "profile": [
+                                        {
+                                          "$": {
+                                            "typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+                                            "typeName": "Weapon",
+                                            "hidden": "false",
+                                            "page": "",
+                                            "id": "6915-c8f4-8ae0-fcc0::b901-4f82-86e0-361c::23e7-b64b-2dea-a2b1::505e-a5aa-edab-6d5b",
+                                            "name": "Blunderbuss"
+                                          },
+                                          "characteristics": [
+                                            {
+                                              "characteristic": [
+                                                {
+                                                  "_": "24\"",
+                                                  "$": {
+                                                    "typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+                                                    "name": "Range"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "Rapid Fire 2",
+                                                  "$": {
+                                                    "typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+                                                    "name": "Type"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "4",
+                                                  "$": {
+                                                    "typeId": "59b1-319e-ec13-d466",
+                                                    "name": "S"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "0",
+                                                  "$": {
+                                                    "typeId": "75aa-a838-b675-6484",
+                                                    "name": "AP"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "1",
+                                                  "$": {
+                                                    "typeId": "ae8a-3137-d65b-4ca7",
+                                                    "name": "D"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "-",
+                                                  "$": {
+                                                    "typeId": "837d-5e63-aeb7-1410",
+                                                    "name": "Abilities"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ],
+                                          "modifiers": [
+                                            ""
+                                          ],
+                                          "modifierGroups": [
+                                            ""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "$": {
+                                    "number": "2",
+                                    "type": "upgrade",
+                                    "entryId": "6915-c8f4-8ae0-fcc0::b404-ca26-0ee2-4426::b3d9-4546-b27b-f995",
+                                    "id": "f979-da58-aa78-13cf",
+                                    "name": "Oven mitt"
+                                  },
+                                  "costs": [
+                                    {
+                                      "cost": [
+                                        {
+                                          "$": {
+                                            "typeId": "points",
+                                            "value": "20",
+                                            "name": "pts"
+                                          }
+                                        },
+                                        {
+                                          "$": {
+                                            "typeId": "e356-c769-5920-6e14",
+                                            "value": "0",
+                                            "name": " PL"
+                                          }
+                                        },
+                                        {
+                                          "$": {
+                                            "typeId": "2d3b-b544-ad49-fb75",
+                                            "value": "0",
+                                            "name": "CP"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "categories": [
+                                    ""
+                                  ],
+                                  "selections": [
+                                    ""
+                                  ],
+                                  "rules": [
+                                    ""
+                                  ],
+                                  "profiles": [
+                                    {
+                                      "profile": [
+                                        {
+                                          "$": {
+                                            "typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+                                            "typeName": "Weapon",
+                                            "hidden": "false",
+                                            "id": "6915-c8f4-8ae0-fcc0::b404-ca26-0ee2-4426::c1e5-4fa9-c4cd-defb::3520-0bb4-90f2-084b",
+                                            "name": "Oven mitt"
+                                          },
+                                          "characteristics": [
+                                            {
+                                              "characteristic": [
+                                                {
+                                                  "_": "Melee",
+                                                  "$": {
+                                                    "typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+                                                    "name": "Range"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "Melee",
+                                                  "$": {
+                                                    "typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+                                                    "name": "Type"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "x2",
+                                                  "$": {
+                                                    "typeId": "59b1-319e-ec13-d466",
+                                                    "name": "S"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "-3",
+                                                  "$": {
+                                                    "typeId": "75aa-a838-b675-6484",
+                                                    "name": "AP"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "D3",
+                                                  "$": {
+                                                    "typeId": "ae8a-3137-d65b-4ca7",
+                                                    "name": "D"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "Can handle hot stuff.",
+                                                  "$": {
+                                                    "typeId": "837d-5e63-aeb7-1410",
+                                                    "name": "Abilities"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ],
+                                          "modifiers": [
+                                            ""
+                                          ],
+                                          "modifierGroups": [
+                                            ""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            ""
+                          ]
+                        },
+                        {
+                          "$": {
+                            "number": "1",
+                            "type": "upgrade",
+                            "entryId": "6915-c8f4-8ae0-fcc0::860c-e3ad-2c8d-f3d0",
+                            "entryGroupId": "6915-c8f4-8ae0-fcc0::2714-e64c-1ccf-b0b3",
+                            "id": "6ab9-6501-eef5-7061",
+                            "name": "Super Solder w/Sharp oven mitt"
+                          },
+                          "costs": [
+                            {
+                              "cost": [
+                                {
+                                  "$": {
+                                    "typeId": "points",
+                                    "value": "23",
+                                    "name": "pts"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "e356-c769-5920-6e14",
+                                    "value": "0",
+                                    "name": " PL"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "2d3b-b544-ad49-fb75",
+                                    "value": "0",
+                                    "name": "CP"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "categories": [
+                            ""
+                          ],
+                          "selections": [
+                            {
+                              "selection": [
+                                {
+                                  "$": {
+                                    "number": "1",
+                                    "type": "upgrade",
+                                    "entryId": "6915-c8f4-8ae0-fcc0::d3d7-760a-ad21-3a9b::8d51-2073-1990-b915",
+                                    "id": "d3e9-60ed-e59a-e759",
+                                    "name": "Blunderbuss"
+                                  },
+                                  "costs": [
+                                    {
+                                      "cost": [
+                                        {
+                                          "$": {
+                                            "typeId": "points",
+                                            "value": "3",
+                                            "name": "pts"
+                                          }
+                                        },
+                                        {
+                                          "$": {
+                                            "typeId": "e356-c769-5920-6e14",
+                                            "value": "0",
+                                            "name": " PL"
+                                          }
+                                        },
+                                        {
+                                          "$": {
+                                            "typeId": "2d3b-b544-ad49-fb75",
+                                            "value": "0",
+                                            "name": "CP"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "categories": [
+                                    ""
+                                  ],
+                                  "selections": [
+                                    ""
+                                  ],
+                                  "rules": [
+                                    ""
+                                  ],
+                                  "profiles": [
+                                    {
+                                      "profile": [
+                                        {
+                                          "$": {
+                                            "typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+                                            "typeName": "Weapon",
+                                            "hidden": "false",
+                                            "page": "",
+                                            "id": "6915-c8f4-8ae0-fcc0::d3d7-760a-ad21-3a9b::23e7-b64b-2dea-a2b1::505e-a5aa-edab-6d5b",
+                                            "name": "Blunderbuss"
+                                          },
+                                          "characteristics": [
+                                            {
+                                              "characteristic": [
+                                                {
+                                                  "_": "24\"",
+                                                  "$": {
+                                                    "typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+                                                    "name": "Range"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "Rapid Fire 2",
+                                                  "$": {
+                                                    "typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+                                                    "name": "Type"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "4",
+                                                  "$": {
+                                                    "typeId": "59b1-319e-ec13-d466",
+                                                    "name": "S"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "0",
+                                                  "$": {
+                                                    "typeId": "75aa-a838-b675-6484",
+                                                    "name": "AP"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "1",
+                                                  "$": {
+                                                    "typeId": "ae8a-3137-d65b-4ca7",
+                                                    "name": "D"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "-",
+                                                  "$": {
+                                                    "typeId": "837d-5e63-aeb7-1410",
+                                                    "name": "Abilities"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ],
+                                          "modifiers": [
+                                            ""
+                                          ],
+                                          "modifierGroups": [
+                                            ""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "$": {
+                                    "number": "1",
+                                    "type": "upgrade",
+                                    "entryId": "6915-c8f4-8ae0-fcc0::58fe-f5f4-6b29-a1e7::d9b3-4b4e-714e-b467",
+                                    "id": "f7be-5d38-809a-2561",
+                                    "name": "Sharp oven mitt"
+                                  },
+                                  "costs": [
+                                    {
+                                      "cost": [
+                                        {
+                                          "$": {
+                                            "typeId": "points",
+                                            "value": "10",
+                                            "name": "pts"
+                                          }
+                                        },
+                                        {
+                                          "$": {
+                                            "typeId": "e356-c769-5920-6e14",
+                                            "value": "0",
+                                            "name": " PL"
+                                          }
+                                        },
+                                        {
+                                          "$": {
+                                            "typeId": "2d3b-b544-ad49-fb75",
+                                            "value": "0",
+                                            "name": "CP"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "categories": [
+                                    ""
+                                  ],
+                                  "selections": [
+                                    ""
+                                  ],
+                                  "rules": [
+                                    ""
+                                  ],
+                                  "profiles": [
+                                    {
+                                      "profile": [
+                                        {
+                                          "$": {
+                                            "typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+                                            "typeName": "Weapon",
+                                            "hidden": "false",
+                                            "id": "6915-c8f4-8ae0-fcc0::58fe-f5f4-6b29-a1e7::0cac-5996-b46d-1abf::8194-4688-65b3-f996",
+                                            "name": "Sharp oven mitt"
+                                          },
+                                          "characteristics": [
+                                            {
+                                              "characteristic": [
+                                                {
+                                                  "_": "Melee",
+                                                  "$": {
+                                                    "typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+                                                    "name": "Range"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "Melee",
+                                                  "$": {
+                                                    "typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+                                                    "name": "Type"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "x2",
+                                                  "$": {
+                                                    "typeId": "59b1-319e-ec13-d466",
+                                                    "name": "S"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "-4",
+                                                  "$": {
+                                                    "typeId": "75aa-a838-b675-6484",
+                                                    "name": "AP"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "2",
+                                                  "$": {
+                                                    "typeId": "ae8a-3137-d65b-4ca7",
+                                                    "name": "D"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "Can cut through hot stuff.",
+                                                  "$": {
+                                                    "typeId": "837d-5e63-aeb7-1410",
+                                                    "name": "Abilities"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ],
+                                          "modifiers": [
+                                            ""
+                                          ],
+                                          "modifierGroups": [
+                                            ""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            ""
+                          ]
+                        },
+                        {
+                          "$": {
+                            "number": "1",
+                            "type": "upgrade",
+                            "entryId": "6915-c8f4-8ae0-fcc0::a6fe-b724-d2df-fad0",
+                            "entryGroupId": "6915-c8f4-8ae0-fcc0::2714-e64c-1ccf-b0b3",
+                            "id": "1218-738b-7338-5546",
+                            "name": "Super Soldier w/Ironing board"
+                          },
+                          "costs": [
+                            {
+                              "cost": [
+                                {
+                                  "$": {
+                                    "typeId": "points",
+                                    "value": "23",
+                                    "name": "pts"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "e356-c769-5920-6e14",
+                                    "value": "0",
+                                    "name": " PL"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "2d3b-b544-ad49-fb75",
+                                    "value": "0",
+                                    "name": "CP"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "categories": [
+                            ""
+                          ],
+                          "selections": [
+                            {
+                              "selection": [
+                                {
+                                  "$": {
+                                    "number": "1",
+                                    "type": "upgrade",
+                                    "entryId": "6915-c8f4-8ae0-fcc0::7f23-7bde-a0e8-a68e::caae-f721-310b-3798",
+                                    "entryGroupId": "6915-c8f4-8ae0-fcc0::f0dc-f2a4-4c93-83f2",
+                                    "id": "678c-69ac-a858-fadc",
+                                    "name": "Oven mitt"
+                                  },
+                                  "costs": [
+                                    {
+                                      "cost": [
+                                        {
+                                          "$": {
+                                            "typeId": "points",
+                                            "value": "10",
+                                            "name": "pts"
+                                          }
+                                        },
+                                        {
+                                          "$": {
+                                            "typeId": "e356-c769-5920-6e14",
+                                            "value": "0",
+                                            "name": " PL"
+                                          }
+                                        },
+                                        {
+                                          "$": {
+                                            "typeId": "2d3b-b544-ad49-fb75",
+                                            "value": "0",
+                                            "name": "CP"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "categories": [
+                                    ""
+                                  ],
+                                  "selections": [
+                                    ""
+                                  ],
+                                  "rules": [
+                                    ""
+                                  ],
+                                  "profiles": [
+                                    {
+                                      "profile": [
+                                        {
+                                          "$": {
+                                            "typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+                                            "typeName": "Weapon",
+                                            "hidden": "false",
+                                            "id": "6915-c8f4-8ae0-fcc0::7f23-7bde-a0e8-a68e::2fb6-0f90-b8f7-0e19::3520-0bb4-90f2-084b",
+                                            "name": "Oven mitt"
+                                          },
+                                          "characteristics": [
+                                            {
+                                              "characteristic": [
+                                                {
+                                                  "_": "Melee",
+                                                  "$": {
+                                                    "typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+                                                    "name": "Range"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "Melee",
+                                                  "$": {
+                                                    "typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+                                                    "name": "Type"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "x2",
+                                                  "$": {
+                                                    "typeId": "59b1-319e-ec13-d466",
+                                                    "name": "S"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "-3",
+                                                  "$": {
+                                                    "typeId": "75aa-a838-b675-6484",
+                                                    "name": "AP"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "D3",
+                                                  "$": {
+                                                    "typeId": "ae8a-3137-d65b-4ca7",
+                                                    "name": "D"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "Can handle hot stuff.",
+                                                  "$": {
+                                                    "typeId": "837d-5e63-aeb7-1410",
+                                                    "name": "Abilities"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ],
+                                          "modifiers": [
+                                            ""
+                                          ],
+                                          "modifierGroups": [
+                                            ""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "$": {
+                                    "number": "1",
+                                    "type": "upgrade",
+                                    "entryId": "6915-c8f4-8ae0-fcc0::deb7-5752-bbf9-9067::c6d5-5e7c-47b8-b254::51b0-3d46-5af4-683e",
+                                    "entryGroupId": "6915-c8f4-8ae0-fcc0::deb7-5752-bbf9-9067::78cd-b926-8e71-9ef6",
+                                    "id": "d06c-9174-4c8e-96dc",
+                                    "name": "Ironing board"
+                                  },
+                                  "costs": [
+                                    {
+                                      "cost": [
+                                        {
+                                          "$": {
+                                            "typeId": "points",
+                                            "value": "15",
+                                            "name": "pts"
+                                          }
+                                        },
+                                        {
+                                          "$": {
+                                            "typeId": "e356-c769-5920-6e14",
+                                            "value": "0",
+                                            "name": " PL"
+                                          }
+                                        },
+                                        {
+                                          "$": {
+                                            "typeId": "2d3b-b544-ad49-fb75",
+                                            "value": "0",
+                                            "name": "CP"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "categories": [
+                                    ""
+                                  ],
+                                  "selections": [
+                                    ""
+                                  ],
+                                  "rules": [
+                                    ""
+                                  ],
+                                  "profiles": [
+                                    {
+                                      "profile": [
+                                        {
+                                          "$": {
+                                            "typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+                                            "typeName": "Weapon",
+                                            "hidden": "false",
+                                            "page": "",
+                                            "id": "6915-c8f4-8ae0-fcc0::deb7-5752-bbf9-9067::c6d5-5e7c-47b8-b254::4e22-30bc-2ef4-dc94::20dc-1fbb-dc65-7f04",
+                                            "name": "Ironing board"
+                                          },
+                                          "characteristics": [
+                                            {
+                                              "characteristic": [
+                                                {
+                                                  "_": "24\"",
+                                                  "$": {
+                                                    "typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+                                                    "name": "Range"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "Heavy 6",
+                                                  "$": {
+                                                    "typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+                                                    "name": "Type"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "6",
+                                                  "$": {
+                                                    "typeId": "59b1-319e-ec13-d466",
+                                                    "name": "S"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "-1",
+                                                  "$": {
+                                                    "typeId": "75aa-a838-b675-6484",
+                                                    "name": "AP"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "1",
+                                                  "$": {
+                                                    "typeId": "ae8a-3137-d65b-4ca7",
+                                                    "name": "D"
+                                                  }
+                                                },
+                                                {
+                                                  "_": "-",
+                                                  "$": {
+                                                    "typeId": "837d-5e63-aeb7-1410",
+                                                    "name": "Abilities"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          ],
+                                          "modifiers": [
+                                            ""
+                                          ],
+                                          "modifierGroups": [
+                                            ""
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "rules": [
+                    {
+                      "rule": [
+                        {
+                          "$": {
+                            "hidden": "false",
+                            "id": "6915-c8f4-8ae0-fcc0::9472-1bb6-0032-943e::01a4-bec8-b573-fde7",
+                            "name": "Scary"
+                          },
+                          "description": [
+                            "This unit is downright scary."
+                          ],
+                          "modifiers": [
+                            ""
+                          ],
+                          "modifierGroups": [
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "profiles": [
+                    {
+                      "profile": [
+                        {
+                          "$": {
+                            "typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+                            "typeName": "Abilities",
+                            "hidden": "false",
+                            "id": "6915-c8f4-8ae0-fcc0::7da1-a941-7981-def1::d566-23fd-55a5-103f",
+                            "name": "Cooking"
+                          },
+                          "characteristics": [
+                            {
+                              "characteristic": [
+                                {
+                                  "_": "Can make really good pasta.",
+                                  "$": {
+                                    "typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+                                    "name": "Description"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "modifiers": [
+                            ""
+                          ],
+                          "modifierGroups": [
+                            ""
+                          ]
+                        },
+                        {
+                          "$": {
+                            "typeId": "800f-21d0-4387-c943",
+                            "typeName": "Unit",
+                            "hidden": "false",
+                            "id": "6915-c8f4-8ae0-fcc0::f3f9-264b-a759-6c3c::b08d-e2be-c4d2-d661",
+                            "name": "Super Soldier"
+                          },
+                          "characteristics": [
+                            {
+                              "characteristic": [
+                                {
+                                  "_": "5\"",
+                                  "$": {
+                                    "typeId": "0bdf-a96e-9e38-7779",
+                                    "name": "M"
+                                  }
+                                },
+                                {
+                                  "_": "3+",
+                                  "$": {
+                                    "typeId": "e7f0-1278-0250-df0c",
+                                    "name": "WS"
+                                  }
+                                },
+                                {
+                                  "_": "3+",
+                                  "$": {
+                                    "typeId": "381b-eb28-74c3-df5f",
+                                    "name": "BS"
+                                  }
+                                },
+                                {
+                                  "_": "4",
+                                  "$": {
+                                    "typeId": "2218-aa3c-265f-2939",
+                                    "name": "S"
+                                  }
+                                },
+                                {
+                                  "_": "4",
+                                  "$": {
+                                    "typeId": "9c9f-9774-a358-3a39",
+                                    "name": "T"
+                                  }
+                                },
+                                {
+                                  "_": "2",
+                                  "$": {
+                                    "typeId": "f330-5e6e-4110-0978",
+                                    "name": "W"
+                                  }
+                                },
+                                {
+                                  "_": "2",
+                                  "$": {
+                                    "typeId": "13fc-b29b-31f2-ab9f",
+                                    "name": "A"
+                                  }
+                                },
+                                {
+                                  "_": "8",
+                                  "$": {
+                                    "typeId": "00ca-f8b8-876d-b705",
+                                    "name": "Ld"
+                                  }
+                                },
+                                {
+                                  "_": "2+",
+                                  "$": {
+                                    "typeId": "c0df-df94-abd7-e8d3",
+                                    "name": "Save"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "modifiers": [
+                            ""
+                          ],
+                          "modifierGroups": [
+                            ""
+                          ]
+                        },
+                        {
+                          "$": {
+                            "typeId": "800f-21d0-4387-c943",
+                            "typeName": "Unit",
+                            "hidden": "false",
+                            "id": "6915-c8f4-8ae0-fcc0::2782-8232-0f2e-9f6e::2920-476f-389d-36a3",
+                            "name": "Super Soldier Leader"
+                          },
+                          "characteristics": [
+                            {
+                              "characteristic": [
+                                {
+                                  "_": "5\"",
+                                  "$": {
+                                    "typeId": "0bdf-a96e-9e38-7779",
+                                    "name": "M"
+                                  }
+                                },
+                                {
+                                  "_": "3+",
+                                  "$": {
+                                    "typeId": "e7f0-1278-0250-df0c",
+                                    "name": "WS"
+                                  }
+                                },
+                                {
+                                  "_": "3+",
+                                  "$": {
+                                    "typeId": "381b-eb28-74c3-df5f",
+                                    "name": "BS"
+                                  }
+                                },
+                                {
+                                  "_": "4",
+                                  "$": {
+                                    "typeId": "2218-aa3c-265f-2939",
+                                    "name": "S"
+                                  }
+                                },
+                                {
+                                  "_": "4",
+                                  "$": {
+                                    "typeId": "9c9f-9774-a358-3a39",
+                                    "name": "T"
+                                  }
+                                },
+                                {
+                                  "_": "2",
+                                  "$": {
+                                    "typeId": "f330-5e6e-4110-0978",
+                                    "name": "W"
+                                  }
+                                },
+                                {
+                                  "_": "3",
+                                  "$": {
+                                    "typeId": "13fc-b29b-31f2-ab9f",
+                                    "name": "A"
+                                  }
+                                },
+                                {
+                                  "_": "9",
+                                  "$": {
+                                    "typeId": "00ca-f8b8-876d-b705",
+                                    "name": "Ld"
+                                  }
+                                },
+                                {
+                                  "_": "2+",
+                                  "$": {
+                                    "typeId": "c0df-df94-abd7-e8d3",
+                                    "name": "Save"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "modifiers": [
+                            ""
+                          ],
+                          "modifierGroups": [
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$": {
+                    "number": "1",
+                    "type": "model",
+                    "entryId": "2362-d906-56d9-4e6d::323b-4eb4-e725-1fdc",
+                    "id": "a451-6f71-ab7e-b25b",
+                    "name": "Nerd"
+                  },
+                  "costs": [
+                    {
+                      "cost": [
+                        {
+                          "$": {
+                            "typeId": "e356-c769-5920-6e14",
+                            "value": "9",
+                            "name": " PL"
+                          }
+                        },
+                        {
+                          "$": {
+                            "typeId": "points",
+                            "value": "120",
+                            "name": "pts"
+                          }
+                        },
+                        {
+                          "$": {
+                            "typeId": "2d3b-b544-ad49-fb75",
+                            "value": "0",
+                            "name": "CP"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "categories": [
+                    {
+                      "category": [
+                        {
+                          "$": {
+                            "primary": "false",
+                            "entryId": "ef18-746a-369f-43a4",
+                            "id": "0754-7f20-1b0a-c285",
+                            "name": "A dude"
+                          },
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            ""
+                          ]
+                        },
+                        {
+                          "$": {
+                            "primary": "true",
+                            "entryId": "848a6ff2-0def-4c72-8433-ff7da70e6bc7",
+                            "id": "9316-de1f-857b-c1f8",
+                            "name": "Natural leader"
+                          },
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "selections": [
+                    {
+                      "selection": [
+                        {
+                          "$": {
+                            "number": "1",
+                            "type": "upgrade",
+                            "entryId": "2362-d906-56d9-4e6d::f4bd-9085-b006-e1f8::b7c0-8d9c-2e03-400c",
+                            "id": "644d-d961-2067-a475",
+                            "name": "Notebook"
+                          },
+                          "costs": [
+                            {
+                              "cost": [
+                                {
+                                  "$": {
+                                    "typeId": "points",
+                                    "value": "20",
+                                    "name": "pts"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "e356-c769-5920-6e14",
+                                    "value": "0",
+                                    "name": " PL"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "2d3b-b544-ad49-fb75",
+                                    "value": "0",
+                                    "name": "CP"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "categories": [
+                            ""
+                          ],
+                          "selections": [
+                            ""
+                          ],
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            {
+                              "profile": [
+                                {
+                                  "$": {
+                                    "typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+                                    "typeName": "Weapon",
+                                    "hidden": "false",
+                                    "id": "2362-d906-56d9-4e6d::f4bd-9085-b006-e1f8::955a-06a4-b86c-ea0a::f229-60ae-abe8-1eb9",
+                                    "name": "Notebook"
+                                  },
+                                  "characteristics": [
+                                    {
+                                      "characteristic": [
+                                        {
+                                          "_": "Melee",
+                                          "$": {
+                                            "typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+                                            "name": "Range"
+                                          }
+                                        },
+                                        {
+                                          "_": "Melee",
+                                          "$": {
+                                            "typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+                                            "name": "Type"
+                                          }
+                                        },
+                                        {
+                                          "_": "x2",
+                                          "$": {
+                                            "typeId": "59b1-319e-ec13-d466",
+                                            "name": "S"
+                                          }
+                                        },
+                                        {
+                                          "_": "-3",
+                                          "$": {
+                                            "typeId": "75aa-a838-b675-6484",
+                                            "name": "AP"
+                                          }
+                                        },
+                                        {
+                                          "_": "3",
+                                          "$": {
+                                            "typeId": "ae8a-3137-d65b-4ca7",
+                                            "name": "D"
+                                          }
+                                        },
+                                        {
+                                          "_": "Contains knowledge about niche stuff.",
+                                          "$": {
+                                            "typeId": "837d-5e63-aeb7-1410",
+                                            "name": "Abilities"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "modifiers": [
+                                    ""
+                                  ],
+                                  "modifierGroups": [
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "$": {
+                            "number": "1",
+                            "type": "upgrade",
+                            "entryId": "2362-d906-56d9-4e6d::d915-5c6d-ecdb-5ea7::4a99-b23f-a7a7-4498",
+                            "id": "6768-eccc-c579-0232",
+                            "name": "Ballpoint pen"
+                          },
+                          "costs": [
+                            {
+                              "cost": [
+                                {
+                                  "$": {
+                                    "typeId": "e356-c769-5920-6e14",
+                                    "value": "0",
+                                    "name": " PL"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "points",
+                                    "value": "0",
+                                    "name": "pts"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "2d3b-b544-ad49-fb75",
+                                    "value": "0",
+                                    "name": "CP"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "categories": [
+                            ""
+                          ],
+                          "selections": [
+                            ""
+                          ],
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            {
+                              "profile": [
+                                {
+                                  "$": {
+                                    "typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+                                    "typeName": "Weapon",
+                                    "hidden": "false",
+                                    "id": "2362-d906-56d9-4e6d::d915-5c6d-ecdb-5ea7::03aa-a431-72e2-0089::f3e5-1c21-60da-c131",
+                                    "name": "Ballpoint pen"
+                                  },
+                                  "characteristics": [
+                                    {
+                                      "characteristic": [
+                                        {
+                                          "_": "Melee",
+                                          "$": {
+                                            "typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+                                            "name": "Range"
+                                          }
+                                        },
+                                        {
+                                          "_": "Melee",
+                                          "$": {
+                                            "typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+                                            "name": "Type"
+                                          }
+                                        },
+                                        {
+                                          "_": "+4",
+                                          "$": {
+                                            "typeId": "59b1-319e-ec13-d466",
+                                            "name": "S"
+                                          }
+                                        },
+                                        {
+                                          "_": "-4",
+                                          "$": {
+                                            "typeId": "75aa-a838-b675-6484",
+                                            "name": "AP"
+                                          }
+                                        },
+                                        {
+                                          "_": "3",
+                                          "$": {
+                                            "typeId": "ae8a-3137-d65b-4ca7",
+                                            "name": "D"
+                                          }
+                                        },
+                                        {
+                                          "_": "-",
+                                          "$": {
+                                            "typeId": "837d-5e63-aeb7-1410",
+                                            "name": "Abilities"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "modifiers": [
+                                    ""
+                                  ],
+                                  "modifierGroups": [
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "$": {
+                            "number": "1",
+                            "type": "upgrade",
+                            "entryId": "2362-d906-56d9-4e6d::57a4-90cd-981e-aa18::03fd-db47-5333-1e1f",
+                            "id": "a424-ec91-6c84-9369",
+                            "name": "Show off knowledge"
+                          },
+                          "costs": [
+                            {
+                              "cost": [
+                                {
+                                  "$": {
+                                    "typeId": "e356-c769-5920-6e14",
+                                    "value": "0",
+                                    "name": " PL"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "points",
+                                    "value": "0",
+                                    "name": "pts"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "2d3b-b544-ad49-fb75",
+                                    "value": "0",
+                                    "name": "CP"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "categories": [
+                            ""
+                          ],
+                          "selections": [
+                            ""
+                          ],
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            {
+                              "profile": [
+                                {
+                                  "$": {
+                                    "typeId": "ae70-4738-0161-bec0",
+                                    "typeName": "Psychic Power",
+                                    "hidden": "false",
+                                    "id": "2362-d906-56d9-4e6d::57a4-90cd-981e-aa18::72f4-48ff-fafb-c876::5821-6c45-8572-7e0e",
+                                    "name": "Show off knowledge"
+                                  },
+                                  "characteristics": [
+                                    {
+                                      "characteristic": [
+                                        {
+                                          "_": "5",
+                                          "$": {
+                                            "typeId": "5ffd-b800-c317-532a",
+                                            "name": "Warp Charge"
+                                          }
+                                        },
+                                        {
+                                          "_": "18\"",
+                                          "$": {
+                                            "typeId": "fd64-cbc4-94de-24cc",
+                                            "name": "Range"
+                                          }
+                                        },
+                                        {
+                                          "_": "Can impress other nerds. Has no effect on non-nerds.",
+                                          "$": {
+                                            "typeId": "ad96-dfa4-b4ed-656d",
+                                            "name": "Details"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "modifiers": [
+                                    ""
+                                  ],
+                                  "modifierGroups": [
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "$": {
+                            "number": "1",
+                            "type": "upgrade",
+                            "entryId": "2362-d906-56d9-4e6d::7f14-6723-9cfa-6e77::2b03-8d64-3711-f300",
+                            "entryGroupId": "2362-d906-56d9-4e6d::73b5-f90f-5f94-a16d",
+                            "id": "0f38-ae42-ae1f-8173",
+                            "name": "Blunderbuss"
+                          },
+                          "costs": [
+                            {
+                              "cost": [
+                                {
+                                  "$": {
+                                    "typeId": "points",
+                                    "value": "3",
+                                    "name": "pts"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "e356-c769-5920-6e14",
+                                    "value": "0",
+                                    "name": " PL"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "2d3b-b544-ad49-fb75",
+                                    "value": "0",
+                                    "name": "CP"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "categories": [
+                            ""
+                          ],
+                          "selections": [
+                            ""
+                          ],
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            {
+                              "profile": [
+                                {
+                                  "$": {
+                                    "typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+                                    "typeName": "Weapon",
+                                    "hidden": "false",
+                                    "page": "",
+                                    "id": "2362-d906-56d9-4e6d::7f14-6723-9cfa-6e77::df42-5dc2-4e53-ec49::505e-a5aa-edab-6d5b",
+                                    "name": "Blunderbuss"
+                                  },
+                                  "characteristics": [
+                                    {
+                                      "characteristic": [
+                                        {
+                                          "_": "24\"",
+                                          "$": {
+                                            "typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+                                            "name": "Range"
+                                          }
+                                        },
+                                        {
+                                          "_": "Rapid Fire 2",
+                                          "$": {
+                                            "typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+                                            "name": "Type"
+                                          }
+                                        },
+                                        {
+                                          "_": "4",
+                                          "$": {
+                                            "typeId": "59b1-319e-ec13-d466",
+                                            "name": "S"
+                                          }
+                                        },
+                                        {
+                                          "_": "0",
+                                          "$": {
+                                            "typeId": "75aa-a838-b675-6484",
+                                            "name": "AP"
+                                          }
+                                        },
+                                        {
+                                          "_": "1",
+                                          "$": {
+                                            "typeId": "ae8a-3137-d65b-4ca7",
+                                            "name": "D"
+                                          }
+                                        },
+                                        {
+                                          "_": "-",
+                                          "$": {
+                                            "typeId": "837d-5e63-aeb7-1410",
+                                            "name": "Abilities"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "modifiers": [
+                                    ""
+                                  ],
+                                  "modifierGroups": [
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "$": {
+                            "number": "1",
+                            "type": "upgrade",
+                            "entryId": "2362-d906-56d9-4e6d::6c6a-e9c6-3952-8934::9381-8d80-b7f9-3181",
+                            "entryGroupId": "2362-d906-56d9-4e6d::6c6a-e9c6-3952-8934::4827-f579-85b6-064b",
+                            "id": "708d-d583-616c-63de",
+                            "name": "1. Fast typing"
+                          },
+                          "costs": [
+                            {
+                              "cost": [
+                                {
+                                  "$": {
+                                    "typeId": "e356-c769-5920-6e14",
+                                    "value": "0",
+                                    "name": " PL"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "points",
+                                    "value": "0",
+                                    "name": "pts"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "2d3b-b544-ad49-fb75",
+                                    "value": "0",
+                                    "name": "CP"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "categories": [
+                            ""
+                          ],
+                          "selections": [
+                            ""
+                          ],
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            {
+                              "profile": [
+                                {
+                                  "$": {
+                                    "typeId": "ae70-4738-0161-bec0",
+                                    "typeName": "Psychic Power",
+                                    "hidden": "false",
+                                    "id": "2362-d906-56d9-4e6d::6c6a-e9c6-3952-8934::3157-9814-b9ca-9dab",
+                                    "name": "Fast typing"
+                                  },
+                                  "characteristics": [
+                                    {
+                                      "characteristic": [
+                                        {
+                                          "_": "7",
+                                          "$": {
+                                            "typeId": "5ffd-b800-c317-532a",
+                                            "name": "Warp Charge"
+                                          }
+                                        },
+                                        {
+                                          "_": "Self",
+                                          "$": {
+                                            "typeId": "fd64-cbc4-94de-24cc",
+                                            "name": "Range"
+                                          }
+                                        },
+                                        {
+                                          "_": "Use the Dvorak keyboard layout.",
+                                          "$": {
+                                            "typeId": "ad96-dfa4-b4ed-656d",
+                                            "name": "Details"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "modifiers": [
+                                    ""
+                                  ],
+                                  "modifierGroups": [
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "$": {
+                            "number": "1",
+                            "type": "upgrade",
+                            "entryId": "2362-d906-56d9-4e6d::eeda-baef-0e6f-1f41::5efd-6285-c9f7-2a5a",
+                            "id": "0532-5b70-347a-db18",
+                            "name": "Leader of the pack"
+                          },
+                          "costs": [
+                            {
+                              "cost": [
+                                {
+                                  "$": {
+                                    "typeId": "2d3b-b544-ad49-fb75",
+                                    "value": "-1",
+                                    "name": "CP"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "e356-c769-5920-6e14",
+                                    "value": "0",
+                                    "name": " PL"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "points",
+                                    "value": "0",
+                                    "name": "pts"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "categories": [
+                            ""
+                          ],
+                          "selections": [
+                            ""
+                          ],
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            ""
+                          ]
+                        },
+                        {
+                          "$": {
+                            "number": "1",
+                            "type": "upgrade",
+                            "entryId": "2362-d906-56d9-4e6d::b992-407a-9b58-dd36::4a4f-e6be-820a-4224::0197-b805-4623-c2aa::73a7-1838-fbc4-b242",
+                            "entryGroupId": "2362-d906-56d9-4e6d::b992-407a-9b58-dd36::4a4f-e6be-820a-4224::f754-c641-2e0a-5e90",
+                            "id": "44cf-f4f5-96a3-be50",
+                            "name": "2. Leader of the pack"
+                          },
+                          "costs": [
+                            {
+                              "cost": [
+                                {
+                                  "$": {
+                                    "typeId": "e356-c769-5920-6e14",
+                                    "value": "0",
+                                    "name": " PL"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "points",
+                                    "value": "0",
+                                    "name": "pts"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "2d3b-b544-ad49-fb75",
+                                    "value": "0",
+                                    "name": "CP"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "categories": [
+                            ""
+                          ],
+                          "selections": [
+                            ""
+                          ],
+                          "rules": [
+                            {
+                              "rule": [
+                                {
+                                  "$": {
+                                    "hidden": "false",
+                                    "page": "",
+                                    "id": "2362-d906-56d9-4e6d::b992-407a-9b58-dd36::4a4f-e6be-820a-4224::0197-b805-4623-c2aa::9a7e-6e84-34e2-fef2::1c97-a0e6-03f9-74c6",
+                                    "name": "2. Leader of the pack"
+                                  },
+                                  "description": [
+                                    "Plus 1 to charisma for nerds if number of nerds equal five or more."
+                                  ],
+                                  "modifiers": [
+                                    ""
+                                  ],
+                                  "modifierGroups": [
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "profiles": [
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "rules": [""],
+                  "profiles": [
+                    {
+                      "profile": [
+                        {
+                          "$": {
+                            "typeId": "bc97-dea9-9e88-bb7d",
+                            "typeName": "Psyker",
+                            "hidden": "false",
+                            "id": "2362-d906-56d9-4e6d::91ec-0970-42b1-7fc4",
+                            "name": "Hidden knowledge"
+                          },
+                          "characteristics": [
+                            {
+                              "characteristic": [
+                                {
+                                  "_": "2",
+                                  "$": {
+                                    "typeId": "5afb-9914-904b-d3b3",
+                                    "name": "Cast"
+                                  }
+                                },
+                                {
+                                  "_": "1",
+                                  "$": {
+                                    "typeId": "b5ac-9c20-5d5a-6f9b",
+                                    "name": "Deny"
+                                  }
+                                },
+                                {
+                                  "_": "No one knows",
+                                  "$": {
+                                    "typeId": "69d7-b45e-00a2-7e46",
+                                    "name": "Powers Known"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "c2e2-f115-0003-5d7b",
+                                    "name": "Other"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "modifiers": [
+                            ""
+                          ],
+                          "modifierGroups": [
+                            ""
+                          ]
+                        },
+                        {
+                          "$": {
+                            "typeId": "818c-0db1-36f0-462a",
+                            "typeName": "Explosion",
+                            "hidden": "false",
+                            "id": "2362-d906-56d9-4e6d::2f17-f189-0537-cc10",
+                            "name": "Quick to anger"
+                          },
+                          "characteristics": [
+                            {
+                              "characteristic": [
+                                {
+                                  "_": "6",
+                                  "$": {
+                                    "typeId": "f21d-8f6d-180d-36ff",
+                                    "name": "Dice roll"
+                                  }
+                                },
+                                {
+                                  "_": "3\"",
+                                  "$": {
+                                    "typeId": "d69e-be07-1682-ebcc",
+                                    "name": "Distance"
+                                  }
+                                },
+                                {
+                                  "_": "D3",
+                                  "$": {
+                                    "typeId": "29f1-65a1-2c5d-8c7d",
+                                    "name": "Mortal wounds"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "modifiers": [
+                            ""
+                          ],
+                          "modifierGroups": [
+                            ""
+                          ]
+                        },
+                        {
+                          "$": {
+                            "typeId": "800f-21d0-4387-c943",
+                            "typeName": "Unit",
+                            "hidden": "false",
+                            "id": "2362-d906-56d9-4e6d::385d-3149-1090-f0ae::953d-6184-eb9c-eef0",
+                            "name": "Nerd"
+                          },
+                          "characteristics": [
+                            {
+                              "characteristic": [
+                                {
+                                  "_": "6\"",
+                                  "$": {
+                                    "typeId": "0bdf-a96e-9e38-7779",
+                                    "name": "M"
+                                  }
+                                },
+                                {
+                                  "_": "2+",
+                                  "$": {
+                                    "typeId": "e7f0-1278-0250-df0c",
+                                    "name": "WS"
+                                  }
+                                },
+                                {
+                                  "_": "3+",
+                                  "$": {
+                                    "typeId": "381b-eb28-74c3-df5f",
+                                    "name": "BS"
+                                  }
+                                },
+                                {
+                                  "_": "6",
+                                  "$": {
+                                    "typeId": "2218-aa3c-265f-2939",
+                                    "name": "S"
+                                  }
+                                },
+                                {
+                                  "_": "7",
+                                  "$": {
+                                    "typeId": "9c9f-9774-a358-3a39",
+                                    "name": "T"
+                                  }
+                                },
+                                {
+                                  "_": "8",
+                                  "$": {
+                                    "typeId": "f330-5e6e-4110-0978",
+                                    "name": "W"
+                                  }
+                                },
+                                {
+                                  "_": "3",
+                                  "$": {
+                                    "typeId": "13fc-b29b-31f2-ab9f",
+                                    "name": "A"
+                                  }
+                                },
+                                {
+                                  "_": "9",
+                                  "$": {
+                                    "typeId": "00ca-f8b8-876d-b705",
+                                    "name": "Ld"
+                                  }
+                                },
+                                {
+                                  "_": "3+",
+                                  "$": {
+                                    "typeId": "c0df-df94-abd7-e8d3",
+                                    "name": "Save"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "modifiers": [
+                            ""
+                          ],
+                          "modifierGroups": [
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$": {
+                    "number": "1",
+                    "type": "model",
+                    "entryId": "bf1a-3ad0-b5a0-4f60::9930-9131-25e4-fd41",
+                    "id": "f788-32eb-642c-2bb1",
+                    "name": "Jeep Cherokee"
+                  },
+                  "costs": [
+                    {
+                      "cost": [
+                        {
+                          "$": {
+                            "typeId": "points",
+                            "value": "100",
+                            "name": "pts"
+                          }
+                        },
+                        {
+                          "$": {
+                            "typeId": "e356-c769-5920-6e14",
+                            "value": "4",
+                            "name": " PL"
+                          }
+                        },
+                        {
+                          "$": {
+                            "typeId": "2d3b-b544-ad49-fb75",
+                            "value": "0",
+                            "name": "CP"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "categories": [
+                    {
+                      "category": [
+                        {
+                          "$": {
+                            "primary": "false",
+                            "entryId": "84e2-9fa9-ebe6-1d18",
+                            "id": "71be-1361-eddd-449a",
+                            "name": "Car"
+                          },
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            ""
+                          ]
+                        },
+                        {
+                          "$": {
+                            "primary": "true",
+                            "entryId": "1b66-3f5f-6705-079a",
+                            "id": "23bf-d2dd-4081-0575",
+                            "name": "Jeep"
+                          },
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "selections": [
+                    {
+                      "selection": [
+                        {
+                          "$": {
+                            "number": "1",
+                            "type": "upgrade",
+                            "entryId": "bf1a-3ad0-b5a0-4f60::aa6d-d708-3d11-5c2f::391c-6e58-cc90-7442",
+                            "entryGroupId": "bf1a-3ad0-b5a0-4f60::db8c-fa92-faa7-3329",
+                            "id": "200b-d317-9910-2020",
+                            "name": "2x Blunderbuss"
+                          },
+                          "costs": [
+                            {
+                              "cost": [
+                                {
+                                  "$": {
+                                    "typeId": "points",
+                                    "value": "6",
+                                    "name": "pts"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "e356-c769-5920-6e14",
+                                    "value": "0",
+                                    "name": " PL"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "2d3b-b544-ad49-fb75",
+                                    "value": "0",
+                                    "name": "CP"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "categories": [
+                            ""
+                          ],
+                          "selections": [
+                            ""
+                          ],
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            {
+                              "profile": [
+                                {
+                                  "$": {
+                                    "typeId": "d5f97c0b-9fc9-478d-aa34-a7c414d3ea48",
+                                    "typeName": "Weapon",
+                                    "hidden": "false",
+                                    "page": "",
+                                    "id": "bf1a-3ad0-b5a0-4f60::aa6d-d708-3d11-5c2f::4a3b-e568-161f-a369::505e-a5aa-edab-6d5b",
+                                    "name": "Blunderbuss"
+                                  },
+                                  "characteristics": [
+                                    {
+                                      "characteristic": [
+                                        {
+                                          "_": "24\"",
+                                          "$": {
+                                            "typeId": "6fa97fa8-ea74-4a27-a0fb-bc4e5f367464",
+                                            "name": "Range"
+                                          }
+                                        },
+                                        {
+                                          "_": "Rapid Fire 2",
+                                          "$": {
+                                            "typeId": "077c342f-d7b9-45c6-b8af-88e97cafd3a2",
+                                            "name": "Type"
+                                          }
+                                        },
+                                        {
+                                          "_": "4",
+                                          "$": {
+                                            "typeId": "59b1-319e-ec13-d466",
+                                            "name": "S"
+                                          }
+                                        },
+                                        {
+                                          "_": "0",
+                                          "$": {
+                                            "typeId": "75aa-a838-b675-6484",
+                                            "name": "AP"
+                                          }
+                                        },
+                                        {
+                                          "_": "1",
+                                          "$": {
+                                            "typeId": "ae8a-3137-d65b-4ca7",
+                                            "name": "D"
+                                          }
+                                        },
+                                        {
+                                          "_": "-",
+                                          "$": {
+                                            "typeId": "837d-5e63-aeb7-1410",
+                                            "name": "Abilities"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "modifiers": [
+                                    ""
+                                  ],
+                                  "modifierGroups": [
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "$": {
+                            "number": "1",
+                            "type": "upgrade",
+                            "entryId": "bf1a-3ad0-b5a0-4f60::855c-1ccb-35c2-7200",
+                            "entryGroupId": "bf1a-3ad0-b5a0-4f60::062e-9761-5c72-13a5",
+                            "id": "0a40-95f8-81c1-5780",
+                            "name": "Windshield"
+                          },
+                          "costs": [
+                            {
+                              "cost": [
+                                {
+                                  "$": {
+                                    "typeId": "points",
+                                    "value": "25",
+                                    "name": "pts"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "e356-c769-5920-6e14",
+                                    "value": "0",
+                                    "name": " PL"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "2d3b-b544-ad49-fb75",
+                                    "value": "0",
+                                    "name": "CP"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "categories": [
+                            ""
+                          ],
+                          "selections": [
+                            ""
+                          ],
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            {
+                              "profile": [
+                                {
+                                  "$": {
+                                    "typeId": "72c5eafc-75bf-4ed9-b425-78009f1efe82",
+                                    "typeName": "Abilities",
+                                    "hidden": "false",
+                                    "id": "bf1a-3ad0-b5a0-4f60::1214-d4fc-c2e8-52e8",
+                                    "name": "Windshield"
+                                  },
+                                  "characteristics": [
+                                    {
+                                      "characteristic": [
+                                        {
+                                          "_": "Protects against rain.",
+                                          "$": {
+                                            "typeId": "21befb24-fc85-4f52-a745-64b2e48f8228",
+                                            "name": "Description"
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "modifiers": [
+                                    ""
+                                  ],
+                                  "modifierGroups": [
+                                    ""
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "rules": [
+                    {
+                      "rule": [
+                        {
+                          "$": {
+                            "hidden": "false",
+                            "id": "bf1a-3ad0-b5a0-4f60::4911-ceea-b902-9079::6f8e-9512-0008-d677",
+                            "name": "Out of gas"
+                          },
+                          "description": [
+                            "Needs gas to drive."
+                          ],
+                          "modifiers": [
+                            ""
+                          ],
+                          "modifierGroups": [
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "profiles": [
+                    {
+                      "profile": [
+                        {
+                          "$": {
+                            "typeId": "800f-21d0-4387-c943",
+                            "typeName": "Unit",
+                            "hidden": "false",
+                            "id": "bf1a-3ad0-b5a0-4f60::bc96-99fd-0bf5-a1fb",
+                            "name": "Jeep Cherokee"
+                          },
+                          "characteristics": [
+                            {
+                              "characteristic": [
+                                {
+                                  "_": "*",
+                                  "$": {
+                                    "typeId": "0bdf-a96e-9e38-7779",
+                                    "name": "M"
+                                  }
+                                },
+                                {
+                                  "_": "6+",
+                                  "$": {
+                                    "typeId": "e7f0-1278-0250-df0c",
+                                    "name": "WS"
+                                  }
+                                },
+                                {
+                                  "_": "*",
+                                  "$": {
+                                    "typeId": "381b-eb28-74c3-df5f",
+                                    "name": "BS"
+                                  }
+                                },
+                                {
+                                  "_": "7",
+                                  "$": {
+                                    "typeId": "2218-aa3c-265f-2939",
+                                    "name": "S"
+                                  }
+                                },
+                                {
+                                  "_": "7",
+                                  "$": {
+                                    "typeId": "9c9f-9774-a358-3a39",
+                                    "name": "T"
+                                  }
+                                },
+                                {
+                                  "_": "11",
+                                  "$": {
+                                    "typeId": "f330-5e6e-4110-0978",
+                                    "name": "W"
+                                  }
+                                },
+                                {
+                                  "_": "*",
+                                  "$": {
+                                    "typeId": "13fc-b29b-31f2-ab9f",
+                                    "name": "A"
+                                  }
+                                },
+                                {
+                                  "_": "8",
+                                  "$": {
+                                    "typeId": "00ca-f8b8-876d-b705",
+                                    "name": "Ld"
+                                  }
+                                },
+                                {
+                                  "_": "3+",
+                                  "$": {
+                                    "typeId": "c0df-df94-abd7-e8d3",
+                                    "name": "Save"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "modifiers": [
+                            ""
+                          ],
+                          "modifierGroups": [
+                            ""
+                          ]
+                        },
+                        {
+                          "$": {
+                            "typeId": "5f4f-ea74-0630-4afe",
+                            "typeName": "Wound Track",
+                            "hidden": "false",
+                            "id": "bf1a-3ad0-b5a0-4f60::90f3-7385-1661-fac7",
+                            "name": "Jeep Cherokee Wound Track 1"
+                          },
+                          "characteristics": [
+                            {
+                              "characteristic": [
+                                {
+                                  "_": "6-11+",
+                                  "$": {
+                                    "typeId": "8e45-c866-b2d4-c9ab",
+                                    "name": "Remaining W"
+                                  }
+                                },
+                                {
+                                  "_": "14\"",
+                                  "$": {
+                                    "typeId": "bf41-c860-50bc-2a7e",
+                                    "name": "Characteristic 1"
+                                  }
+                                },
+                                {
+                                  "_": "3+",
+                                  "$": {
+                                    "typeId": "dc18-e51f-309b-8efa",
+                                    "name": "Characteristic 2"
+                                  }
+                                },
+                                {
+                                  "_": "3",
+                                  "$": {
+                                    "typeId": "df06-8eca-150f-90ba",
+                                    "name": "Characteristic 3"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "modifiers": [
+                            ""
+                          ],
+                          "modifierGroups": [
+                            ""
+                          ]
+                        },
+                        {
+                          "$": {
+                            "typeId": "5f4f-ea74-0630-4afe",
+                            "typeName": "Wound Track",
+                            "hidden": "false",
+                            "id": "bf1a-3ad0-b5a0-4f60::af9d-c99b-4994-348b",
+                            "name": "Jeep Cherokee Wound Track 2"
+                          },
+                          "characteristics": [
+                            {
+                              "characteristic": [
+                                {
+                                  "_": "3-5",
+                                  "$": {
+                                    "typeId": "8e45-c866-b2d4-c9ab",
+                                    "name": "Remaining W"
+                                  }
+                                },
+                                {
+                                  "_": "7\"",
+                                  "$": {
+                                    "typeId": "bf41-c860-50bc-2a7e",
+                                    "name": "Characteristic 1"
+                                  }
+                                },
+                                {
+                                  "_": "4+",
+                                  "$": {
+                                    "typeId": "dc18-e51f-309b-8efa",
+                                    "name": "Characteristic 2"
+                                  }
+                                },
+                                {
+                                  "_": "D3",
+                                  "$": {
+                                    "typeId": "df06-8eca-150f-90ba",
+                                    "name": "Characteristic 3"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "modifiers": [
+                            ""
+                          ],
+                          "modifierGroups": [
+                            ""
+                          ]
+                        },
+                        {
+                          "$": {
+                            "typeId": "b3a8-0452-7436-44d1",
+                            "typeName": "Transport",
+                            "hidden": "false",
+                            "id": "bf1a-3ad0-b5a0-4f60::82fc-e241-b007-fa75",
+                            "name": "Jeep Cherokee"
+                          },
+                          "characteristics": [
+                            {
+                              "characteristic": [
+                                {
+                                  "_": "Can transport at least one person.",
+                                  "$": {
+                                    "typeId": "15aa-1916-a38b-d223",
+                                    "name": "Capacity"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "modifiers": [
+                            ""
+                          ],
+                          "modifierGroups": [
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "$": {
+                    "number": "1",
+                    "type": "upgrade",
+                    "entryId": "9548-24cb-2916-30a5::e632-4176-36bf-a2ad",
+                    "id": "4890-6a4c-e276-8135",
+                    "name": "Extra armour plates"
+                  },
+                  "costs": [
+                    {
+                      "cost": [
+                        {
+                          "$": {
+                            "typeId": "e356-c769-5920-6e14",
+                            "value": "0",
+                            "name": " PL"
+                          }
+                        },
+                        {
+                          "$": {
+                            "typeId": "points",
+                            "value": "0",
+                            "name": "pts"
+                          }
+                        },
+                        {
+                          "$": {
+                            "typeId": "2d3b-b544-ad49-fb75",
+                            "value": "0",
+                            "name": "CP"
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "categories": [
+                    {
+                      "category": [
+                        {
+                          "$": {
+                            "primary": "false",
+                            "entryId": "c845-c72c-6afe-3fc2",
+                            "id": "bd65-9ae4-7996-063c",
+                            "name": "Armour plates"
+                          },
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            ""
+                          ]
+                        },
+                        {
+                          "$": {
+                            "primary": "true",
+                            "entryId": "c845-c72c-6afe-3fc2",
+                            "id": "27b6-08b1-8267-316f",
+                            "name": "Armour plates"
+                          },
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "selections": [
+                    {
+                      "selection": [
+                        {
+                          "$": {
+                            "number": "1",
+                            "type": "upgrade",
+                            "entryId": "9548-24cb-2916-30a5::2a24-69e8-b59a-1460",
+                            "entryGroupId": "9548-24cb-2916-30a5::ab40-814b-9e0f-17e5",
+                            "id": "be3e-d0fa-2a10-8715",
+                            "name": "1 Additional armour plate"
+                          },
+                          "costs": [
+                            {
+                              "cost": [
+                                {
+                                  "$": {
+                                    "typeId": "2d3b-b544-ad49-fb75",
+                                    "value": "-1",
+                                    "name": "CP"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "e356-c769-5920-6e14",
+                                    "value": "0",
+                                    "name": " PL"
+                                  }
+                                },
+                                {
+                                  "$": {
+                                    "typeId": "points",
+                                    "value": "0",
+                                    "name": "pts"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          "categories": [
+                            ""
+                          ],
+                          "selections": [
+                            ""
+                          ],
+                          "rules": [
+                            ""
+                          ],
+                          "profiles": [
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "rules": [
+                    ""
+                  ],
+                  "profiles": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "rules": [
+            {
+              "rule": [
+                {
+                  "$": {
+                    "hidden": "false",
+                    "publicationId": "eb0f-c144-pubN65537",
+                    "page": "",
+                    "id": "59cb-0435-fbd6-d3d2::d8df-0f76-de5e-42a0",
+                    "name": "Kitchen aid"
+                  },
+                  "description": [
+                    "A unit with this ability is helpful in the kitchen."
+                  ],
+                  "modifiers": [
+                    ""
+                  ],
+                  "modifierGroups": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "profiles": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": [
+    ""
+  ]
+}

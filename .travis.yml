@@ -1,3 +1,26 @@
 language: node_js
 node_js:
 - 14
+cache: yarn
+
+jobs:
+  include:
+  - stage: test
+    script: yarn test
+
+stages:
+- name: test
+
+before_install:
+- yarn global add codecov
+after_success:
+- codecov
+
+deploy:
+  provider: npm
+  email: fredrik.makila@gmail.com
+  api_key:
+    secure: E9P/aHD3iKN5P3v6/XBexAzJfz5LaHNwITsDDUl7KGzOvro8ULVAF1JjuSh0ZEgGhW5jp41gyb19fo23YgQw2SRXySN3ksscldTFDlcEl/fxBpm+Xmlt0TaSDI6kr+ypqR/sv/WXsaADpLi/E3txjKVipm9A+qVUc2/ll01r2E/KLjUQvgq1aXSAeGyM3amlGBJqDblS/QO/1r417HcCHrncrNrSeKSftXbxzgkt9dobxYqpFCjfS+sPDxatjJl2bQcM7xLnI1636WmEXuLVWadpkTFXgi4GsH9sDbw80MIiWLt1zpm6Qh5UQHXTlS3UsjeQWwC7621jJQ4/RbxG6azJj8w8HwZmJ9SkbY4M96bUhomhMrk81mRiHHcvaIuGzcH+/4MKkAkq9jwxz7aws1RmhYoA101LxitN3bbUmef+eAzyWgZJ5ATjjNPmRNY/MV1bxcPuFtq5Sc+IKm9xVJNUZxQr7Qh3Xcsn7eh5YxVlYWL/bmT26BZyWccoWWqayo2CZNLAXCq9dKfgvnXv+JiTiqUeppOkuKow9KOVRX+oO139wxPSQXEAcFWTgb6y0O9hhagRlMVd1lHLJSc9VBy7ErU9jSIVXS8sqdDIWzELkp32z5Rm/zloIW1DWzEbMlrrZZuQ9UXAXGtJ2jfucENPklr/qMDbXe0W82ygBRI=
+  on:
+    tags: true
+    repo: GitHug/rosz2js
