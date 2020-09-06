@@ -8,7 +8,7 @@
   "author": "Fredrik Makila",
   "license": "MIT",
   "scripts": {
-    "build": "yarn clean && npx tsc",
+    "build": "npx tsc",
     "test": "jest",
     "lint": "eslint '*.{js,ts}' '*/**/*.{js,ts}' --ignore-pattern '/dist/*'",
     "release": "standard-version",
