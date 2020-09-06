@@ -4,9 +4,6 @@ node_js:
 
 cache: yarn
 
-scripts:
-  - yarn global add codecov
-
 jobs:
   include:
     - stage: test
@@ -15,5 +12,7 @@ jobs:
 stages:
   - name: test
 
+before_install:
+  - yarn global add codecov
 after_success:
   - codecov
