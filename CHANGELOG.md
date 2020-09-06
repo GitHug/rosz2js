@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.3](https://github.com/GitHug/rosz2js/compare/v2.0.2...v2.0.3) (2020-09-06)
+
+
+### Others
+
+* **package.json:** do not use npx in build script ([e9c2ed6](https://github.com/GitHug/rosz2js/commit/e9c2ed6e9b1141af2fb33b8e5772b1171ac87938))
+
 ### [2.0.2](https://github.com/GitHug/rosz2js/compare/v2.0.1...v2.0.2) (2020-09-06)
 
 
