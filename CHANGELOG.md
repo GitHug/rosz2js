@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.1](https://github.com/GitHug/rosz2js/compare/v2.0.0...v2.0.1) (2020-09-06)
+
+
+### Others
+
+* **package.json:** use prepare instead of deprecated prepublish ([aad1d97](https://github.com/GitHug/rosz2js/commit/aad1d97c2107d4aefffb96da4dc36d438cc5c7dd))
+
 ## [2.0.0](https://github.com/GitHug/rosz2js/compare/v1.0.2...v2.0.0) (2020-09-06)
 
 
