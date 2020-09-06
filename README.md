@@ -16,6 +16,8 @@ or
 yarn add rosz2js
 ```
 ## Usage
+The parser accepts either an absolute file path to a roster file or a buffer of a roster file.
+
 ```
 import parser from 'rosz2js';
 
