@@ -9,8 +9,7 @@
   "license": "MIT",
   "scripts": {
     "build": "yarn clean && npx tsc",
-    "test": "jest",
-    "coverage": "jest --collectCoverage",
+    "test": "jest --coverage",
     "lint": "eslint '*.{js,ts}' '*/**/*.{js,ts}' --ignore-pattern '/dist/*'",
     "release": "standard-version",
     "clean": "rimraf dist",
