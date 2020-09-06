@@ -16,6 +16,9 @@
     "prepublish": "yarn build",
     "cm": "git-cz"
   },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@types/jest": "^26.0.7",
     "@types/unzipper": "^0.10.3",
