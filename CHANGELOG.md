@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.2](https://github.com/GitHug/rosz2js/compare/v2.0.1...v2.0.2) (2020-09-06)
+
+
+### Others
+
+* **package.json:** remove rimraf from buld script ([36b6d87](https://github.com/GitHug/rosz2js/commit/36b6d87e0fcf500975c52546e5d5769d2e364231))
+
 ### [2.0.1](https://github.com/GitHug/rosz2js/compare/v2.0.0...v2.0.1) (2020-09-06)
 
 
