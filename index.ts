@@ -20,8 +20,9 @@ import {
   UnknownProfile
 } from './src/types';
 
+export default Parser;
+
 export {
-  Parser as default,
   Roster,
   Cost,
   CostType,
