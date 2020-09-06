@@ -3,6 +3,7 @@
 </p>
 
 [![Build Status](https://travis-ci.org/GitHug/rosz2js.svg?branch=master)](https://travis-ci.org/GitHug/rosz2js)
+[![codecov](https://codecov.io/gh/GitHug/rosz2js/branch/master/graph/badge.svg)](https://codecov.io/gh/GitHug/rosz2js)
 
 # rosz2js
 Convert Battlescribe roster files (.rosz) to Javascript. Written in Typescript and it supports it fully.
