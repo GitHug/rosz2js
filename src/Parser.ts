@@ -77,7 +77,7 @@ class Parser {
   }
 
   private toCostArray(
-    bsCosts: Array<{ cost: BSCost[] } | { costLimit: BSCost[] } | string>,
+    bsCosts: Array<{ cost: BSCost[] } | { costLimit: BSCost[] } | string> = [],
     additionalCosts: CalculatedCosts = {
       [CostType.PTS]: 0,
       [CostType.PL]: 0,
@@ -111,7 +111,7 @@ class Parser {
     return costs;
   }
 
-  private toForceArray(bsForces: Array<{ force: BSForce[] } | string>): Force[] {
+  private toForceArray(bsForces: Array<{ force: BSForce[] } | string> = []): Force[] {
     const forces: Force[] = [];
 
     bsForces.forEach((bsForces) => {
@@ -151,7 +151,7 @@ class Parser {
     return publications;
   }
 
-  private toCategoryArray(bsCategories: Array<{ category: BSCategory[] } | string>): Category[] {
+  private toCategoryArray(bsCategories: Array<{ category: BSCategory[] } | string> = []): Category[] {
     const categories: Category[] = [];
     bsCategories.forEach((bsCategories) => {
       if (isBSCategory(bsCategories)) {
@@ -167,7 +167,7 @@ class Parser {
     return categories;
   }
 
-  private toRuleArray(bsRules: Array<{ rule: BSRule[] } | string>): Rule[] {
+  private toRuleArray(bsRules: Array<{ rule: BSRule[] } | string> = []): Rule[] {
     const rules: Rule[] = [];
 
     bsRules.forEach((bsRules) => {
@@ -184,7 +184,7 @@ class Parser {
     return rules;
   }
 
-  private toSelectionArray(bsSelections: Array<{ selection: BSSelection[] } | string>): Selection[] {
+  private toSelectionArray(bsSelections: Array<{ selection: BSSelection[] } | string> = []): Selection[] {
     const selections: Selection[] = [];
     bsSelections.forEach((bsSelections) => {
       if (isBSSelection(bsSelections)) {
@@ -210,7 +210,7 @@ class Parser {
     return selections;
   }
 
-  private toProfileArray(bsProfiles: Array<{ profile: BSProfile<BSCharacteristic>[] } | string>): Profile<TypeName>[] {
+  private toProfileArray(bsProfiles: Array<{ profile: BSProfile<BSCharacteristic>[] } | string> = []): Profile<TypeName>[] {
     const profiles: Profile<TypeName>[] = [];
     bsProfiles.forEach((bsProfiles) => {
       if (isBSProfile(bsProfiles)) {
