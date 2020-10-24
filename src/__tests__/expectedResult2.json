@@ -1,0 +1,5260 @@
+{
+  "gameSystemName":"Warhammer 40,000 9th Edition",
+  "name":"Death Guard Gellerpox 750",
+  "costs":[
+    {
+      "value":68,
+      "name":"PL"
+    },
+    {
+      "value":4,
+      "name":"CP"
+    },
+    {
+      "value":1250,
+      "name":"pts"
+    }
+  ],
+  "costLimits":[
+    
+  ],
+  "forces":[
+    {
+      "name":"Patrol Detachment 0CP",
+      "catalogueName":"Chaos - Death Guard",
+      "publications":[
+        "Psychic Awakening IX: Pariah",
+        "Imperial Armour - Index: Astra Militarum",
+        "Psychic Awakening VIII: War of the Spider",
+        "Warhammer 40,000 Update - April 2019",
+        "Psychic Awakening VII: Engine War",
+        "Index: Xenos 2",
+        "Psychic Awakening IV: Ritual of the Damned",
+        "White Dwarf Feb 2019",
+        "Warhammer 40,000 Core Book",
+        "Index: Imperium 1",
+        "Imperial Armour - Index: Xenos",
+        "Imperium Nihilus: Vigilus Defiant",
+        "Stronghold Assault",
+        "Psychic Awakening VI: Saga of the Beast",
+        "Imperial Armour - Index: Forces of the Astra Militarum",
+        "Index: Imperium 2",
+        "Imperial Armour - Index: Forces of the Adeptus Astartes",
+        "Psychic Awakening II: Faith and Fury",
+        "Datasheet: Terrax-Pattern Termite Assault Drill",
+        "Index: Xenos 1",
+        "Psychic Awakening I: Phoenix Rising",
+        "Warhammer Quest: Blackstone Fortress",
+        "Index: Chaos",
+        "Psychic Awakening III: Blood of Baal",
+        "Imperial Armour - Index: Xenos (Errata)",
+        "Codex: Heretic Astartes - Death Guard",
+        "Psychic Awakening V: The Greater Good",
+        "Index: Chaos FAQ",
+        "Chapter Approved 2018",
+        "Chapter Approved 2017"
+      ],
+      "categories":[
+        {
+          "primary":false,
+          "name":"Uncategorised"
+        },
+        {
+          "primary":false,
+          "name":"Configuration"
+        },
+        {
+          "primary":false,
+          "name":"Stratagems"
+        },
+        {
+          "primary":false,
+          "name":"No Force Org Slot"
+        },
+        {
+          "primary":false,
+          "name":"Agents of the Imperium"
+        },
+        {
+          "primary":false,
+          "name":"HQ"
+        },
+        {
+          "primary":false,
+          "name":"Troops"
+        },
+        {
+          "primary":false,
+          "name":"Elites"
+        },
+        {
+          "primary":false,
+          "name":"Fast Attack"
+        },
+        {
+          "primary":false,
+          "name":"Heavy Support"
+        },
+        {
+          "primary":false,
+          "name":"Flyer"
+        },
+        {
+          "primary":false,
+          "name":"Dedicated Transport"
+        },
+        {
+          "primary":false,
+          "name":"Relic Elites"
+        },
+        {
+          "primary":false,
+          "name":"Relic Heavy Support"
+        },
+        {
+          "primary":false,
+          "name":"Relic HQ"
+        }
+      ],
+      "forces":[
+        
+      ],
+      "rules":[
+        {
+          "name":"Plague Weapon",
+          "description":"You can re-roll wound rolls of 1 for a weapon with this ability."
+        },
+        {
+          "name":"Inexorable Advance",
+          "description":"If your Army is Battle-forged, all INFANTRY and HELBRUTE units in DEATH GUARD Detachments gain this ability. Such units do not suffer a penalty for moving and firing Heavy Weapons, or for Advancing and firing Assault weapons. In addition, a unit with this ability can fire twice with Rapid Fire weapons at a range of 18\", instead of only being able to fire twice with them up to half the weapon's maximum range."
+        },
+        {
+          "name":"Plague Host",
+          "description":"If your army is Battle-forged, all Troops units in DEATH GUARD Detachments gain this ability. Such a unit that is within range of an objective marker (as specified in the mission) controls that objective marker even if there are more enemy models within range of it. If an enemy unit within range of the same objective marker has a similar ability, then the objective marker is controlled by the player who has the most models within range as normal."
+        },
+        {
+          "name":"Malicious Volleys",
+          "description":"All DEATH GUARD units in Codex: Death Guard (excluding CHAOS CULTISTS units and POXWALKERS units) gain this ability:\n\nInstead of following the normal rules for Rapid Fire weapons, Rapid Fire bolt weapons used by models in a unit with this ability make double the number of attacks if any of the following apply:\n• The firing model’s target is within half the weapon’s maximum range.\n• The firing model belongs to an INFANTRY unit and every model from that unit remained stationary in your\nprevious Movement phase.\n• The firing model is a TERMINATOR , BIKER or HELBRUTE.\n\nFor the purposes of this ability, a Rapid Fire bolt weapon is any weapon with the Rapid Fire type whose profile includes the word ‘bolt’ (e.g. boltgun, combi-bolter, etc.)"
+        },
+        {
+          "name":"Daemonic Ritual",
+          "description":"Instead of moving in their Movement phase, any DEATH GUARD CHARACTER can, at the end of their Movement phase, attempt to summon a NURGLE DAEMON unit with this ability by performing a Daemonic Ritual (the character cannot do so if they arrived as reinforcements this turn).\n\nRoll up to 3 dice - this is your summoning roll. You can summon one new NURGLE DAEMON unit with the Daemonic Ritual ability to the battlefield that has a Power Rating equal to or less than the total result. This unit is treated as reinforcements for your army and can be placed anywhere on the battlefield that is entirely within 12\" of the character and is more than 9\" from any enemy model. If the total rolled is insufficient to summon any unit, the ritual fails and no new unit is summoned.\n\nIf your summoning roll included any doubles, your character then suffers a mortal wound. If it contained any triples, it instead suffers D3 mortal wounds."
+        }
+      ],
+      "selections":[
+        {
+          "number":1,
+          "type":"upgrade",
+          "name":"Plague Company",
+          "categories":[
+            {
+              "primary":true,
+              "name":"Configuration"
+            }
+          ],
+          "rules":[
+            
+          ],
+          "profiles":[
+            
+          ],
+          "selections":[
+            
+          ],
+          "costs":[
+            {
+              "value":0,
+              "name":"PL"
+            },
+            {
+              "value":0,
+              "name":"CP"
+            },
+            {
+              "value":0,
+              "name":"pts"
+            }
+          ]
+        },
+        {
+          "number":1,
+          "type":"upgrade",
+          "name":"Detachment CP",
+          "categories":[
+            {
+              "primary":true,
+              "name":"Configuration"
+            }
+          ],
+          "rules":[
+            
+          ],
+          "profiles":[
+            
+          ],
+          "selections":[
+            
+          ],
+          "costs":[
+            {
+              "value":0,
+              "name":"PL"
+            },
+            {
+              "value":0,
+              "name":"CP"
+            },
+            {
+              "value":0,
+              "name":"pts"
+            }
+          ]
+        },
+        {
+          "number":1,
+          "type":"upgrade",
+          "name":"Battle Size",
+          "categories":[
+            {
+              "primary":true,
+              "name":"Configuration"
+            }
+          ],
+          "rules":[
+            
+          ],
+          "profiles":[
+            
+          ],
+          "selections":[
+            {
+              "number":1,
+              "type":"upgrade",
+              "name":"2. Incursion (51-100 Total PL / 501-1000 Points) ",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                
+              ],
+              "selections":[
+                
+              ],
+              "costs":[
+                {
+                  "value":6,
+                  "name":"CP"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"pts"
+                }
+              ]
+            }
+          ],
+          "costs":[
+            {
+              "value":0,
+              "name":"PL"
+            },
+            {
+              "value":0,
+              "name":"pts"
+            },
+            {
+              "value":6,
+              "name":"CP"
+            }
+          ]
+        },
+        {
+          "number":1,
+          "type":"model",
+          "name":"Typhus",
+          "categories":[
+            {
+              "primary":true,
+              "name":"HQ"
+            },
+            {
+              "primary":false,
+              "name":"Character"
+            },
+            {
+              "primary":false,
+              "name":"Infantry"
+            },
+            {
+              "primary":false,
+              "name":"Psyker"
+            },
+            {
+              "primary":false,
+              "name":"Terminator"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Death Guard"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Nurgle"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Heretic Astartes"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Chaos"
+            },
+            {
+              "primary":false,
+              "name":"Lord of Contagion"
+            },
+            {
+              "primary":false,
+              "name":"Typhus"
+            }
+          ],
+          "rules":[
+            {
+              "name":"Hateful Assault",
+              "description":"If this unit makes a charge move, is charged or performs a Heroic Intervention, add 1 to the Attacks characteristic of models in this unit until the end of the turn."
+            }
+          ],
+          "profiles":[
+            {
+              "typeName":"Unit",
+              "name":"Typhus",
+              "movement":"4\"",
+              "weaponSkill":"2+",
+              "ballisticSkill":"2+",
+              "strength":"4",
+              "toughness":"5",
+              "wounds":"6",
+              "attacks":"4",
+              "leadership":"9",
+              "save":"2+"
+            },
+            {
+              "typeName":"Psyker",
+              "name":"Typhus",
+              "cast":"2",
+              "deny":"1",
+              "powersKnown":"Smite and 2 powers from the Contagion discipline",
+              "other":"-"
+            },
+            {
+              "typeName":"Ability",
+              "name":"Host of the Destroyer Hive",
+              "description":"Friendly units of Poxwalkers increase their Strength and Toughness by 1 whilst they are within 7\" of Typhus."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Death to the False Emperor",
+              "description":"Each time you roll a hit roll of 6+ for a model with this ability in the Fight phase, it can, if it was targeting an IMPERIUM unit, immediately make an extra attack against the same unit using the same weapon. These extra attacks cannot themselves generate any further attacks."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Teleport Strike",
+              "description":"During deployment, you can set up this model in a teleportarium chamber instead of placing it on the battlefield. At the end of any of your Movement phases the model can use a teleport strike to arrive on the battlefield - set it up anywhere on the battlefield that is more than 9\" away from any enemy models."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Disgustingly Resilient",
+              "description":"Each time this model loses a wound, roll a D6; on a 5+, the model does not lose that wound."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Cataphractii Armour",
+              "description":"Models in this unit have a 4+ invulnerable save, but you must halve the result of the dice rolled when determining how far this unit Advances."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Nurgle's Gift",
+              "description":"All DEATH GUARD units within 7\" of a friendly LORD OF CONTAGION are surrounded by a deadly aura of plague and disease. Roll a dice for each enemy unit that is within 1\" of any affected friendly units at the start of your turn; on a 4+ that enemy unit suffers a mortal wound."
+            }
+          ],
+          "selections":[
+            {
+              "number":1,
+              "type":"upgrade",
+              "name":"The Destroyer Hive",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Weapon",
+                  "name":"The Destroyer Hive",
+                  "range":"6\"",
+                  "type":"Pistol 2D6",
+                  "strength":"4",
+                  "armourPenetration":"-3",
+                  "damage":"1",
+                  "abilities":"This weapon hits on hit rolls of 5+ (even when firing Overwatch), regardless of any modifiers."
+                }
+              ],
+              "selections":[
+                
+              ],
+              "costs":[
+                {
+                  "value":0,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            },
+            {
+              "number":1,
+              "type":"upgrade",
+              "name":"Master-crafted manreaper",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Weapon",
+                  "name":"Master-crafted manreaper",
+                  "range":"Melee",
+                  "type":"Melee",
+                  "strength":"+3",
+                  "armourPenetration":"-3",
+                  "damage":"3",
+                  "abilities":"Plague Weapon"
+                }
+              ],
+              "selections":[
+                
+              ],
+              "costs":[
+                {
+                  "value":0,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            },
+            {
+              "number":1,
+              "type":"upgrade",
+              "name":"Smite",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Psychic Power",
+                  "name":"Smite",
+                  "warpCharge":"5",
+                  "range":"18\"",
+                  "details":"Smite has a warp charge value of 5. If manifested, the closest visible enemy unit within 18\" of the psyker suffers D3 mortal wounds (pg 181). If the result of the Psychic test was more than 10 the target suffers D6 mortal wounds instead."
+                }
+              ],
+              "selections":[
+                
+              ],
+              "costs":[
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            },
+            {
+              "number":1,
+              "type":"upgrade",
+              "name":"Blight Grenades",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Weapon",
+                  "name":"Blight Grenade",
+                  "range":"6\"",
+                  "type":"Grenade D6",
+                  "strength":"3",
+                  "armourPenetration":"0",
+                  "damage":"1",
+                  "abilities":"Plague Weapon. Blast."
+                }
+              ],
+              "selections":[
+                
+              ],
+              "costs":[
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            }
+          ],
+          "costs":[
+            {
+              "value":165,
+              "name":"pts"
+            },
+            {
+              "value":9,
+              "name":"PL"
+            },
+            {
+              "value":0,
+              "name":"CP"
+            }
+          ]
+        },
+        {
+          "number":1,
+          "type":"unit",
+          "name":"Poxwalkers",
+          "categories":[
+            {
+              "primary":true,
+              "name":"Troops"
+            },
+            {
+              "primary":false,
+              "name":"Infantry"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Nurgle"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Death Guard"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Chaos"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Heretic Astartes"
+            },
+            {
+              "primary":false,
+              "name":"Poxwalkers"
+            }
+          ],
+          "rules":[
+            
+          ],
+          "profiles":[
+            {
+              "typeName":"Ability",
+              "name":"Curse of the Walking Pox",
+              "description":"Each time an enemy INFANTRY model is slain by a Poxwalker in the Fight phase, add one model to the Poxwalker's unit."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Diseased Horde",
+              "description":"You can add 1 to all hit rolls for this unit in the Fight phase if it contains more than 10 models."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Mindless",
+              "description":"This unit never has to take Morale tests."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Disgustingly Resilient",
+              "description":"Each time this model loses a wound, roll a D6; on a 5+, the model does not lose that wound."
+            }
+          ],
+          "selections":[
+            {
+              "number":11,
+              "type":"model",
+              "name":"Poxwalker",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Unit",
+                  "name":"Poxwalker",
+                  "movement":"4\"",
+                  "weaponSkill":"5+",
+                  "ballisticSkill":"6+",
+                  "strength":"3",
+                  "toughness":"3",
+                  "wounds":"1",
+                  "attacks":"2",
+                  "leadership":"4",
+                  "save":"7+"
+                }
+              ],
+              "selections":[
+                {
+                  "number":11,
+                  "type":"upgrade",
+                  "name":"Improvised weapon",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Improvised weapon",
+                      "range":"Melee",
+                      "type":"Melee",
+                      "strength":"User",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"-"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                }
+              ],
+              "costs":[
+                {
+                  "value":77,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            }
+          ],
+          "costs":[
+            {
+              "value":77,
+              "name":"pts"
+            },
+            {
+              "value":6,
+              "name":"PL"
+            },
+            {
+              "value":0,
+              "name":"CP"
+            }
+          ]
+        },
+        {
+          "number":1,
+          "type":"model",
+          "name":"Lord of Contagion",
+          "categories":[
+            {
+              "primary":true,
+              "name":"HQ"
+            },
+            {
+              "primary":false,
+              "name":"Character"
+            },
+            {
+              "primary":false,
+              "name":"Infantry"
+            },
+            {
+              "primary":false,
+              "name":"Terminator"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Death Guard"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Nurgle"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Heretic Astartes"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Chaos"
+            },
+            {
+              "primary":false,
+              "name":"Lord of Contagion"
+            }
+          ],
+          "rules":[
+            {
+              "name":"Hateful Assault",
+              "description":"If this unit makes a charge move, is charged or performs a Heroic Intervention, add 1 to the Attacks characteristic of models in this unit until the end of the turn."
+            }
+          ],
+          "profiles":[
+            {
+              "typeName":"Unit",
+              "name":"Lord of Contagion",
+              "movement":"4\"",
+              "weaponSkill":"2+",
+              "ballisticSkill":"2+",
+              "strength":"4",
+              "toughness":"5",
+              "wounds":"6",
+              "attacks":"4",
+              "leadership":"9",
+              "save":"2+"
+            },
+            {
+              "typeName":"Ability",
+              "name":"Death to the False Emperor",
+              "description":"Each time you roll a hit roll of 6+ for a model with this ability in the Fight phase, it can, if it was targeting an IMPERIUM unit, immediately make an extra attack against the same unit using the same weapon. These extra attacks cannot themselves generate any further attacks."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Teleport Strike",
+              "description":"During deployment, you can set up this model in a teleportarium chamber instead of placing it on the battlefield. At the end of any of your Movement phases the model can use a teleport strike to arrive on the battlefield - set it up anywhere on the battlefield that is more than 9\" away from any enemy models."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Disgustingly Resilient",
+              "description":"Each time this model loses a wound, roll a D6; on a 5+, the model does not lose that wound."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Cataphractii Armour",
+              "description":"Models in this unit have a 4+ invulnerable save, but you must halve the result of the dice rolled when determining how far this unit Advances."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Nurgle's Gift",
+              "description":"All DEATH GUARD units within 7\" of a friendly LORD OF CONTAGION are surrounded by a deadly aura of plague and disease. Roll a dice for each enemy unit that is within 1\" of any affected friendly units at the start of your turn; on a 4+ that enemy unit suffers a mortal wound."
+            }
+          ],
+          "selections":[
+            {
+              "number":1,
+              "type":"upgrade",
+              "name":"Manreaper",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Weapon",
+                  "name":"Manreaper",
+                  "range":"Melee",
+                  "type":"Melee",
+                  "strength":"+3",
+                  "armourPenetration":"-3",
+                  "damage":"D3",
+                  "abilities":"Plague Weapon"
+                }
+              ],
+              "selections":[
+                
+              ],
+              "costs":[
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":15,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            },
+            {
+              "number":1,
+              "type":"upgrade",
+              "name":"Warlord",
+              "categories":[
+                {
+                  "primary":false,
+                  "name":"Warlord"
+                }
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                
+              ],
+              "selections":[
+                
+              ],
+              "costs":[
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            },
+            {
+              "number":1,
+              "type":"upgrade",
+              "name":"6. Arch-Contaminator",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Ability",
+                  "name":"Arch-Contaminator",
+                  "description":"Re-roll all failed wound rolls when resolving attacks made with a plague weapon (i.e. a plaguesword or any weapon with the Plague Weapon ability) for any friendly DEATH GUARD unit within 7\" of your Warlord."
+                }
+              ],
+              "selections":[
+                
+              ],
+              "costs":[
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            },
+            {
+              "number":1,
+              "type":"upgrade",
+              "name":"The Suppurating Plate",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Ability",
+                  "name":"The Suppurating Plate",
+                  "description":"The bearer has a Save characteristic of 2+. In addition, roll a dice each time this model passes a saving throw in the Fight phase. On a 4+, the unit that inflicted that wound suffers a mortal wound after all of its own attacks have been resolved."
+                }
+              ],
+              "selections":[
+                
+              ],
+              "costs":[
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            }
+          ],
+          "costs":[
+            {
+              "value":115,
+              "name":"pts"
+            },
+            {
+              "value":6,
+              "name":"PL"
+            },
+            {
+              "value":0,
+              "name":"CP"
+            }
+          ]
+        },
+        {
+          "number":1,
+          "type":"unit",
+          "name":"Plague Marines",
+          "categories":[
+            {
+              "primary":false,
+              "name":"Faction: Nurgle"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Heretic Astartes"
+            },
+            {
+              "primary":false,
+              "name":"Infantry"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Chaos"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Death Guard"
+            },
+            {
+              "primary":true,
+              "name":"Troops"
+            },
+            {
+              "primary":false,
+              "name":"Plague Marines"
+            }
+          ],
+          "rules":[
+            {
+              "name":"Hateful Assault",
+              "description":"If this unit makes a charge move, is charged or performs a Heroic Intervention, add 1 to the Attacks characteristic of models in this unit until the end of the turn."
+            }
+          ],
+          "profiles":[
+            {
+              "typeName":"Unit",
+              "name":"Plague Marine",
+              "movement":"5\"",
+              "weaponSkill":"3+",
+              "ballisticSkill":"3+",
+              "strength":"4",
+              "toughness":"5",
+              "wounds":"1",
+              "attacks":"1",
+              "leadership":"7",
+              "save":"3+"
+            },
+            {
+              "typeName":"Ability",
+              "name":"Vectors of Death and Disease",
+              "description":"A Plague Marine equipped with two plague knives, a plague knife and a bubotic axe, or a mace of contagion and bubotic axe, has an Attacks characteristic of 2 instead of 1."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Death to the False Emperor",
+              "description":"Each time you roll a hit roll of 6+ for a model with this ability in the Fight phase, it can, if it was targeting an IMPERIUM unit, immediately make an extra attack against the same unit using the same weapon. These extra attacks cannot themselves generate any further attacks."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Disgustingly Resilient",
+              "description":"Each time this model loses a wound, roll a D6; on a 5+, the model does not lose that wound."
+            }
+          ],
+          "selections":[
+            {
+              "number":1,
+              "type":"model",
+              "name":"Plague Champion",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Unit",
+                  "name":"Plague Champion",
+                  "movement":"5\"",
+                  "weaponSkill":"3+",
+                  "ballisticSkill":"3+",
+                  "strength":"4",
+                  "toughness":"5",
+                  "wounds":"1",
+                  "attacks":"2",
+                  "leadership":"8",
+                  "save":"3+"
+                }
+              ],
+              "selections":[
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Blight Grenades",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Blight Grenade",
+                      "range":"6\"",
+                      "type":"Grenade D6",
+                      "strength":"3",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Plague Weapon. Blast."
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Krak grenades",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Krak grenade",
+                      "range":"6\"",
+                      "type":"Grenade 1",
+                      "strength":"6",
+                      "armourPenetration":"-1",
+                      "damage":"D3",
+                      "abilities":"-"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Plague knife",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Plague knife",
+                      "range":"Melee",
+                      "type":"Melee",
+                      "strength":"User",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Plague Weapon"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Bolt pistol",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Bolt pistol",
+                      "range":"12\"",
+                      "type":"Pistol 1",
+                      "strength":"4",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"-"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                }
+              ],
+              "costs":[
+                {
+                  "value":18,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            },
+            {
+              "number":2,
+              "type":"model",
+              "name":"Plague Marine w/ boltgun",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                
+              ],
+              "selections":[
+                {
+                  "number":2,
+                  "type":"upgrade",
+                  "name":"Plague knife",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Plague knife",
+                      "range":"Melee",
+                      "type":"Melee",
+                      "strength":"User",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Plague Weapon"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":2,
+                  "type":"upgrade",
+                  "name":"Boltgun",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Boltgun",
+                      "range":"24\"",
+                      "type":"Rapid Fire 1",
+                      "strength":"4",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"-"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":2,
+                  "type":"upgrade",
+                  "name":"Krak Grenades",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Krak grenade",
+                      "range":"6\"",
+                      "type":"Grenade 1",
+                      "strength":"6",
+                      "armourPenetration":"-1",
+                      "damage":"D3",
+                      "abilities":"-"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":2,
+                  "type":"upgrade",
+                  "name":"Blight Grenades",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Blight Grenade",
+                      "range":"6\"",
+                      "type":"Grenade D6",
+                      "strength":"3",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Plague Weapon. Blast."
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                }
+              ],
+              "costs":[
+                {
+                  "value":36,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            },
+            {
+              "number":1,
+              "type":"model",
+              "name":"Plague Marine w/ special weapon",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                
+              ],
+              "selections":[
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Blight Grenades",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Blight Grenade",
+                      "range":"6\"",
+                      "type":"Grenade D6",
+                      "strength":"3",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Plague Weapon. Blast."
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Krak grenades",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Krak grenade",
+                      "range":"6\"",
+                      "type":"Grenade 1",
+                      "strength":"6",
+                      "armourPenetration":"-1",
+                      "damage":"D3",
+                      "abilities":"-"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Plague knife",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Plague knife",
+                      "range":"Melee",
+                      "type":"Melee",
+                      "strength":"User",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Plague Weapon"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Blight launcher",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Blight launcher",
+                      "range":"24\"",
+                      "type":"Assault 2",
+                      "strength":"6",
+                      "armourPenetration":"-2",
+                      "damage":"D3",
+                      "abilities":"Plague Weapon"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":10,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                }
+              ],
+              "costs":[
+                {
+                  "value":28,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            },
+            {
+              "number":1,
+              "type":"model",
+              "name":"Plague Marine w/ special weapon",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                
+              ],
+              "selections":[
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Blight Grenades",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Blight Grenade",
+                      "range":"6\"",
+                      "type":"Grenade D6",
+                      "strength":"3",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Plague Weapon. Blast."
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Krak grenades",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Krak grenade",
+                      "range":"6\"",
+                      "type":"Grenade 1",
+                      "strength":"6",
+                      "armourPenetration":"-1",
+                      "damage":"D3",
+                      "abilities":"-"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Plague knife",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Plague knife",
+                      "range":"Melee",
+                      "type":"Melee",
+                      "strength":"User",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Plague Weapon"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Blight launcher",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Blight launcher",
+                      "range":"24\"",
+                      "type":"Assault 2",
+                      "strength":"6",
+                      "armourPenetration":"-2",
+                      "damage":"D3",
+                      "abilities":"Plague Weapon"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":10,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                }
+              ],
+              "costs":[
+                {
+                  "value":28,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            }
+          ],
+          "costs":[
+            {
+              "value":110,
+              "name":"pts"
+            },
+            {
+              "value":6,
+              "name":"PL"
+            },
+            {
+              "value":0,
+              "name":"CP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"Patrol Detachment -2CP",
+      "catalogueName":"Chaos - Gellerpox Infected",
+      "publications":[
+        "Psychic Awakening IX: Pariah",
+        "Imperial Armour - Index: Astra Militarum",
+        "Psychic Awakening VIII: War of the Spider",
+        "Warhammer 40,000 Update - April 2019",
+        "Psychic Awakening VII: Engine War",
+        "Index: Xenos 2",
+        "Psychic Awakening IV: Ritual of the Damned",
+        "White Dwarf Feb 2019",
+        "Warhammer 40,000 Core Book",
+        "Index: Imperium 1",
+        "Imperial Armour - Index: Xenos",
+        "Imperium Nihilus: Vigilus Defiant",
+        "Stronghold Assault",
+        "Psychic Awakening VI: Saga of the Beast",
+        "Imperial Armour - Index: Forces of the Astra Militarum",
+        "Index: Imperium 2",
+        "Imperial Armour - Index: Forces of the Adeptus Astartes",
+        "Psychic Awakening II: Faith and Fury",
+        "Datasheet: Terrax-Pattern Termite Assault Drill",
+        "Index: Xenos 1",
+        "Psychic Awakening I: Phoenix Rising",
+        "Warhammer Quest: Blackstone Fortress",
+        "Index: Chaos",
+        "Codex: Gellerpox Infected",
+        "Psychic Awakening III: Blood of Baal",
+        "Imperial Armour - Index: Xenos (Errata)",
+        "Psychic Awakening V: The Greater Good",
+        "Chapter Approved 2018",
+        "Chapter Approved 2017"
+      ],
+      "categories":[
+        {
+          "primary":false,
+          "name":"Uncategorised"
+        },
+        {
+          "primary":false,
+          "name":"Configuration"
+        },
+        {
+          "primary":false,
+          "name":"Stratagems"
+        },
+        {
+          "primary":false,
+          "name":"No Force Org Slot"
+        },
+        {
+          "primary":false,
+          "name":"Agents of the Imperium"
+        },
+        {
+          "primary":false,
+          "name":"HQ"
+        },
+        {
+          "primary":false,
+          "name":"Troops"
+        },
+        {
+          "primary":false,
+          "name":"Elites"
+        },
+        {
+          "primary":false,
+          "name":"Fast Attack"
+        },
+        {
+          "primary":false,
+          "name":"Heavy Support"
+        },
+        {
+          "primary":false,
+          "name":"Flyer"
+        },
+        {
+          "primary":false,
+          "name":"Dedicated Transport"
+        },
+        {
+          "primary":false,
+          "name":"Relic Elites"
+        },
+        {
+          "primary":false,
+          "name":"Relic Heavy Support"
+        },
+        {
+          "primary":false,
+          "name":"Relic HQ"
+        }
+      ],
+      "forces":[
+        
+      ],
+      "rules":[
+        
+      ],
+      "selections":[
+        {
+          "number":1,
+          "type":"upgrade",
+          "name":"Detachment CP",
+          "categories":[
+            {
+              "primary":true,
+              "name":"Configuration"
+            }
+          ],
+          "rules":[
+            
+          ],
+          "profiles":[
+            
+          ],
+          "selections":[
+            
+          ],
+          "costs":[
+            {
+              "value":0,
+              "name":"PL"
+            },
+            {
+              "value":-2,
+              "name":"CP"
+            },
+            {
+              "value":0,
+              "name":"pts"
+            }
+          ]
+        },
+        {
+          "number":1,
+          "type":"model",
+          "name":"Vulgrar Thrice-Cursed",
+          "categories":[
+            {
+              "primary":false,
+              "name":"Faction: Chaos"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Gellerpox Infected"
+            },
+            {
+              "primary":false,
+              "name":"Nurgle"
+            },
+            {
+              "primary":false,
+              "name":"Character"
+            },
+            {
+              "primary":false,
+              "name":"Infantry"
+            },
+            {
+              "primary":false,
+              "name":"Twisted Lord"
+            },
+            {
+              "primary":false,
+              "name":"Vulgrar Thrice-Cursed"
+            },
+            {
+              "primary":true,
+              "name":"HQ"
+            }
+          ],
+          "rules":[
+            
+          ],
+          "profiles":[
+            {
+              "typeName":"Unit",
+              "name":"Vulgrar Thrice-cursed",
+              "movement":"5\"",
+              "weaponSkill":"3+",
+              "ballisticSkill":"6+",
+              "strength":"5",
+              "toughness":"5",
+              "wounds":"5",
+              "attacks":"4",
+              "leadership":"9",
+              "save":"6+"
+            },
+            {
+              "typeName":"Ability",
+              "name":"Lord of Resentment",
+              "description":"Re-roll hit rolls of 1 made for friendly GELLERPOX INFECTED units within 6\" of Vulgrar Thrice-Cursed."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Bionic Abomination",
+              "description":"Vulgrar Thrice-Cursed has a 5+ invulnerable save."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Disgustingly Resilient",
+              "description":"Roll a D6 each time a model with this ability loses a wound; on a 5+ that model does not lose that wound."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Horrific Visage",
+              "description":"Subtract 1 from the Leadership characteristic of units whilst they are within 6\" of any enemy models with this ability."
+            }
+          ],
+          "selections":[
+            {
+              "number":1,
+              "type":"upgrade",
+              "name":"Belly-flamer",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Weapon",
+                  "name":"Belly-flamer",
+                  "range":"8\"",
+                  "type":"Assault D6",
+                  "strength":"4",
+                  "armourPenetration":"0",
+                  "damage":"1",
+                  "abilities":"This weapon automatically hits its target."
+                }
+              ],
+              "selections":[
+                
+              ],
+              "costs":[
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            },
+            {
+              "number":1,
+              "type":"upgrade",
+              "name":"Fleshripper claws",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Weapon",
+                  "name":"Fleshripper claws",
+                  "range":"Melee",
+                  "type":"Melee",
+                  "strength":"+1",
+                  "armourPenetration":"-2",
+                  "damage":"2",
+                  "abilities":"-"
+                }
+              ],
+              "selections":[
+                
+              ],
+              "costs":[
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            }
+          ],
+          "costs":[
+            {
+              "value":4,
+              "name":"PL"
+            },
+            {
+              "value":70,
+              "name":"pts"
+            },
+            {
+              "value":0,
+              "name":"CP"
+            }
+          ]
+        },
+        {
+          "number":1,
+          "type":"unit",
+          "name":"The Vox Shamblers",
+          "categories":[
+            {
+              "primary":false,
+              "name":"Faction: Chaos"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Gellerpox Infected"
+            },
+            {
+              "primary":false,
+              "name":"Nurgle"
+            },
+            {
+              "primary":false,
+              "name":"Infantry"
+            },
+            {
+              "primary":false,
+              "name":"Gellerpox Mutants"
+            },
+            {
+              "primary":false,
+              "name":"Vox-Shamblers"
+            },
+            {
+              "primary":true,
+              "name":"Troops"
+            }
+          ],
+          "rules":[
+            {
+              "name":"Vulgrar's Followers",
+              "description":"This ability has no effect unless your army includes VULGRAR THRICE-CURSED. If it does, you cannot set up any units with this ability before you have set up VULGRAR THRICE-CURSED. When you set up VULGRAR THRICE-CURSED during deployment, all units with this ability are set up at the same time. When you set up VULGRAR THRICE-CURSED on the battlefield for the first time, all units with this ability must be set up within 6\" of him. If they cannot be set up, they count as destroyed."
+            }
+          ],
+          "profiles":[
+            {
+              "typeName":"Ability",
+              "name":"Gellercaust Mask",
+              "description":"Models in this unit have a 5+ invulnerable save. Each time you roll an unmodified saving throw of 6 for this model in the Fight phase, the unit that made the attack suffers 1 mortal wound after it has made all of its attacks."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Disgustingly Resilient",
+              "description":"Roll a D6 each time a model with this ability loses a wound; on a 5+ that model does not lose that wound."
+            }
+          ],
+          "selections":[
+            {
+              "number":3,
+              "type":"model",
+              "name":"Gellerpox Mutant",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Unit",
+                  "name":"Gellerpox Mutant",
+                  "movement":"5\"",
+                  "weaponSkill":"4+",
+                  "ballisticSkill":"4+",
+                  "strength":"4",
+                  "toughness":"4",
+                  "wounds":"1",
+                  "attacks":"2",
+                  "leadership":"6",
+                  "save":"6+"
+                }
+              ],
+              "selections":[
+                {
+                  "number":3,
+                  "type":"upgrade",
+                  "name":"Mutated limbs and improvised weapons",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Mutated limbs and improvised weapons",
+                      "range":"Melee",
+                      "type":"Melee",
+                      "strength":"User",
+                      "armourPenetration":"-1",
+                      "damage":"1",
+                      "abilities":"-"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":3,
+                  "type":"upgrade",
+                  "name":"Frag grenades",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Frag grenade",
+                      "range":"6\"",
+                      "type":"Grenade D6",
+                      "strength":"3",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Blast."
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                }
+              ],
+              "costs":[
+                {
+                  "value":27,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            }
+          ],
+          "costs":[
+            {
+              "value":1,
+              "name":"PL"
+            },
+            {
+              "value":27,
+              "name":"pts"
+            },
+            {
+              "value":0,
+              "name":"CP"
+            }
+          ]
+        },
+        {
+          "number":1,
+          "type":"unit",
+          "name":"The Hullbreakers",
+          "categories":[
+            {
+              "primary":false,
+              "name":"Faction: Chaos"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Gellerpox Infected"
+            },
+            {
+              "primary":false,
+              "name":"Nurgle"
+            },
+            {
+              "primary":false,
+              "name":"Infantry"
+            },
+            {
+              "primary":false,
+              "name":"Nightmare Hulks"
+            },
+            {
+              "primary":false,
+              "name":"Hullbreakers"
+            },
+            {
+              "primary":true,
+              "name":"Elites"
+            }
+          ],
+          "rules":[
+            {
+              "name":"Vulgrar's Followers",
+              "description":"This ability has no effect unless your army includes VULGRAR THRICE-CURSED. If it does, you cannot set up any units with this ability before you have set up VULGRAR THRICE-CURSED. When you set up VULGRAR THRICE-CURSED during deployment, all units with this ability are set up at the same time. When you set up VULGRAR THRICE-CURSED on the battlefield for the first time, all units with this ability must be set up within 6\" of him. If they cannot be set up, they count as destroyed."
+            }
+          ],
+          "profiles":[
+            {
+              "typeName":"Ability",
+              "name":"Disgustingly Resilient",
+              "description":"Roll a D6 each time a model with this ability loses a wound; on a 5+ that model does not lose that wound."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Horrific Visage",
+              "description":"Subtract 1 from the Leadership characteristic of units whilst they are within 6\" of any enemy models with this ability."
+            }
+          ],
+          "selections":[
+            {
+              "number":1,
+              "type":"model",
+              "name":"Gnasher-Screamer",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Unit",
+                  "name":"Gnasher-Screamer",
+                  "movement":"5\"",
+                  "weaponSkill":"4+",
+                  "ballisticSkill":"-",
+                  "strength":"5",
+                  "toughness":"5",
+                  "wounds":"4",
+                  "attacks":"4",
+                  "leadership":"8",
+                  "save":"6+"
+                }
+              ],
+              "selections":[
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Plague Cleaver",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Plague Cleaver",
+                      "range":"Melee",
+                      "type":"Melee",
+                      "strength":"User",
+                      "armourPenetration":"-2",
+                      "damage":"2",
+                      "abilities":"Re-roll wound rolls of 1 for this weapon."
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Hideous Mutations",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Hideous Mutations",
+                      "range":"Melee",
+                      "type":"Melee",
+                      "strength":"User",
+                      "armourPenetration":"-2",
+                      "damage":"2",
+                      "abilities":"-"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                }
+              ],
+              "costs":[
+                {
+                  "value":35,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            },
+            {
+              "number":2,
+              "type":"model",
+              "name":"Nightmare Hulk",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Unit",
+                  "name":"Nightmare Hulk",
+                  "movement":"5\"",
+                  "weaponSkill":"4+",
+                  "ballisticSkill":"-",
+                  "strength":"5",
+                  "toughness":"5",
+                  "wounds":"4",
+                  "attacks":"3",
+                  "leadership":"7",
+                  "save":"6+"
+                }
+              ],
+              "selections":[
+                {
+                  "number":2,
+                  "type":"upgrade",
+                  "name":"Hideous Mutations",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Hideous Mutations",
+                      "range":"Melee",
+                      "type":"Melee",
+                      "strength":"User",
+                      "armourPenetration":"-2",
+                      "damage":"2",
+                      "abilities":"-"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                }
+              ],
+              "costs":[
+                {
+                  "value":70,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            }
+          ],
+          "costs":[
+            {
+              "value":5,
+              "name":"PL"
+            },
+            {
+              "value":105,
+              "name":"pts"
+            },
+            {
+              "value":0,
+              "name":"CP"
+            }
+          ]
+        },
+        {
+          "number":1,
+          "type":"unit",
+          "name":"Glitchlings",
+          "categories":[
+            {
+              "primary":false,
+              "name":"Faction: Chaos"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Gellerpox Infected"
+            },
+            {
+              "primary":false,
+              "name":"Nurgle"
+            },
+            {
+              "primary":false,
+              "name":"Infantry"
+            },
+            {
+              "primary":false,
+              "name":"Daemon"
+            },
+            {
+              "primary":false,
+              "name":"Glitchlings"
+            },
+            {
+              "primary":true,
+              "name":"Troops"
+            }
+          ],
+          "rules":[
+            {
+              "name":"Vulgrar's Followers",
+              "description":"This ability has no effect unless your army includes VULGRAR THRICE-CURSED. If it does, you cannot set up any units with this ability before you have set up VULGRAR THRICE-CURSED. When you set up VULGRAR THRICE-CURSED during deployment, all units with this ability are set up at the same time. When you set up VULGRAR THRICE-CURSED on the battlefield for the first time, all units with this ability must be set up within 6\" of him. If they cannot be set up, they count as destroyed."
+            }
+          ],
+          "profiles":[
+            {
+              "typeName":"Unit",
+              "name":"Glitchling",
+              "movement":"5\"",
+              "weaponSkill":"4+",
+              "ballisticSkill":"-",
+              "strength":"2",
+              "toughness":"2",
+              "wounds":"1",
+              "attacks":"2",
+              "leadership":"7",
+              "save":"6+"
+            },
+            {
+              "typeName":"Ability",
+              "name":"Daemonic",
+              "description":"Models in this unit have a 5+ invulnerable save."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Squishable",
+              "description":"Models in this unit only receive the benefit of their Disgustingly Resilient ability against attacks with a Damage characteristic of 1."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Weapons Glitch",
+              "description":"Subtract 1 from hit rolls made for attacks with ranged weapons that target this unit."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Disgustingly Resilient",
+              "description":"Roll a D6 each time a model with this ability loses a wound; on a 5+ that model does not lose that wound."
+            }
+          ],
+          "selections":[
+            {
+              "number":4,
+              "type":"model",
+              "name":"Glitchling",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                
+              ],
+              "selections":[
+                {
+                  "number":4,
+                  "type":"upgrade",
+                  "name":"Diseased claws and fangs",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Diseased claws and fangs",
+                      "range":"Melee",
+                      "type":"Melee",
+                      "strength":"User",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Re-roll wound rolls of 1 for this weapon."
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                }
+              ],
+              "costs":[
+                {
+                  "value":20,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            }
+          ],
+          "costs":[
+            {
+              "value":1,
+              "name":"PL"
+            },
+            {
+              "value":20,
+              "name":"pts"
+            },
+            {
+              "value":0,
+              "name":"CP"
+            }
+          ]
+        },
+        {
+          "number":1,
+          "type":"unit",
+          "name":"Cursemites",
+          "categories":[
+            {
+              "primary":false,
+              "name":"Faction: Chaos"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Gellerpox Infected"
+            },
+            {
+              "primary":false,
+              "name":"Nurgle"
+            },
+            {
+              "primary":false,
+              "name":"Beast"
+            },
+            {
+              "primary":false,
+              "name":"Mutoid Vermin"
+            },
+            {
+              "primary":false,
+              "name":"Cursemites"
+            },
+            {
+              "primary":true,
+              "name":"Fast Attack"
+            }
+          ],
+          "rules":[
+            {
+              "name":"Vulgrar's Followers",
+              "description":"This ability has no effect unless your army includes VULGRAR THRICE-CURSED. If it does, you cannot set up any units with this ability before you have set up VULGRAR THRICE-CURSED. When you set up VULGRAR THRICE-CURSED during deployment, all units with this ability are set up at the same time. When you set up VULGRAR THRICE-CURSED on the battlefield for the first time, all units with this ability must be set up within 6\" of him. If they cannot be set up, they count as destroyed."
+            }
+          ],
+          "profiles":[
+            {
+              "typeName":"Ability",
+              "name":"Leaping Insectoids",
+              "description":"You can re-roll failed charge rolls for this unit. In addition, whenever this unit piles in or consolidates, it can move up to 6\" instead of 3\"."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Mutoid Vermin",
+              "description":"This unit does not take up a slot in a Detachment that includes Vulgrar Thrice-Cursed."
+            }
+          ],
+          "selections":[
+            {
+              "number":4,
+              "type":"model",
+              "name":"Cursemite",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Unit",
+                  "name":"Cursemite",
+                  "movement":"8\"",
+                  "weaponSkill":"4+",
+                  "ballisticSkill":"-",
+                  "strength":"2",
+                  "toughness":"2",
+                  "wounds":"1",
+                  "attacks":"2",
+                  "leadership":"8",
+                  "save":"6+"
+                }
+              ],
+              "selections":[
+                {
+                  "number":4,
+                  "type":"upgrade",
+                  "name":"Bloodsucking proboscis",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Bloodsucking proboscis",
+                      "range":"Melee",
+                      "type":"Melee",
+                      "strength":"User",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Each unmodified hit roll of 6 made for an attack with this weapon scores 2 hits."
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                }
+              ],
+              "costs":[
+                {
+                  "value":20,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            }
+          ],
+          "costs":[
+            {
+              "value":1,
+              "name":"PL"
+            },
+            {
+              "value":20,
+              "name":"pts"
+            },
+            {
+              "value":0,
+              "name":"CP"
+            }
+          ]
+        },
+        {
+          "number":1,
+          "type":"unit",
+          "name":"Eyestinger Swarms",
+          "categories":[
+            {
+              "primary":false,
+              "name":"Faction: Chaos"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Gellerpox Infected"
+            },
+            {
+              "primary":false,
+              "name":"Nurgle"
+            },
+            {
+              "primary":false,
+              "name":"Swarm"
+            },
+            {
+              "primary":false,
+              "name":"Fly"
+            },
+            {
+              "primary":false,
+              "name":"Mutoid Vermin"
+            },
+            {
+              "primary":false,
+              "name":"Eyestinger Swarms"
+            },
+            {
+              "primary":true,
+              "name":"Fast Attack"
+            }
+          ],
+          "rules":[
+            {
+              "name":"Vulgrar's Followers",
+              "description":"This ability has no effect unless your army includes VULGRAR THRICE-CURSED. If it does, you cannot set up any units with this ability before you have set up VULGRAR THRICE-CURSED. When you set up VULGRAR THRICE-CURSED during deployment, all units with this ability are set up at the same time. When you set up VULGRAR THRICE-CURSED on the battlefield for the first time, all units with this ability must be set up within 6\" of him. If they cannot be set up, they count as destroyed."
+            }
+          ],
+          "profiles":[
+            {
+              "typeName":"Ability",
+              "name":"Buzzing Swarm",
+              "description":"Subtract 1 from hit rolls for attacks that target this unit."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Hatchlings",
+              "description":"Add 1 slain model to this unit at the start of every turn."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Mutoid Vermin",
+              "description":"This unit does not take up a slot in a Detachment that includes Vulgrar Thrice-Cursed."
+            }
+          ],
+          "selections":[
+            {
+              "number":4,
+              "type":"model",
+              "name":"Eyestinger Swarm",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Unit",
+                  "name":"Eyestinger Swarm",
+                  "movement":"10\"",
+                  "weaponSkill":"4+",
+                  "ballisticSkill":"-",
+                  "strength":"2",
+                  "toughness":"2",
+                  "wounds":"1",
+                  "attacks":"D3",
+                  "leadership":"8",
+                  "save":"7+"
+                }
+              ],
+              "selections":[
+                {
+                  "number":4,
+                  "type":"upgrade",
+                  "name":"Spawning barb",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Spawning barb",
+                      "range":"Melee",
+                      "type":"Melee",
+                      "strength":"User",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Each unmodified hit roll of 6 made for this weapon automatically results in a wound (do not make a wound roll for that attack)."
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                }
+              ],
+              "costs":[
+                {
+                  "value":20,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            }
+          ],
+          "costs":[
+            {
+              "value":1,
+              "name":"PL"
+            },
+            {
+              "value":20,
+              "name":"pts"
+            },
+            {
+              "value":0,
+              "name":"CP"
+            }
+          ]
+        },
+        {
+          "number":1,
+          "type":"unit",
+          "name":"Sludge-grubs",
+          "categories":[
+            {
+              "primary":true,
+              "name":"No Force Org Slot"
+            }
+          ],
+          "rules":[
+            {
+              "name":"Vulgrar's Followers",
+              "description":"This ability has no effect unless your army includes VULGRAR THRICE-CURSED. If it does, you cannot set up any units with this ability before you have set up VULGRAR THRICE-CURSED. When you set up VULGRAR THRICE-CURSED during deployment, all units with this ability are set up at the same time. When you set up VULGRAR THRICE-CURSED on the battlefield for the first time, all units with this ability must be set up within 6\" of him. If they cannot be set up, they count as destroyed."
+            }
+          ],
+          "profiles":[
+            {
+              "typeName":"Ability",
+              "name":"Caustic Blood",
+              "description":"Roll a D6 each time a model in this unit is slain in the Fight phase; on a 6 the unit that killed the model suffers a mortal wound after it has made all its attacks."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Mutoid Vermin",
+              "description":"This unit does not take up a slot in a Detachment that includes Vulgrar Thrice-Cursed."
+            }
+          ],
+          "selections":[
+            {
+              "number":4,
+              "type":"model",
+              "name":"Sludge-grub",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Unit",
+                  "name":"Sludge-grub",
+                  "movement":"5\"",
+                  "weaponSkill":"4+",
+                  "ballisticSkill":"4+",
+                  "strength":"3",
+                  "toughness":"2",
+                  "wounds":"1",
+                  "attacks":"1",
+                  "leadership":"8",
+                  "save":"6+"
+                }
+              ],
+              "selections":[
+                {
+                  "number":4,
+                  "type":"upgrade",
+                  "name":"Acid Spit",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Acid Spit",
+                      "range":"8\"",
+                      "type":"Pistol 1",
+                      "strength":"User",
+                      "armourPenetration":"-1",
+                      "damage":"1",
+                      "abilities":"-"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":4,
+                  "type":"upgrade",
+                  "name":"Fanged maw and stinger",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Fanged maw and stinger",
+                      "range":"Melee",
+                      "type":"Melee",
+                      "strength":"User",
+                      "armourPenetration":"-1",
+                      "damage":"1",
+                      "abilities":"-"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                }
+              ],
+              "costs":[
+                {
+                  "value":20,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            }
+          ],
+          "costs":[
+            {
+              "value":1,
+              "name":"PL"
+            },
+            {
+              "value":20,
+              "name":"pts"
+            },
+            {
+              "value":0,
+              "name":"CP"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name":"Patrol Detachment -2CP",
+      "catalogueName":"Chaos - Death Guard",
+      "publications":[
+        "Psychic Awakening IX: Pariah",
+        "Imperial Armour - Index: Astra Militarum",
+        "Psychic Awakening VIII: War of the Spider",
+        "Warhammer 40,000 Update - April 2019",
+        "Psychic Awakening VII: Engine War",
+        "Index: Xenos 2",
+        "Psychic Awakening IV: Ritual of the Damned",
+        "White Dwarf Feb 2019",
+        "Warhammer 40,000 Core Book",
+        "Index: Imperium 1",
+        "Imperial Armour - Index: Xenos",
+        "Imperium Nihilus: Vigilus Defiant",
+        "Stronghold Assault",
+        "Psychic Awakening VI: Saga of the Beast",
+        "Imperial Armour - Index: Forces of the Astra Militarum",
+        "Index: Imperium 2",
+        "Imperial Armour - Index: Forces of the Adeptus Astartes",
+        "Psychic Awakening II: Faith and Fury",
+        "Datasheet: Terrax-Pattern Termite Assault Drill",
+        "Index: Xenos 1",
+        "Psychic Awakening I: Phoenix Rising",
+        "Warhammer Quest: Blackstone Fortress",
+        "Index: Chaos",
+        "Psychic Awakening III: Blood of Baal",
+        "Imperial Armour - Index: Xenos (Errata)",
+        "Codex: Heretic Astartes - Death Guard",
+        "Psychic Awakening V: The Greater Good",
+        "Index: Chaos FAQ",
+        "Chapter Approved 2018",
+        "Chapter Approved 2017"
+      ],
+      "categories":[
+        {
+          "primary":false,
+          "name":"Uncategorised"
+        },
+        {
+          "primary":false,
+          "name":"Configuration"
+        },
+        {
+          "primary":false,
+          "name":"Stratagems"
+        },
+        {
+          "primary":false,
+          "name":"No Force Org Slot"
+        },
+        {
+          "primary":false,
+          "name":"Agents of the Imperium"
+        },
+        {
+          "primary":false,
+          "name":"HQ"
+        },
+        {
+          "primary":false,
+          "name":"Troops"
+        },
+        {
+          "primary":false,
+          "name":"Elites"
+        },
+        {
+          "primary":false,
+          "name":"Fast Attack"
+        },
+        {
+          "primary":false,
+          "name":"Heavy Support"
+        },
+        {
+          "primary":false,
+          "name":"Flyer"
+        },
+        {
+          "primary":false,
+          "name":"Dedicated Transport"
+        },
+        {
+          "primary":false,
+          "name":"Relic Elites"
+        },
+        {
+          "primary":false,
+          "name":"Relic Heavy Support"
+        },
+        {
+          "primary":false,
+          "name":"Relic HQ"
+        }
+      ],
+      "forces":[
+        
+      ],
+      "rules":[
+        {
+          "name":"Plague Weapon",
+          "description":"You can re-roll wound rolls of 1 for a weapon with this ability."
+        },
+        {
+          "name":"Inexorable Advance",
+          "description":"If your Army is Battle-forged, all INFANTRY and HELBRUTE units in DEATH GUARD Detachments gain this ability. Such units do not suffer a penalty for moving and firing Heavy Weapons, or for Advancing and firing Assault weapons. In addition, a unit with this ability can fire twice with Rapid Fire weapons at a range of 18\", instead of only being able to fire twice with them up to half the weapon's maximum range."
+        },
+        {
+          "name":"Plague Host",
+          "description":"If your army is Battle-forged, all Troops units in DEATH GUARD Detachments gain this ability. Such a unit that is within range of an objective marker (as specified in the mission) controls that objective marker even if there are more enemy models within range of it. If an enemy unit within range of the same objective marker has a similar ability, then the objective marker is controlled by the player who has the most models within range as normal."
+        },
+        {
+          "name":"Malicious Volleys",
+          "description":"All DEATH GUARD units in Codex: Death Guard (excluding CHAOS CULTISTS units and POXWALKERS units) gain this ability:\n\nInstead of following the normal rules for Rapid Fire weapons, Rapid Fire bolt weapons used by models in a unit with this ability make double the number of attacks if any of the following apply:\n• The firing model’s target is within half the weapon’s maximum range.\n• The firing model belongs to an INFANTRY unit and every model from that unit remained stationary in your\nprevious Movement phase.\n• The firing model is a TERMINATOR , BIKER or HELBRUTE.\n\nFor the purposes of this ability, a Rapid Fire bolt weapon is any weapon with the Rapid Fire type whose profile includes the word ‘bolt’ (e.g. boltgun, combi-bolter, etc.)"
+        },
+        {
+          "name":"Daemonic Ritual",
+          "description":"Instead of moving in their Movement phase, any DEATH GUARD CHARACTER can, at the end of their Movement phase, attempt to summon a NURGLE DAEMON unit with this ability by performing a Daemonic Ritual (the character cannot do so if they arrived as reinforcements this turn).\n\nRoll up to 3 dice - this is your summoning roll. You can summon one new NURGLE DAEMON unit with the Daemonic Ritual ability to the battlefield that has a Power Rating equal to or less than the total result. This unit is treated as reinforcements for your army and can be placed anywhere on the battlefield that is entirely within 12\" of the character and is more than 9\" from any enemy model. If the total rolled is insufficient to summon any unit, the ritual fails and no new unit is summoned.\n\nIf your summoning roll included any doubles, your character then suffers a mortal wound. If it contained any triples, it instead suffers D3 mortal wounds."
+        }
+      ],
+      "selections":[
+        {
+          "number":1,
+          "type":"upgrade",
+          "name":"Plagueburst Crawler",
+          "categories":[
+            {
+              "primary":false,
+              "name":"Faction: Chaos"
+            },
+            {
+              "primary":false,
+              "name":"Daemon"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Death Guard"
+            },
+            {
+              "primary":true,
+              "name":"Heavy Support"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Heretic Astartes"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Nurgle"
+            },
+            {
+              "primary":false,
+              "name":"Vehicle"
+            },
+            {
+              "primary":false,
+              "name":"Daemon Engine"
+            },
+            {
+              "primary":false,
+              "name":"Plagueburst Crawler"
+            }
+          ],
+          "rules":[
+            {
+              "name":"Hateful Assault",
+              "description":"If this unit makes a charge move, is charged or performs a Heroic Intervention, add 1 to the Attacks characteristic of models in this unit until the end of the turn."
+            }
+          ],
+          "profiles":[
+            {
+              "typeName":"Unit",
+              "name":"Plagueburst Crawler",
+              "movement":"*",
+              "weaponSkill":"6+",
+              "ballisticSkill":"*",
+              "strength":"*",
+              "toughness":"8",
+              "wounds":"12",
+              "attacks":"3",
+              "leadership":"8",
+              "save":"3+"
+            },
+            {
+              "typeName":"Unknown",
+              "name":"Plagueburst Crawler1",
+              "unexpectedTypeName":"Plagueburst Crawler1",
+              "Remaining W":"6-12+",
+              "M":"9\"",
+              "BS":"4+",
+              "S":"7"
+            },
+            {
+              "typeName":"Unknown",
+              "name":"Plagueburst Crawler2",
+              "unexpectedTypeName":"Plagueburst Crawler2",
+              "Remaining W":"3-5",
+              "M":"6\"",
+              "BS":"5+",
+              "S":"6"
+            },
+            {
+              "typeName":"Unknown",
+              "name":"Plagueburst Crawler3",
+              "unexpectedTypeName":"Plagueburst Crawler3",
+              "Remaining W":"1-2",
+              "M":"4\"",
+              "BS":"5+",
+              "S":"5"
+            },
+            {
+              "typeName":"Ability",
+              "name":"Explodes",
+              "description":"If this model is reduced to 0 wounds, roll a D6 before removing it from the battlefield. On a 5+ it explodes, and each unit within 6\" suffers D3 mortal wounds."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Daemonic",
+              "description":"This model has a 5+ invulnerable save."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Disgustingly Resilient",
+              "description":"Each time this model loses a wound, roll a D6; on a 5+, the model does not lose that wound."
+            }
+          ],
+          "selections":[
+            {
+              "number":1,
+              "type":"upgrade",
+              "name":"Plagueburst Mortar",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Weapon",
+                  "name":"Plagueburst Mortar",
+                  "range":"12\"-48\"",
+                  "type":"Heavy D6",
+                  "strength":"8",
+                  "armourPenetration":"-2",
+                  "damage":"D3",
+                  "abilities":"Plague Weapon. This weapon can target units that are not visible to the bearer. Blast."
+                }
+              ],
+              "selections":[
+                
+              ],
+              "costs":[
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            },
+            {
+              "number":1,
+              "type":"upgrade",
+              "name":"2x Plaguespitter",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Weapon",
+                  "name":"Plaguespitter",
+                  "range":"9\"",
+                  "type":"Assault D6",
+                  "strength":"User",
+                  "armourPenetration":"-1",
+                  "damage":"1",
+                  "abilities":"Plague Weapon.This weapon automatically hits its target."
+                }
+              ],
+              "selections":[
+                
+              ],
+              "costs":[
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":40,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            },
+            {
+              "number":1,
+              "type":"upgrade",
+              "name":"Heavy slugger",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Weapon",
+                  "name":"Heavy slugger",
+                  "range":"36\"",
+                  "type":"Heavy 4",
+                  "strength":"5",
+                  "armourPenetration":"-1",
+                  "damage":"1",
+                  "abilities":"-"
+                }
+              ],
+              "selections":[
+                
+              ],
+              "costs":[
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                },
+                {
+                  "value":0,
+                  "name":"pts"
+                }
+              ]
+            }
+          ],
+          "costs":[
+            {
+              "value":170,
+              "name":"pts"
+            },
+            {
+              "value":8,
+              "name":"PL"
+            },
+            {
+              "value":0,
+              "name":"CP"
+            }
+          ]
+        },
+        {
+          "number":1,
+          "type":"model",
+          "name":"Foul Blightspawn",
+          "categories":[
+            {
+              "primary":false,
+              "name":"Faction: Chaos"
+            },
+            {
+              "primary":false,
+              "name":"Character"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Death Guard"
+            },
+            {
+              "primary":true,
+              "name":"Elites"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Heretic Astartes"
+            },
+            {
+              "primary":false,
+              "name":"Infantry"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Nurgle"
+            },
+            {
+              "primary":false,
+              "name":"Foul Blightspawn"
+            }
+          ],
+          "rules":[
+            {
+              "name":"Hateful Assault",
+              "description":"If this unit makes a charge move, is charged or performs a Heroic Intervention, add 1 to the Attacks characteristic of models in this unit until the end of the turn."
+            }
+          ],
+          "profiles":[
+            {
+              "typeName":"Unit",
+              "name":"Foul Blightspawn",
+              "movement":"5\"",
+              "weaponSkill":"3+",
+              "ballisticSkill":"3+",
+              "strength":"4",
+              "toughness":"5",
+              "wounds":"4",
+              "attacks":"3",
+              "leadership":"8",
+              "save":"3+"
+            },
+            {
+              "typeName":"Ability",
+              "name":"Unholy Death's Head",
+              "description":"Each Foul Blightspawn carries a single unholy death's head grenade. Once per battle, a Foul Blightspawn, or another friendly DEATH GUARD CHARACTER within 3\" of him, can throw an unholy death's head grenade instead of either a blight grenade or a hyper blight grenade. When they do so, change that weapon's type to Grenade 2D6."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Revolting Stench",
+              "description":"Enemy units that charged this turn and are within 7\" of this model at the start of the Fight phase are struck by a stench so foul that they falter, losing their impetus. Such a unit does not get to fight first in the Fight phase, but can be chosen to fight like other units that did not charge. This ability also affects units who have abilities that would enable them to fight first as if they had charged."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Disgustingly Resilient",
+              "description":"Each time this model loses a wound, roll a D6; on a 5+, the model does not lose that wound."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Death to the False Emperor",
+              "description":"Each time you roll a hit roll of 6+ for a model with this ability in the Fight phase, it can, if it was targeting an IMPERIUM unit, immediately make an extra attack against the same unit using the same weapon. These extra attacks cannot themselves generate any further attacks."
+            }
+          ],
+          "selections":[
+            {
+              "number":1,
+              "type":"upgrade",
+              "name":"Plague sprayer",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Weapon",
+                  "name":"Plague sprayer",
+                  "range":"9\"",
+                  "type":"Assault D6",
+                  "strength":"2D6",
+                  "armourPenetration":"-3",
+                  "damage":"3",
+                  "abilities":"Plague Weapon. This weapon automatically hits its target. Roll to determine the Strength of this weapon after selecting a target but before determining how many shots are fired."
+                }
+              ],
+              "selections":[
+                
+              ],
+              "costs":[
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            },
+            {
+              "number":1,
+              "type":"upgrade",
+              "name":"Blight Grenades",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Weapon",
+                  "name":"Blight Grenade",
+                  "range":"6\"",
+                  "type":"Grenade D6",
+                  "strength":"3",
+                  "armourPenetration":"0",
+                  "damage":"1",
+                  "abilities":"Plague Weapon. Blast."
+                }
+              ],
+              "selections":[
+                
+              ],
+              "costs":[
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            },
+            {
+              "number":1,
+              "type":"upgrade",
+              "name":"Krak grenades",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Weapon",
+                  "name":"Krak grenade",
+                  "range":"6\"",
+                  "type":"Grenade 1",
+                  "strength":"6",
+                  "armourPenetration":"-1",
+                  "damage":"D3",
+                  "abilities":"-"
+                }
+              ],
+              "selections":[
+                
+              ],
+              "costs":[
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            }
+          ],
+          "costs":[
+            {
+              "value":5,
+              "name":"PL"
+            },
+            {
+              "value":85,
+              "name":"pts"
+            },
+            {
+              "value":0,
+              "name":"CP"
+            }
+          ]
+        },
+        {
+          "number":1,
+          "type":"unit",
+          "name":"Plague Marines",
+          "categories":[
+            {
+              "primary":false,
+              "name":"Faction: Nurgle"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Heretic Astartes"
+            },
+            {
+              "primary":false,
+              "name":"Infantry"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Chaos"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Death Guard"
+            },
+            {
+              "primary":true,
+              "name":"Troops"
+            },
+            {
+              "primary":false,
+              "name":"Plague Marines"
+            }
+          ],
+          "rules":[
+            {
+              "name":"Hateful Assault",
+              "description":"If this unit makes a charge move, is charged or performs a Heroic Intervention, add 1 to the Attacks characteristic of models in this unit until the end of the turn."
+            }
+          ],
+          "profiles":[
+            {
+              "typeName":"Unit",
+              "name":"Plague Marine",
+              "movement":"5\"",
+              "weaponSkill":"3+",
+              "ballisticSkill":"3+",
+              "strength":"4",
+              "toughness":"5",
+              "wounds":"1",
+              "attacks":"1",
+              "leadership":"7",
+              "save":"3+"
+            },
+            {
+              "typeName":"Ability",
+              "name":"Vectors of Death and Disease",
+              "description":"A Plague Marine equipped with two plague knives, a plague knife and a bubotic axe, or a mace of contagion and bubotic axe, has an Attacks characteristic of 2 instead of 1."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Death to the False Emperor",
+              "description":"Each time you roll a hit roll of 6+ for a model with this ability in the Fight phase, it can, if it was targeting an IMPERIUM unit, immediately make an extra attack against the same unit using the same weapon. These extra attacks cannot themselves generate any further attacks."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Disgustingly Resilient",
+              "description":"Each time this model loses a wound, roll a D6; on a 5+, the model does not lose that wound."
+            }
+          ],
+          "selections":[
+            {
+              "number":1,
+              "type":"model",
+              "name":"Plague Champion",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Unit",
+                  "name":"Plague Champion",
+                  "movement":"5\"",
+                  "weaponSkill":"3+",
+                  "ballisticSkill":"3+",
+                  "strength":"4",
+                  "toughness":"5",
+                  "wounds":"1",
+                  "attacks":"2",
+                  "leadership":"8",
+                  "save":"3+"
+                }
+              ],
+              "selections":[
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Blight Grenades",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Blight Grenade",
+                      "range":"6\"",
+                      "type":"Grenade D6",
+                      "strength":"3",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Plague Weapon. Blast."
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Krak grenades",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Krak grenade",
+                      "range":"6\"",
+                      "type":"Grenade 1",
+                      "strength":"6",
+                      "armourPenetration":"-1",
+                      "damage":"D3",
+                      "abilities":"-"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Plague knife",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Plague knife",
+                      "range":"Melee",
+                      "type":"Melee",
+                      "strength":"User",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Plague Weapon"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Boltgun",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Boltgun",
+                      "range":"24\"",
+                      "type":"Rapid Fire 1",
+                      "strength":"4",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"-"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                }
+              ],
+              "costs":[
+                {
+                  "value":18,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            },
+            {
+              "number":1,
+              "type":"model",
+              "name":"Plague Marine w/ boltgun",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                
+              ],
+              "selections":[
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Plague knife",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Plague knife",
+                      "range":"Melee",
+                      "type":"Melee",
+                      "strength":"User",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Plague Weapon"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Boltgun",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Boltgun",
+                      "range":"24\"",
+                      "type":"Rapid Fire 1",
+                      "strength":"4",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"-"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Krak Grenades",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Krak grenade",
+                      "range":"6\"",
+                      "type":"Grenade 1",
+                      "strength":"6",
+                      "armourPenetration":"-1",
+                      "damage":"D3",
+                      "abilities":"-"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Blight Grenades",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Blight Grenade",
+                      "range":"6\"",
+                      "type":"Grenade D6",
+                      "strength":"3",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Plague Weapon. Blast."
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                }
+              ],
+              "costs":[
+                {
+                  "value":18,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            },
+            {
+              "number":1,
+              "type":"model",
+              "name":"Plague Marine w/ melee weapons",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                
+              ],
+              "selections":[
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Blight Grenades",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Blight Grenade",
+                      "range":"6\"",
+                      "type":"Grenade D6",
+                      "strength":"3",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Plague Weapon. Blast."
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Krak grenades",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Krak grenade",
+                      "range":"6\"",
+                      "type":"Grenade 1",
+                      "strength":"6",
+                      "armourPenetration":"-1",
+                      "damage":"D3",
+                      "abilities":"-"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Plague knife",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Plague knife",
+                      "range":"Melee",
+                      "type":"Melee",
+                      "strength":"User",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Plague Weapon"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Bubotic Axe",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Bubotic Axe",
+                      "range":"Melee",
+                      "type":"Melee",
+                      "strength":"+1",
+                      "armourPenetration":"-2",
+                      "damage":"1",
+                      "abilities":"Plague Weapon"
+                    },
+                    {
+                      "typeName":"Unit",
+                      "name":"Plague Marine (Vectors)",
+                      "movement":"5\"",
+                      "weaponSkill":"3+",
+                      "ballisticSkill":"3+",
+                      "strength":"4",
+                      "toughness":"5",
+                      "wounds":"1",
+                      "attacks":"2",
+                      "leadership":"7",
+                      "save":"3+"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":5,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                }
+              ],
+              "costs":[
+                {
+                  "value":23,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            },
+            {
+              "number":1,
+              "type":"model",
+              "name":"Plague Marine w/ melee weapons",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                
+              ],
+              "selections":[
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Blight Grenades",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Blight Grenade",
+                      "range":"6\"",
+                      "type":"Grenade D6",
+                      "strength":"3",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Plague Weapon. Blast."
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Krak grenades",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Krak grenade",
+                      "range":"6\"",
+                      "type":"Grenade 1",
+                      "strength":"6",
+                      "armourPenetration":"-1",
+                      "damage":"D3",
+                      "abilities":"-"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Plague knife",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Plague knife",
+                      "range":"Melee",
+                      "type":"Melee",
+                      "strength":"User",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Plague Weapon"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Flail of Corruption",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Flail of Corruption",
+                      "range":"Melee",
+                      "type":"Melee",
+                      "strength":"+2",
+                      "armourPenetration":"-2",
+                      "damage":"2",
+                      "abilities":"Plague Weapon. Make D3 hit rolls each time you attack with this weapon, instead of only one. Excess damage from this weapon is not lost; instead keep allocating damage to another model in the unit until either all the damage has been allocated or the target is destroyed."
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":15,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                }
+              ],
+              "costs":[
+                {
+                  "value":33,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            },
+            {
+              "number":1,
+              "type":"model",
+              "name":"Plague Marine w/ special weapon",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                
+              ],
+              "selections":[
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Blight Grenades",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Blight Grenade",
+                      "range":"6\"",
+                      "type":"Grenade D6",
+                      "strength":"3",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Plague Weapon. Blast."
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Krak grenades",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Krak grenade",
+                      "range":"6\"",
+                      "type":"Grenade 1",
+                      "strength":"6",
+                      "armourPenetration":"-1",
+                      "damage":"D3",
+                      "abilities":"-"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Plague knife",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Plague knife",
+                      "range":"Melee",
+                      "type":"Melee",
+                      "strength":"User",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Plague Weapon"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Plague spewer",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Plague spewer",
+                      "range":"9\"",
+                      "type":"Heavy D6",
+                      "strength":"5",
+                      "armourPenetration":"-1",
+                      "damage":"1",
+                      "abilities":"Plague Weapon. This weapon automatically hits its target."
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":10,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                }
+              ],
+              "costs":[
+                {
+                  "value":28,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            },
+            {
+              "number":1,
+              "type":"model",
+              "name":"Plague Marine w/ special weapon",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                
+              ],
+              "selections":[
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Blight Grenades",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Blight Grenade",
+                      "range":"6\"",
+                      "type":"Grenade D6",
+                      "strength":"3",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Plague Weapon. Blast."
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Krak grenades",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Krak grenade",
+                      "range":"6\"",
+                      "type":"Grenade 1",
+                      "strength":"6",
+                      "armourPenetration":"-1",
+                      "damage":"D3",
+                      "abilities":"-"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Plague knife",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Plague knife",
+                      "range":"Melee",
+                      "type":"Melee",
+                      "strength":"User",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Plague Weapon"
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":0,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                },
+                {
+                  "number":1,
+                  "type":"upgrade",
+                  "name":"Plague belcher",
+                  "categories":[
+                    
+                  ],
+                  "rules":[
+                    
+                  ],
+                  "profiles":[
+                    {
+                      "typeName":"Weapon",
+                      "name":"Plague belcher",
+                      "range":"9\"",
+                      "type":"Assault D6",
+                      "strength":"4",
+                      "armourPenetration":"0",
+                      "damage":"1",
+                      "abilities":"Plague Weapon. This weapon automatically hits its target."
+                    }
+                  ],
+                  "selections":[
+                    
+                  ],
+                  "costs":[
+                    {
+                      "value":5,
+                      "name":"pts"
+                    },
+                    {
+                      "value":0,
+                      "name":"PL"
+                    },
+                    {
+                      "value":0,
+                      "name":"CP"
+                    }
+                  ]
+                }
+              ],
+              "costs":[
+                {
+                  "value":23,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            }
+          ],
+          "costs":[
+            {
+              "value":143,
+              "name":"pts"
+            },
+            {
+              "value":8,
+              "name":"PL"
+            },
+            {
+              "value":0,
+              "name":"CP"
+            }
+          ]
+        },
+        {
+          "number":1,
+          "type":"model",
+          "name":"Chaos Lord in Terminator Armour",
+          "categories":[
+            {
+              "primary":true,
+              "name":"HQ"
+            },
+            {
+              "primary":false,
+              "name":"Character"
+            },
+            {
+              "primary":false,
+              "name":"Chaos Lord"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Heretic Astartes"
+            },
+            {
+              "primary":false,
+              "name":"Infantry"
+            },
+            {
+              "primary":false,
+              "name":"Terminator"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Death Guard"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Nurgle"
+            },
+            {
+              "primary":false,
+              "name":"Faction: Chaos"
+            }
+          ],
+          "rules":[
+            {
+              "name":"Hateful Assault",
+              "description":"If this unit makes a charge move, is charged or performs a Heroic Intervention, add 1 to the Attacks characteristic of models in this unit until the end of the turn."
+            }
+          ],
+          "profiles":[
+            {
+              "typeName":"Unit",
+              "name":"Chaos Lord in Terminator Armour",
+              "movement":"5\"",
+              "weaponSkill":"2+",
+              "ballisticSkill":"2+",
+              "strength":"4",
+              "toughness":"4",
+              "wounds":"6",
+              "attacks":"4",
+              "leadership":"9",
+              "save":"2+"
+            },
+            {
+              "typeName":"Ability",
+              "name":"Lord of Nurgle",
+              "description":"You can re-roll hit rolls of 1 made for friendly DEATH GUARD units within 6\" of this model."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Death to the False Emperor",
+              "description":"Each time you roll a hit roll of 6+ for a model with this ability in the Fight phase, it can, if it was targeting an IMPERIUM unit, immediately make an extra attack against the same unit using the same weapon. These extra attacks cannot themselves generate any further attacks."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Sigil of Corruption",
+              "description":"This model has a 4+ invulnerable save."
+            },
+            {
+              "typeName":"Ability",
+              "name":"Teleport Strike",
+              "description":"During deployment, you can set up this model in a teleportarium chamber instead of placing it on the battlefield. At the end of any of your Movement phases the model can use a teleport strike to arrive on the battlefield - set it up anywhere on the battlefield that is more than 9\" away from any enemy models."
+            }
+          ],
+          "selections":[
+            {
+              "number":1,
+              "type":"upgrade",
+              "name":"Power sword",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Weapon",
+                  "name":"Power sword",
+                  "range":"Melee",
+                  "type":"Melee",
+                  "strength":"User",
+                  "armourPenetration":"-3",
+                  "damage":"1",
+                  "abilities":"-"
+                }
+              ],
+              "selections":[
+                
+              ],
+              "costs":[
+                {
+                  "value":5,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            },
+            {
+              "number":1,
+              "type":"upgrade",
+              "name":"Combi-bolter",
+              "categories":[
+                
+              ],
+              "rules":[
+                
+              ],
+              "profiles":[
+                {
+                  "typeName":"Weapon",
+                  "name":"Combi-bolter",
+                  "range":"24\"",
+                  "type":"Rapid Fire 2",
+                  "strength":"4",
+                  "armourPenetration":"0",
+                  "damage":"1",
+                  "abilities":"-"
+                }
+              ],
+              "selections":[
+                
+              ],
+              "costs":[
+                {
+                  "value":3,
+                  "name":"pts"
+                },
+                {
+                  "value":0,
+                  "name":"PL"
+                },
+                {
+                  "value":0,
+                  "name":"CP"
+                }
+              ]
+            }
+          ],
+          "costs":[
+            {
+              "value":103,
+              "name":"pts"
+            },
+            {
+              "value":6,
+              "name":"PL"
+            },
+            {
+              "value":0,
+              "name":"CP"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
