@@ -8,7 +8,7 @@
   "author": "Fredrik Makila",
   "license": "MIT",
   "scripts": {
-    "build": "./node_modules/typescript/bin/tsc",
+    "build": "node node_modules/typescript/bin/tsc",
     "test": "jest",
     "lint": "eslint '*.{js,ts}' '*/**/*.{js,ts}' --ignore-pattern '/dist/*'",
     "release": "standard-version",
